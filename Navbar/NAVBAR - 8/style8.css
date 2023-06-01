@@ -9,6 +9,7 @@
 body{
     background-color: hsl(220deg 11.11% 94.71%);
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .main{
@@ -16,8 +17,14 @@ body{
     max-width: 1200px;
     margin: auto;
     margin-top: 20px;
-    height: 170px;
-    border-radius: 10px;
+    height: 150px;
+    /* border-radius: 10px; */
+    position: relative;
+
+}
+
+.inline{
+    display: inline;
 }
 
 .subtitle{
@@ -36,8 +43,10 @@ body{
 
 
 hr{
-    width: 90%;
-    margin-left: 60px;
+    width: 80%;
+    margin-left: 100px;
+    padding-right: 100px;
+    color: rgb(153, 153, 153);
 }
 
 .logo{
@@ -46,9 +55,18 @@ hr{
     padding-top: -10px;
 }
 
+.logo img{
+    margin-top: -25px;
+    margin-bottom: 35px;
+    width: 150px;
+    /* image-resolution: 10px; */
+}
+
 .icons{
     display: flex;
     float: left;
+    padding-left: 40px ;
+
 }
 
 
@@ -65,15 +83,15 @@ nav{
 
 nav ul li{
     display: inline-block;
-    line-height: 80px;
-    margin : 0 5px;
+    /* line-height: 80px; */
+    padding-top: 20px;
 }
 
 nav ul li a{
     color: black;
-    font-size: 17px ;
+    font-size: 12px ;
     padding: 7px 13px;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     text-transform: uppercase;
 }
 
@@ -82,32 +100,37 @@ nav ul li a{
     justify-content: center;
 }
 
+.icons-fa{
+    font-size: 15px;
+}
+
+
 .btn1{
     position: absolute;
-    top: 20px;
+    top: 5px;
     right: 150px;
-    font-size: 15px;
-    border: 2px solid black;
+    font-size: 12px;
+    border: 1px solid black;
     border-radius: 30px;
     background-color: white;
-    width: 100px;
-    height: 30px;
+    width: 90px;
+    height: 25px;
     margin-top: 25px;
 }
 
-.btn1 input{
+/* .btn1 input{
     margin: auto;
     padding-left: 3px;
     border: none;
     border-radius: 30px ;
     width: 165px;
     height: 25px;
-}
+} */
 
 .fas{
     position: absolute;
-    top : 150px;
-    right: 200px;
+    top : 115px;
+    right: 150px;
 }
 /* .btn{
     font-size: 15px;

@@ -9,6 +9,7 @@
 body{
     background-color: hsl(220deg 11.11% 94.71%);
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .main{
@@ -17,7 +18,9 @@ body{
     margin: auto;
     margin-top: 20px;
     height: 100px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    position: relative;
+
 }
 
 .nav1{
@@ -94,8 +97,12 @@ body{
 }
 
 .listselect{
+    font-size: 10px;
     border: none;
-    padding-left: 10px;
+    margin: 4px;
+    padding-left: 50px;
+    font-weight: bold;
+
 }
 
 .subtitle{
@@ -113,20 +120,26 @@ body{
 }
 
 hr{
-    width: 90%;
-    margin-left: 60px;
+    width: 80%;
+    margin-left: 100px;
+    padding-right: 100px;
+    color: rgb(153, 153, 153);
 }
 
-.logo{
-    padding-left: 50px;
+.logo img{
+    margin-left: 100px;
+    padding-top: 24px;
+    width: 150px;
+    /* image-resolution: 10px; */
 }
+
 
 .icons{
     display: flex;
-    float: right;
     position: absolute;
-    right: 100px;
-}   
+    right: 3rem;
+    padding-right: 90px ;
+}
 
 .product:hover{
     color: blue;
@@ -152,14 +165,14 @@ nav ul li{
 
 nav ul li a{
     color: black;
-    font-size: 17px ;
+    font-size: 12px ;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
 
 .ulclass{
-    padding-right: 25px ;
+    padding-right: 100px ;
 }
 
 .btn1{

@@ -9,6 +9,7 @@
 body{
     background-color: hsl(220deg 11.11% 94.71%);
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .main{
@@ -19,7 +20,9 @@ body{
     margin: auto;
     margin-top: 20px;
     height: 90px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    position: relative;
+
 }
 
 .subtitle{
@@ -42,8 +45,11 @@ hr{
     margin-left: 60px;
 }
 
-.logo{
-    padding-left: 50px;
+.logo img{
+    margin-left: 10px;
+    padding-top: 24px;
+    width: 150px;
+    /* image-resolution: 10px; */
 }
 
 .icons{
@@ -75,7 +81,7 @@ nav ul li{
 
 nav ul li a{
     color: black;
-    font-size: 17px ;
+    font-size: 12px ;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
