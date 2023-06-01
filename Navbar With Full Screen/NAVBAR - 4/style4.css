@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(220deg 11.11% 94.71%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.main{
+    background-color: white;
+    /* max-width: 1200px;
+    margin: auto;
+    margin-top: 20px; */
+    height: 125px;
+    /* border-radius: 10px; */
+    position: relative;
+}
+
+.subtitle{
+    padding-left: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;    
+}
+.fab,.fa-brands{
+font-size: 15px;
+}
+
+.subtitle li{
+    color: black;
+    text-decoration: none;
+    /* padding-left: 10px; */
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.subtitle li a{
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 11px;
+}
+
+
+hr{
+    width: 80%;
+    margin-left: 100px;
+    padding-right: 100px;
+    color: rgb(153, 153, 153);
+}
+
+.logo img{
+    margin-left: 100px;
+    padding-top: 24px;
+    width: 150px;
+    /* image-resolution: 10px; */
+}
+
+
+.icons{
+    display: flex;
+    position: absolute;
+    right: 3rem;
+    padding-right: 90px ;
+
+}
+
+
+nav{
+    background: #0082e6;
+    height: 200px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin : 0 5px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 12px ;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.ulclass{
+    padding-right: 100px ;
+}
+
+.btn1{
+    padding-top: 20px;
+}
+
+.btn{
+    font-size: 15px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    width: 190px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+.btn input{
+    margin: auto;
+    padding-left: 3px;
+    border: none;
+    border-radius: 30px ;
+    width: 165px;
+    height: 25px;
+}
