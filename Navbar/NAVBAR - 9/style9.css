@@ -198,8 +198,3 @@ nav ul li a{
     width: 165px;
     height: 25px;
 }
-@media (max-width:993px) {
-    body{
-        background-color: red;
-    }
-}
