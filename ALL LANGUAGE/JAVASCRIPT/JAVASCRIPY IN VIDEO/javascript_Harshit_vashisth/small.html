@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="miniprojrct.js" defer></script>
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        main{
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1{
+            padding: 1rem 2rem;
+            background-color: #333;
+            color: #efefef;
+            border-radius: 1rem;
+
+        }
+
+        button{
+            padding: 1rem 2rem;
+            font-size: 1.4rem;
+            border-radius: 1rem;
+            cursor:pointer;
+            margin-top: 1rem;
+            outline: none;
+            border: none;
+            transition: background 0.4s;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>
+                current color : <span class="text-color">rgb(0,0,0); </span> 
+            </h1>
+            <button class="btn-head">Change BG color</button>
+        </div>
+    </main>
+</body>
+</html>

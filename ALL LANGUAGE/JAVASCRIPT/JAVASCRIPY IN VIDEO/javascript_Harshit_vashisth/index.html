@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;   
+        }
+
+        .box{
+            min-width: 100px;
+            min-height: 100px;
+            padding: 5rem;
+            color: white;
+            font-weight: bold;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        .grandparent{
+            background: #b1d4e0;
+            color: black;
+        }
+        
+        .parent{
+            background: red;
+            color: white;    
+        }
+
+        .child{
+            background: #164554;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="my-button">
+        <button class="btn" id="submit">submit</button>
+        <button class="btn" id="reset">reset</button>
+        <button class="btn" id="check">check</button>
+    </div> -->
+    <main>
+        <div class="grandparent box">
+            grandparent
+            <div class="parent box">
+                parent
+                <div class="child box">
+                    child
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+<!-- <script src="script.js"></script> -->
+<!-- <script src="event.js"></script> -->
+<!-- <script src="this-event.js"></script> -->
+<!-- <script src="testing-event.js"></script> -->
+<!-- <script src="js_part-2.js"></script> -->
+<script src="eventbubbing.js"></script>
+
+</html>
