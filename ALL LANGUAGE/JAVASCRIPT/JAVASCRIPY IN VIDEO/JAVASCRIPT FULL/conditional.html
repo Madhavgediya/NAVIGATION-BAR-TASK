@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // if(num > 0)
+        // {
+        //     alert("POSITIVE NUMBER....! ");
+        // }
+        // else if(num < 0)
+        // {
+        //     alert("NEGETIVE NUMBER....! ");
+        // }
+        // else
+        // {
+        //     alert("VALU IS ZERO....! ");
+        // }
+
+        let num = prompt("ENTER YOUR 1ST NUMBER :-");
+        let num2 = prompt("ENTER YOUR 2ND NUMBER :-");
+        let ch = prompt("ENTER YOUR MATH SYMBOL + - / * % NUMBER :-");
+        // let a123 = `${num+num2}`;  
+        
+        switch (ch) {
+            case '+':
+                console.log("THIS NUMBER ADDITION IS { "+ (Number(num)+Number(num2))+ " }");
+                break;
+
+                case '-':
+                console.log("THIS NUMBER SUBSTRACTION IS { " +(num-num2)+ " }");
+                break;
+
+                case '*':
+                console.log("THIS NUMBER MULTIPICATION IS { " +(num*num2)+ " }");
+                break;
+
+                case '/':
+                console.log("THIS NUMBER DEVISION IS { " +(num/num2)+ " }");
+                break;
+
+                case '%':
+                console.log("THIS NUMBER MODUL IS { " + (num%num2) + " }");
+                break;
+
+            default:
+                console.log("ONLY ACCEPTED...! + - * / % ");
+                break;
+        }
+    </script>
+</body>
+
+</html>
