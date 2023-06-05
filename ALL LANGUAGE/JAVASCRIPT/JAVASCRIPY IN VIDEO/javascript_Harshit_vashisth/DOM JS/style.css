@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header
+{
+    position: relative;
+    color: white;
+    min-height: 60vh;
+    background-image: url('./drowing.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+
+.nav{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between; 
+}
+
+.headline{   
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top : 50%;
+    left: 50%;
+}
+
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor : pointer;
+}
+
+.btn-headline{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.todo-section{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.todo-list{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+.todo-list li{
+    padding: 0.7rem;
+    background-color: #444;
+    color: cyan;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-btn{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor : pointer;
+
+} 
+
+.form-todo{
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.form-todo input{
+    min-height: 100%;
+}
+
+.form-todo input[type="text"]{
+    width: 78%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form-todo input[type="submit"]{
+    width: 20%;
+    background-color: #001119;
+    color: white;
+    font-weight: bold;
+}
+
+.section-signup{
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgba(241, 241, 241, 0.851);
+    border-radius: 100px;
+    padding: 1rem;
+}
+
+.signup-form{
+    max-width: 800px;
+    width: 95%;
+    margin: auto;
+    
+}
+
+.signup-form label {
+    display: block;
+    text-align: left;
+}
+
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.form-group{
+    margin-top: 1rem;
+}
+
+.signup-form textarea{
+    width: 100%;
+}
+
+.signup-btn{
+    background-color: #001119;
+    color: white;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin: auto;
+    border-radius: 100px;
+}

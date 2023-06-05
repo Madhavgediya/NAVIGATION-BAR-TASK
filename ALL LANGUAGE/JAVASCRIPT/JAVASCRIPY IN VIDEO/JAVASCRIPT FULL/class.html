@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+console.log("THIS IS CLASS FILE");
+
+class item{
+    constructor(name,price,code,discount)
+    {
+        this.name = name;
+        this.price = price;
+        this.code = code; 
+        this.discount = discount;
+    }
+
+    get getvalues(){
+        return this.discount;
+    }
+    set setvalues(value){
+        this.discount = value;
+    }
+}
+let book = new item("bhagvat gita", 150, "bg01",50);
+
+ console.log("this is your item name :- "+book.name);
+ console.log("this is your item price :- "+book.price);
+ console.log("this is your item code :- "+book.code);
+ console.log("this is your item discount :- "+book.discount);
+ console.log("this is your item final price :- "+(book.price-book.discount));
+ console.log("THANK YOU FOR BUY THIS WONDERFULL BOOK");
+ console.log('    ');
+console.log('THIS IS SET '+item.setvalues(10));
+console.log('THIS IS GET '+item.getvalues());
+
+
+
+</script>
+</html>
