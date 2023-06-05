@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <p id="demo">
+
+        </p>
+</body>
+<script>
+    const car = {
+        type : "Rolls Royce",
+        model : "Ghost",
+        color : "golden",
+        fullDetails : function (){
+            return `THIS IS <b><u>${car.type}</u></b>  THIS MODEL IS <b><u>${car.model}</u></b> AND COLOR IS <b><u>${car.color}</u></b>`;
+        }
+    }
+
+    document.getElementById("demo").innerHTML = car.fullDetails();
+
+</script>
+</html>
