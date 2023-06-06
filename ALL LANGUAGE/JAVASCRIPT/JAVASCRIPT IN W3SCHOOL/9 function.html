@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In assumenda, nesciunt deleniti odio tenetur obcaecati distinctio nulla animi ut natus perspiciatis quis eaque amet, ea fuga fugiat corporis voluptate excepturi.</p>
+    <p id="demo"></p>
+
+</body>
+<script>
+    function toCelsius(f){
+        return (5/9) * (f-32);
+    }
+
+    let value = toCelsius(77);
+    document.getElementById("demo").innerHTML = "this is celsius :- "+value;
+
+</script>
+</html>
