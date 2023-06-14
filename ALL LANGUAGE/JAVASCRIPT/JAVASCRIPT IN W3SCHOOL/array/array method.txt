@@ -12,12 +12,22 @@ unshift()	.	=> add array value in first
 includes()	.	=> array ma value che k ny te janva mate includes("value");	 
 indexOf()	.	=> array element index number show	 indexOf("apple");
 slice()	.	=> array slice(start index, end index);
-some()    isArray()    sort()
-every()    join()    splice()
-concat()    keys()    toString()
-fill()    lastIndexOf()    
-find()    length()    valueOf()
-findIndex()    split()
+some()	.	=> array ma check karva mate.
+isArray() .	=> array che k ny check
+sort()	.	=> Ascending And Descending Order mate
+every() 	.	=> badha element condition ne true thai to j true 
+join()    	.	=> array ma join jarva mate
+splice()	. 	=> array mathi remove update karva mate
+concat()  . 	=> one type of array join karva mate
+keys()	.	=> show your array index 
+toString() .	=> Koi pn ne string ma convert kare
+fill()		.	=> all array ma change karva mate 
+lastIndexOf()	=> last index ma hoy teni index number
+find()	.	=> check condition then return function
+length()	.	=> check length  of all array
+valueOf().	=> same array return not change in original array
+findIndex()	=> value index find karse
+split()	.	=>
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight
 Array.prototype.reduceRight() - JavaScript | MDN
