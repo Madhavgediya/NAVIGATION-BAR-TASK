@@ -5,3 +5,4 @@ let text = '"employees":[' +
 
     const obj = JSON.parse(text);
     document.getElementById("json").innerHTML = obj.employees[1].firstName + " " + obj.employees[1].lastName;
+    
