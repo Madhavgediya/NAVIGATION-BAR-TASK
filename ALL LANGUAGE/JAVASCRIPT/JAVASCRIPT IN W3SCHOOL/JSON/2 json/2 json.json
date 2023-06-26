@@ -1,0 +1,17 @@
+{
+    "contacts" :
+    [
+        { 
+            "name": "John Doe", 
+            "mobile": "1234567890" 
+        },
+        { 
+            "name": "Jane Smith", 
+            "mobile": "9876543210" 
+        },
+        { 
+            "name": "Alice Johnson",
+            "mobile": "5555555555" 
+        }
+      ]
+}
