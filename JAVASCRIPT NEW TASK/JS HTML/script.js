@@ -5,9 +5,40 @@ fetch("message.json")
     .then(data => {
         var result = data.result;
         var datacontainer = document.getElementById("datacontainer");
-
-        result.forEach(element => {
         
+        var countDisplay = document.getElementById("all");
+        var totalCount = result.length;
+        countDisplay.innerHTML = `All List ${totalCount}`;
+        var clickShowAll = document.getElementById("all");
+        clickShowAll.addEventListener("click",function (){
+            element(result);
+        })
+
+        var clickReview = document.getElementById("good");
+        var emptyReview = result.filter(function (result){
+            return result.property_reviews > 0;
+        }); 
+        clickReview.innerHTML = `Review ${emptyReview.length}`;
+        clickReview.addEventListener("click", function(){
+            element(emptyReview);
+        });
+
+        // var clickBadReview = document.getElementById("bad");
+        // var emptyBReview = result.filter(function (result){
+        //     return 0 < result.property_reviews;
+        // }); 
+
+        // clickBadReview.innerHTML = `Bad ${emptyBReview.length}`;
+        // clickBadReview.addEventListener("click", function(){
+        //     element(emptyBReview);
+        // });
+
+        
+        function dataput(good){
+            datacontainer.innerHTML = "";
+        
+        good.forEach(element => {
+            
             var ratingStars = "";
             var filledStars = element.property_reviews;
             var emptyStars = 5 - filledStars;
@@ -23,26 +54,27 @@ fetch("message.json")
             var images = document.createElement("div");
             var date = element.createdAt;
             images.innerHTML = `
-                <div class="product">             
-                        <img class='img card-img-top' src="${element.image[element.image.length - 1]}">                    
-                        <div class="rupee">${element.price.map((e) => e.number + " " + e.currency.slice(0, 1))}</div>
-                        <div class="title">${element.title.slice(0, 15)}
+                <div class="row">
+                    <div class="col-3">            
+                        <div class="product">  
+                            <img class='img card-img-top' src="${element.image[element.image.length - 1]}">                    
+                            <div class="rupee">${element.price.map((e) => e.number + " " + e.currency.slice(0, 1))}</div>
+                            <div class="title">${element.title.slice(0, 15)}</div>
+                            <div class="city">${element.location_name}</div>             
+                            <hr class="m-auto">
+                            <div class="date"> ${date.slice(0, 10)}
+                            <span class="rating">Rate ${ratingStars}</span>
+                            </div>                    
                         </div>
-                        <div class="city">${element.location_name}</div>             
-                        <hr class="m-auto">
-                        <div class="date"> ${date.slice(0, 10)}
-                        <span class="rating">Rate ${ratingStars}
-                        </span>
-                        </div>
-                        
-                    
+                    </div>
                 </div>
                 `
             datacontainer.appendChild(images);
         });
-
     }
-    );
+
+    dataput(result);
+    });
 
 // function createList(data) {
 //           document.getElementById("m").src = data.result[0].image+"<br>";
