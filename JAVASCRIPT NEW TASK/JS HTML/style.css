@@ -25,6 +25,11 @@ a{
     justify-content: center;
 }
 
+.btn-class button{
+    width: 15rem;
+    margin-top: 2rem;
+}
+
 .rupee {
     float: right;
     font-size: 15px;
@@ -94,4 +99,5 @@ hr{
 
 
 
-
+/* hsfhskfkj
+ */
