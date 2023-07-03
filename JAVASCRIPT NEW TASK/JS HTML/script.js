@@ -51,7 +51,7 @@ fetch("message.json")
           <div class="col-lg-3">            
             <div class="product">  
               <img class='img card-img-top' src="${element.image[element.image.length - 1]}">                    
-              <div class="rupee">${element.price.map((e) => e.number + " " + e.currency.charAt(0))  }</div>
+              <div class="rupee">${element.price.map((e) => e.number + " " + e.currency[0])  }</div>
               <div class="title">${element.title.slice(0, 15)}</div>
               <div class="city">${element.location_name}</div>             
               <hr class="m-auto">
