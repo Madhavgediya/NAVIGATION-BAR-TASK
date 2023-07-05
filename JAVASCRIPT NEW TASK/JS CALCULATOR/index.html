@@ -53,37 +53,33 @@
                         <th colspan="4"><input type="text" class="inp" id="result"></th>
                     </tr>
                     <tr>
-                        <th colspan="4"><button class="clearBtn" value="AC" onclick="clr()">AC</button></th>
+                        <th colspan="4"><button class="clearBtn">AC</button></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><button onclick="dis('1')" onkeydown="myfunction(event)" value="1">1</button></td>
-                        <td><button value="2" onclick="dis('2')" onkeydown="myfunction(event)">2</button></td>
-                        <td><button value="3" onclick="dis('3')" onkeydown="myfunction(event)">3</button></td>
-                        <td><button value="+" class="signBtn" onclick="dis('+')"
-                                onkeydown="myfunction(event)">+</button></td>
+                        <td><button class="button">1</button></td>
+                        <td><button class="button">2</button></td>
+                        <td><button class="button">3</button></td>
+                        <td><button class="button">+</button></td>
                     </tr>
                     <tr>
-                        <td><button value="4" onclick="dis('4')" onkeydown="myfunction(event)">4</button></td>
-                        <td><button value="5" onclick="dis('5')" onkeydown="myfunction(event)">5</button></td>
-                        <td><button value="6" onclick="dis('6')" onkeydown="myfunction(event)">6</button></td>
-                        <td><button value="-" onclick="dis('-')" onkeydown="myfunction(event)"
-                                class="signBtn">-</button></td>
+                        <td><button class="button">4</button></td>
+                        <td><button class="button">5</button></td>
+                        <td><button class="button">6</button></td>
+                        <td><button class="button">-</button></td>
                     </tr>
                     <tr>
-                        <td><button value="7" onclick="dis('7')" onkeydown="myfunction(event)">7</button></td>
-                        <td><button value="8" onclick="dis('8')" onkeydown="myfunction(event)">8</button></td>
-                        <td><button value="9" onclick="dis('9')" onkeydown="myfunction(event)">9</button></td>
-                        <td><button value="*" onclick="dis('*')" onkeydown="myfunction(event)"
-                                class="signBtn">*</button></td>
+                        <td><button class="button">7</button></td>
+                        <td><button class="button">8</button></td>
+                        <td><button class="button">9</button></td>
+                        <td><button class="button">*</button></td>
                     </tr>
                     <tr>
-                        <td><button class="signBtn" value="%" onclick="dis('%')"
-                                onkeydown="myfunction(event)">%</button></td>
-                        <td><button onclick="dis('0')" value="0" onkeydown="myfunction(event)">0</button></td>
-                        <td><button value="." onclick="dis('.')" onkeydown="myfunction(event)">.</button></td>
-                        <td><button value="=" onclick="solve()" onkeydown="myfunction(event)" class="signBtn">=</button>
+                        <td><button class="button">%</button></td>
+                        <td><button class="button">0</button></td>
+                        <td><button class="button">.</button></td>
+                        <td><button class="button">=</button>
                         </td>
                     </tr>
                 </tbody>
@@ -92,44 +88,27 @@
     </div>
 </body>
 <script>
+    var string = "";
+    let buttons = document.querySelectorAll("button");
+    Array.from(buttons).forEach((button)=> {
+        button.addEventListener('click', (e)=>{
+            if(e.target.innerHTML == '='){
+                string = eval(string);
+                document.querySelector('input').value = string;
+            }
+            else if(e.target.innerHTML == 'AC'){
+                string = "";
+                document.querySelector('input').value = string;
+            }
+            else{
+                console.log(e.target);
+                string = string + e.target.innerHTML;
+                document.querySelector('input').value = string;
+            }
+        })
+    })
 
-    function clr() {
-        document.getElementById("result").value = "";
-    }
-
-    function dis(val) {
-        document.getElementById("result").value += val;
-    }
-
-    function myFunction(event) {
-        if (event.key == '0' || event.key == '1'
-            || event.key == '2' || event.key == '3'
-            || event.key == '4' || event.key == '5'
-            || event.key == '6' || event.key == '7'
-            || event.key == '8' || event.key == '9'
-            || event.key == '+' || event.key == '*'
-            || event.key == '/' || event.key == '-'
-            || event.key == '%' || event.key == '=') {
-            document.getElementById("result").value += event.key;
-        }
-    }
-
-    var cal = document.getElementById("calcu");
-    cal.onkeyup = function (event) {
-        if (event.keyCode === 13) {
-            console.log("Enter");
-            let x = document.getElementById("result").value;
-            console.log(x);
-            solve();
-        }
-    }
-
-    function solve() {
-
-        let x = document.getElementById("result").value;
-        let y = math.evaluate(x);
-        document.getElementById("result").value = y;
-    }
+  
 </script>
 
 </html>
@@ -142,6 +121,8 @@
 
 
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -155,3 +136,21 @@
 
 
 
+>>>>>>> 3aa3a0856badaa213571b041d4a7417cb49e3808
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
