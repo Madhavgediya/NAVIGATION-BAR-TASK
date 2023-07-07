@@ -1,0 +1,139 @@
+/* @import url(//db.onlinewebfonts.com/c/fa056514fa1de58598004911ccdae7dd?family=SecondaRoundW00-Bold); */
+
+ body {
+    padding: 0rem;
+    margin: 0rem;
+   /* font-family: 'DM Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif; 
+    font-family: 'Varela Round', sans-serif;  */
+}
+
+a{
+    text-decoration: none;
+}
+
+.hr1{
+margin-bottom: 6.5rem;
+}
+
+.main {
+    background-image: url('./BOOTSTRAP-TASK-IMAGE/hero-section/bg-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    /* height: 725px; */
+}
+
+.main-card{
+    background: #807f7e0e;
+}
+
+.logo_text {
+    font-family: 'DM Sans', sans-serif;    
+    color: #fea116;
+}
+
+.btn-book{
+    background-color: #fea116;
+    font-size: 0.8rem;
+    border-radius: 1;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Varela Round', sans-serif;
+
+
+}
+
+.overlay {
+    background-color: #262c3ee3;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-link {
+    float: right;
+    /* font-weight: bold ; */
+    color: white;
+}
+
+.nav-link:hover{
+    float: right;
+    color: #fea116;
+    /* font-weight: bold ; */
+}
+
+.navbar-collapse-s{
+    flex-grow: 0;
+}
+
+.navbar-collapse-s li {
+    font-size: 0.8rem;
+    margin: 2.5px;
+}
+
+.pages-btn{
+    font-size: 0.8rem;
+}
+
+.head-1{
+    font-size: 4rem;
+}
+
+.title{
+    margin-top: 7rem;
+    font-family: 'Varela Round', sans-serif;
+    /* font-family: 'Lilita One', cursive; */
+    /* margin-left: rem; */
+    /* text-align: center; */
+}
+
+.title .text-small{
+    line-height: 2;
+    font-size: 0.8rem;
+}
+
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    /* margin-top: -6rem; */
+    width: 95%;
+    /* margin-left: 2rem; */
+}
+.book div{
+    /* width: 5rem; */
+    height: 4rem;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+     text-align: center;
+     justify-content: center;
+    }
+    .nav-link{
+        float: left;
+    }
+    .card_row{
+        text-align: left;
+        /* margin: 1rem; */
+     justify-content: center;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
