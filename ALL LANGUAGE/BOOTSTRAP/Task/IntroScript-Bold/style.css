@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Intro Script';
+    src: local('Intro Script Bold'), local('Intro-Script-Bold'),
+        url('IntroScript-Bold.woff2') format('woff2'),
+        url('IntroScript-Bold.woff') format('woff'),
+        url('IntroScript-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
