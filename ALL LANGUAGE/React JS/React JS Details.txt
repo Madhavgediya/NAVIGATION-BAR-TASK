@@ -1,0 +1,21 @@
+React is a JavaScript Library not a FremeWork. 
+React used Ui/Design make best.
+React Developed by FaceBook.
+React Is component based approch.
+
+React Installation 
+    Install Node JS and NPM.
+    Install Vs Code .
+    Install React From Terminal
+        npm install -g create-react-app
+        create-react-app --version
+        create-react-app <projectname>
+
+
+    Install React :- 
+        Open Terminal 
+        npm install -g create-react-app (Globle Install Karva mate)
+        create-react-app --version
+        create-react-app <projectname>
+
+         
