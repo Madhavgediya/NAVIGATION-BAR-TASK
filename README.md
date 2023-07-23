@@ -3,7 +3,7 @@
 
 task :- BootStrap
 
-topic:- BootStrap Task 2nd (10%)
+topic:- BootStrap Task 2nd (20%)
 
 
 
