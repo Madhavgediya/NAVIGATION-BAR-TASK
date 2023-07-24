@@ -1,3 +1,7 @@
+/* *{
+    border: 1px solid red;
+} */
+
 .body {
     margin: 0rem;
     padding: 0rem;
@@ -38,7 +42,7 @@
 
 
 .design-3 {
-    position: relative;
+    position: absolute;
     /* top: -354px; */
     left: -600px;
     width: 50rem;
@@ -61,7 +65,7 @@
 }
 
 .btn-b {
-    background: linear-gradient(#000000, #000000b7) padding-box, linear-gradient(60deg,#9900ff, #00b2ff) border-box;
+    background: linear-gradient(#000000, #000000b7) padding-box, linear-gradient(60deg, #9900ff, #00b2ff) border-box;
     /* color: #313149; */
     /* padding: 20px 70px; */
     border: 2px solid transparent;
@@ -99,36 +103,187 @@
     filter: drop-shadow(0px 14px 29px #08013F);
 }
 
-.top{
+.top {
     padding: 1rem;
     padding-left: 13rem;
 }
 
 
-.global{
+.global {
     /* position: relative; */
     /* background: url("./image/global it.png"); */
-    filter:hue-rotate(70deg);
+    filter: hue-rotate(70deg);
     /* width: 90%; */
     width: 100%;
     height: 100%;
 }
-.overlay{
+
+.overlay {
     /* background-color: ; */
     width: 100%;
     height: 100%;
 }
 
-.card-bodysc{
+.card-bodysc {
     border-left: 3px solid white;
     height: 3.5rem;
     /* justify-content: center; */
     /* margin-top: 0.8rem; */
 }
 
-.card-col{
+.card-col {
     background-color: #312353;
     width: 80%;
     /* height: 20%; */
 }
+
+.card-bg {
+    background: linear-gradient(135deg, #1524AC 0%, #D3299C 100%);
+    width: 12rem;
+    height: 12rem;
+    top: -1rem;
+    left: 2.5rem;
+}
+
+.image-text {
+    bottom: 4rem;
+    left: 2.5rem;
+    line-height: 0;
+}
+
+
+.image-c {
+    height: 180px;
+    padding: 5px;
+}
+
+.card-bg-2 {
+    width: 12rem;
+    height: 12rem;
+    top: 2rem;
+    left: 2.5rem;
+}
+
+.image-c-2 {
+    height: 195px;
+    padding: 0px;
+}
+
+.image-text-2 {
+    bottom: 1rem;
+    left: 2.5rem;
+    line-height: 0;
+}
+
+.card-bg-3 {
+    background: linear-gradient(135deg, #372A58 0%, #303438 100%);
+    width: 12rem;
+    height: 12rem;
+    top: -1rem;
+    left: 2.5rem;
+}
+
+.image-c-3 {
+    height: 195px;
+    padding: 0px;
+}
+
+.image-text-3 {
+    bottom: 4rem;
+    left: 2.5rem;
+    line-height: 0;
+}
+
+.circle-2 {
+    /* margin-left: -3rem; */
+    width: 5rem;
+    height: 5rem;
+    border-radius: 4rem;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #6147F8 0%, #BC5EFF 100%);
+    filter: drop-shadow(0px 14px 29px #08013F);
+}
+
+.c-bg {
+    border:1px solid #ffffff54;
+    width: 13rem;
+    height: 12rem;
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(20.040151596069336px);
+}
+
+.design-4 {
+    position: absolute;
+    top: 4px;
+    left:10px;
+    width: 10rem;
+    height: 4rem;
+    /* transform: rotate(54.351deg); */
+    /* flex-shrink: 0; */
+    border-radius: 5rem;
+    background:#FFB413;
+    filter: blur(50.97015380859375px);
+}
+
+
+.c-bg {
+    border:1px solid #ffffff54;
+    /* width: 180rem;
+    height: 12rem; */
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(20.040151596069336px);
+}
+
+.design-5 {
+    position: absolute;
+    top: 80px;
+    left:30px;
+    width: 10rem;
+    height: 4rem;
+    /* transform: rotate(54.351deg); */
+    /* flex-shrink: 0; */
+    border-radius: 5rem;
+    background:#ff1313;
+    filter: blur(40.97015380859375px);
+}
+
+.design-6 {
+    position: absolute;
+    top: 4px;
+    left:10px;
+    width: 6rem;
+    height: 4rem;
+    /* transform: rotate(54.351deg); */
+    /* flex-shrink: 0; */
+    border-radius: 5rem;
+    background:#13e0ff;
+    filter: blur(50.97015380859375px);
+}
+
+.design-7 {
+    position: absolute;
+    top: 80px;
+    left:120px;
+    width: 6rem;
+    height: 4rem;
+    /* transform: rotate(54.351deg); */
+    /* flex-shrink: 0; */
+    border-radius: 5rem;
+    background:#13ff7d;
+    filter: blur(40.97015380859375px);
+}
+
+.con-border{
+    width: 75rem;
+    border: 2px solid transparent;
+    background: linear-gradient(#000000, #000000) padding-box, linear-gradient(60deg,#00e0ff, #ff00f9) border-box;
+    border-left: 0px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+
+
+
 
