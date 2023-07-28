@@ -108,15 +108,18 @@
     font-size: 0.8rem;
 }
 
-.btn-b {
-    background: linear-gradient(#000000, #000000b7) padding-box, linear-gradient(60deg, #9900ff, #00b2ff) border-box;
+/* .btn-b {
+    background-image: url('./image/msg.svg');
+    background-size: cover;
+    background-position: center; */
+    /* background: linear-gradient(#000000, #000000b7) padding-box, linear-gradient(60deg, #9900ff, #00b2ff) border-box; */
     /* color: #313149; */
     /* padding: 20px 70px; */
-    border: 2px solid transparent;
+    /* border: 2px solid transparent; */
     /* border-radius: 40px; */
-    display: inline-block;
+    /* display: inline-block; */
     /* font-size: 0.8rem; */
-}
+/* } */
 
 .t1 {
     /* position: ; */
@@ -147,6 +150,13 @@
     filter: drop-shadow(0px 14px 29px #08013F);
 }
 
+.img-msg{
+    background-image: url('./image/msg.svg');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(1);
+}
 
 .global {
     /* position: relative; */
@@ -171,9 +181,10 @@
 }
 
 .card-col {
-    background-color: #312353;
+    /* background-image: url('./image/msg.svg'); */
+    /* background-color: #312353; */
     width: 80%;
-    /* height: 20%; */
+    height: 20%;
 }
 
 .card-bg {
@@ -251,16 +262,6 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.00) 100%);
     backdrop-filter: blur(20.040151596069336px);
 }
-
-/* .c-bg {
-    border: 1px solid #ffffff54;
-    /* width: 180rem;
-    height: 12rem; */
-    /*
-    border-radius: 1rem;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.00) 100%);
-    backdrop-filter: blur(20.040151596069336px);
-} */
 
 .design-4 {
     position: absolute;
