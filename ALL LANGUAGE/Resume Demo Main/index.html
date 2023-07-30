@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhav Gediya's Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="main"></div>
+    <div id="details"></div>
+    <!-- navbar  -->
+    <div class="container-fluid sticky-top text-center" id="btnprint">
+        <nav class="navbar navbar-expand-lg navbar-light nav-bg">
+            <div class="container-fluid text-white">
+                <a class="navbar-brand w-25 fs-6 text-white" href="#main">Madhav Gediya's Resume</a>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="text-white"><i class="fa-solid fa-ellipsis"></i></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#details">Personal Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contect">Contect</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-white" href="#objective">Objective</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#work">Work/Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#skill">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#reference">References</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn text-white border" onclick="print_page()">Download Resume</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="proflie p-0">
+            <div class="proflie-image">
+                <img src="./image/madhav_passport_photo.jpg" alt="" class="proflie-img">
+            </div>
+            <div class="proflie-text">
+                <div>
+                    <span class="text-header">
+                        MADHAV GEDIYA
+                    </span>
+                </div>
+                <p class="proflie-sub-title">
+                    WEB DEVELOPER
+                </p>
+                <p class="proflie-p w-75">
+                    To work as a front-end developer in the field of IT industry With My Professional attitude and to
+                    work in company where My Knowledge and My skills betterment of the company and Myself.
+                </p>
+                <div class="dob_detail" style="color: white;">
+                    <div class="pt-3">
+                        <i class="fa-solid fa-cake-candles"></i> &nbsp; 03 - April - 2004
+                    </div>
+                    <div class="p-1 ps-0">
+                        <i class="fa-solid fa-location-dot"></i> &nbsp;
+                        B. 203, Deepmahal App., Hinglaj Faliya, Near Seij Ota, Junagadh.
+                    </div>
+                    <span>
+                        <i class="fa-solid fa-phone "></i> +91 94292 17721
+                    </span>
+                    <span class="mp">
+                        <i class="fa-solid fa-envelope " style="margin-left: 10px;"></i> madhav@gmail.com
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- 2021 - 2024
+        B.C.A.
+        -->
+        <div class="details row w-100 m-0">
+            <div class="eduction col-md-6">
+                <div class="fw-bold fs-2 mt-3 mb-3 ms-0">Education</div>
+                <div style="padding-left: 10px;">
+                    <div class="">
+                        <span class="edu-title">
+                            Graduation
+                        </span>
+                        <div class="edu-sub-title">S.S.S.D.I.I.T Gurukul (2021 - 2024)</div>
+                        <p style="font-size: 0.9rem;">
+                            B.C.A Sem - 5 (Pursuing) <br>
+                            BHAKTA KAVI NARSINH MEHTA UNIVERSITY, Junagadh <br>
+                            B.C.A. Sem - 4 <br>
+                            CGPA : <b> 8.33 </b>
+                        </p>
+                    </div>
+                </div>
+                <div style="padding-left: 10px;">
+                    <div class="">
+                        <span class="edu-title">
+                            H.S.C
+                        </span>
+                        <div class="edu-sub-title">Sarsawati School (2019 - 2020)</div>
+                        <p style="font-size: 0.9rem;">
+                            12<sup>th</sup> Percentile Rank : <b>80.46</b>
+                        </p>
+                    </div>
+                </div>
+                <div style="padding-left: 10px;">
+                    <div class="">
+                        <span class="edu-title">
+                            S.S.C
+                        </span>
+                        <div class="edu-sub-title">Gurukul, Junagadh (2018 - 2019)</div>
+                        <p style="font-size: 0.9rem;">
+                            10<sup>th</sup> Percentile Rank : <b>84.96</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Experience col-md-6">
+                <div class="fw-bold fs-2 mt-3 mb-3 ms-0">Experience</div>
+                <div style="padding-left: 10px;">
+                    <div class="">
+                        <span class="edu-title">
+                            Internship
+                        </span>
+                        <div class="edu-sub-title">2023 - Present</div>
+                        <p style="font-size: 0.9rem;">
+                            <b>
+                                Sulok Digital Ptv Ltd, Junagadh
+                            </b><br>
+                            Khamdhrol Rd, Khwaja Nagar, Joshipura, Junagadh <br>
+                            8200951852
+                        </p>
+                    </div>
+                </div>
+                <div class="fw-bold fs-2 mt-3 mb-3 ms-0">Project</div>
+                <div style="padding-left: 10px;">
+                    <div class="">
+                        <span class="edu-title">
+                            Make HTML CSS Bootstrap Responsive
+                        </span>
+                        <div class="edu-sub-title m-2">
+                        <a class="btn btn-secondary" href="https://madhavgediya.github.io/NAVIGATION-BAR-TASK/ALL%20LANGUAGE/BOOTSTRAP/Task/index.html" target="_blank">Project Link</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="footer row w-100 m-0 ">
+            <div class="col-md-4" style="background-color:#f3f3f3;">
+                <div style="padding: 2rem;">
+                    <h3 class="fw-bold">Skills</h3>
+                    <div style="padding-top: 10px; ">
+                        <img src="./image/github.png" alt="" class="m-2" style="width: 2.5rem;">
+                        <img src="./image/html-5.png" alt="" class="m-2" style="width: 3rem;">
+                        <img src="./image/css-3.png" alt="" class="m-1" style="width: 3rem;">
+                        <img src="./image/bootstrap.png" alt="" class="m-2" style="width: 2.5rem;">
+                        <img src="./image/js.png" alt="" class="m-2" style="width: 2.5rem;">
+                        <img src="./image/php.png" alt="" class="" style="width: 3rem;">
+                        <img src="./image/vecteezy_java-logo-transparent-png_22101050_178.png" alt=""
+                            style="width: 4rem;">
+                        <img src="./image/c-.png" alt="" class="" style="width: 3rem;">
+                        <img src="./image/MySQL_logo_PNG1.png" alt="" class="m-2" style="width: 4rem;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="background-color: #f3f3f3;">
+                <div style="padding: 2rem;">
+                    <h3 class="fw-bold">Language</h3>
+                    <table style="padding-top: 10px; ">
+                        <tr class="fs-5">
+                            <th>Gujarati</th> &nbsp;
+                            <th>&nbsp;&nbsp;
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                            </th>
+                        </tr>
+                        <tr class="fs-5">
+                            <th>English</th> &nbsp;
+                            <th>&nbsp;&nbsp;
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle text-muted"></i>
+                            </th>
+                        </tr>
+                        <tr class="fs-5">
+                            <th>Hindi</th> &nbsp;
+                            <th>&nbsp;&nbsp;
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle text-muted"></i>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-4 m-0 p-0">
+                <div style="padding: 2rem; background-color: #f3f3f3;">
+                    <h3 class="fw-bold">Hobbies</h3>
+                    <table style="padding-top: 10px;">
+                        <tr class="m-2">
+                            <td><img src="./image/user (1).png" alt="" style="width: 3rem;"></td>
+                            <th class="ps-3"> Connect with New Peoples</th>
+                        </tr>
+                        <tr class="m-2">
+                            <td class=""><img src="./image/travelling.png" alt="" style="width: 3rem;"></td>
+                            <th class="ps-3"> Travelling</th>
+                        </tr>
+                        <tr class="m-2">
+                            <td class=""><img src="./image/foodie.png" alt="" style="width: 3rem;"></td>
+                            <th class="ps-3"> Foodie</th>
+                        </tr>
+                        <tr class="m-2">
+                            <td class=""><img src="./image/youtube.png" alt="" style="width: 3rem;"></td>
+                            <th class="ps-3"> Make Youtube Video & Shorts </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- References -->
+        <div class="container-fluid bg-white mt-0">
+            <div class="fw-bold fs-2 ms-4 mb-4">References</div>
+            <div class="d-flex">
+                <div style="padding-left: 10px">
+                    <!-- <div class=""> -->
+                        <span class="fs-5 fw-bold ms-4">
+                           Sandeep Upadhyay
+                        </span>
+
+                        <div class="edu-sub-title ms-5 text-dark">Position : Professor
+                            <p style="font-size: 0.9rem;">
+                                S.S.S.D.I.I.T Gurukul College, Junagadh. <br>
+                                Contect : 8347830417
+                            </p>
+                        </div>
+                    <!-- </div> -->
+                </div>
+                <div style="padding-left: 10px">
+                    <!-- <div class=""> -->
+                        <span class="fs-5 fw-bold ms-4">
+                            Ripal Pandya
+                        </span>
+
+                        <div class="edu-sub-title ms-5 text-dark">Position : Professor
+                            <p style="font-size: 0.9rem;">
+                                S.S.S.D.I.I.T Gurukul College, Junagadh. <br>
+                                Contect : 9427696988
+                            </p>
+                        </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-light">
+            <div class="text-center">
+                <div class="fs-4 fw-bold mb-3">Connect With Me </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div>
+                            <img src="./image/Madhav Gediya Github.png" alt="" class="w-50">
+                            <div class="fs-5 fw-bold">
+                                GitHub
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div>
+                            <img src="./image/Madhav Gediya Whatsapp Png.png" alt="" class="w-50">
+                            <div class="fs-5 fw-bold">
+                                Whatsapp
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div>
+                            <img src="./image/Madhav Youtube.png" alt="" class="w-50">
+                            <div class="fs-5 fw-bold">
+                                Youtube
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div>
+                            <img src="./image/Madhav Linkdin.png" alt="" class="w-50">
+                            <div class="fs-5 fw-bold">
+                                Linkdin
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div>
+                            <img src="./image/Madhav Instagram.png" alt="" class="w-50">
+                            <div class="fs-5 fw-bold">
+                                Instagram
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function print_page() {
+        var ButtonControl = document.getElementById("btnprint");
+        ButtonControl.style.display = "none";
+        window.print();
+        ButtonControl.style.display = "block";
+    }
+</script>
+
+</html>
