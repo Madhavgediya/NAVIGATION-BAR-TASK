@@ -129,6 +129,9 @@ body {
         /* font-weight: bold; */
         /* border-bottom: 2px solid white; */
     }
+    .qr_code{
+        display: flex;
+    }
 }
 
 
