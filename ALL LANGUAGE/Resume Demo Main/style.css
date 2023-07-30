@@ -1,0 +1,149 @@
+body {
+    background-color: #252525;
+    /* justify-content: center; */
+    margin: auto;
+    padding: auto;
+}
+
+.main {
+    /* width: 50rem; */
+    justify-content: center;
+
+}
+
+.proflie {
+    /* width: auto; */
+    margin: 2rem;
+    display: flex;
+    /* margin-bottom: 3rem; */
+    
+}
+
+.proflie-image {
+    /* width: 40rem; */
+    margin: 2rem;
+    border-radius: 50%;
+}
+
+.proflie-img {
+    border-radius: 100%;
+    width: 10rem;
+    /* height: 20%; */
+}
+
+.proflie-text {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.text-header {
+    font-size: 2.5rem;
+    color: white;
+    /* font-weight: bold; */
+    /* border-bottom: 2px solid white; */
+}
+
+.proflie-sub-title {
+    color: white;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+}
+
+.proflie-p {
+    color: white;
+    /* width: 30rem; */
+}
+
+
+.details {
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+}
+
+.details h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.edu-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.edu-sub-title {
+    color: grey;
+}
+
+
+.footer{
+    display: flex;
+}
+
+.nav-bg{
+    background-color: #00000069;
+    border: 1px solid black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main {
+        width: auto;
+        justify-content: center;
+    }
+
+    .proflie {
+        width: auto;
+        margin: 2rem;
+        display: block;
+        text-align: center;
+    }
+
+    .proflie-text {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .proflie-p {
+        color: white;
+        margin:0 auto;
+        text-align: center;
+    }
+    .details {
+        background-color: white;
+        padding: 2rem;
+        display: block;
+    }
+    .Experience {
+        padding-top: 2rem;
+    }
+    .footer{
+        display: block;
+    }
+    .mp{
+        display: block;
+    }
+    .text-header {
+        font-size: 2rem;
+        color: white;
+        /* font-weight: bold; */
+        /* border-bottom: 2px solid white; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
