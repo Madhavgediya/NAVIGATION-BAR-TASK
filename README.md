@@ -6,7 +6,7 @@
 task :- BootStrap 2
 
 topic:-
-    1. BootStrap Task 2nd (Completed)
+    1. BootStrap Task 2nd (make responsive task)
 
 
 
