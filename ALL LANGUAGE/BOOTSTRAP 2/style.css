@@ -1,8 +1,4 @@
-/* *{
-    border: 1px solid red;
-} */
-
-.body {
+body{
     margin: 0rem;
     padding: 0rem;
     background-color: #160E2A;
@@ -10,18 +6,22 @@
 }
 
 .navbar-header {
+    /* width: 100%; */
+    margin-left: -2rem;
+    margin-right: -2rem;
     background: rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(25px);
 }
 
 .bg-clam{
     /* height: 2.5rem; */
-    border-top: 0rem;
-    border-left: 0rem;
-    border-right: 0rem;
+    width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.089);
-    border-bottom-left-radius: 30rem 5rem;
-    border-bottom-right-radius: 30rem 5rem;
+    border-top: none;
+    border-left: none;
+    border-right: 0rem;
+    /* border-bottom-left-radius: 30% 5%; */
+    border-radius: 60% / 20%;
 }
 
 .design-1 {
@@ -93,10 +93,11 @@
 }
 
 .btn {
-    background: linear-gradient(#000000, #000000b7) padding-box, linear-gradient(60deg, #00f, #e100ff) border-box;
+    background: linear-gradient(#000000, #000000) padding-box, linear-gradient(60deg, #00f, #e100ff) border-box;
+    /* background: rgba(0, 0, 0, 0.40); */
     color: #FFFAF9;
     text-align: center;
-    /* font-family: Poppins; */
+    font-family: Poppins;
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 500;
@@ -122,7 +123,7 @@
 /* } */
 
 .t1 {
-    /* position: ; */
+    font-family: 'Jura', sans-serif;
     padding-top: 8rem;
     /* font-family:; */
     background: linear-gradient(180deg, #ffffff 100%, #c4b7ff 100%);
@@ -130,7 +131,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* font-family:; */
-    font-size: 3rem;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -138,6 +139,7 @@
 
 .header-part {
     background: linear-gradient(#160E2A, #1F1539);
+    /* width: 100rem; */
 }
 
 .circle {
@@ -240,6 +242,7 @@
 
 .c-bg {
     border: 1px solid #ffffff54;
+    color: #BDF3FF;
     width: 13rem;
     height: 12rem;
     border-radius: 1rem;
