@@ -1,13 +1,12 @@
 
  Live URL link:
-    BootStrap Task :- https://madhavgediya.github.io/NAVIGATION-BAR-TASK/ALL%20LANGUAGE/BOOTSTRAP%202/index.html
+    resume :- 
 
 
-task :- BootStrap 2
+task :- make resume 3
 
 topic:-
-    1. BootStrap Task 2nd (make responsive task)
-
+    make resume which is given by nipa madem
 
 
 
