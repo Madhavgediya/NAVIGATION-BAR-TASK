@@ -8,7 +8,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madhav Gediya's Resume</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+            color: white;
+            background-color: #313334;
+            /* background-color: #3c5e74;  background-color: #013155; */
+            /* justify-content: center; */
+            margin: 0rem;
+            padding: 0rem;
+        }
+
+        .main {
+            /*width: 50rem;*/
+            justify-content: center;
+            background: #42816d;
+        }
+
+        .proflie {
+            width: auto;
+            /* background: #41639b; */
+            margin: 2rem;
+            display: flex;
+            margin-bottom: 3rem;
+
+        }
+
+        .proflie-image {
+            /* width: 40rem; */
+            margin: 2rem;
+            border-radius: 50%;
+        }
+
+        .proflie-img {
+            border-radius: 100%;
+            width: 10rem;
+            /* height: 20%; */
+        }
+
+        .proflie-text {
+            text-align: left;
+            margin-top: 50px;
+        }
+
+        .text-header {
+            font-size: 2.5rem;
+            /* color: white; */
+            /* font-weight: bold; */
+            border-bottom: 2px solid white;
+        }
+
+        .proflie-sub-title {
+            /* color: white; */
+            letter-spacing: 0.3rem;
+            font-weight: bold;
+        }
+
+        .proflie-p {
+            /* color: white; */
+            width: 30rem;
+        }
+
+
+        .details {
+            /* background-color: white; */
+            background-color: #3c5e74;
+            padding: 2rem;
+            display: flex;
+        }
+
+        .details h2 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .edu-title {
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+
+        .edu-sub-title {
+            color: white;
+        }
+
+        .blog-image {
+            display: grid;
+            grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr;
+            /* width: auto; */
+            gap: 10px;
+        }
+
+        .blog-image1 {
+            display: grid;
+            grid-template-columns: auto auto;
+            /* width: auto; */
+            gap: 20px;
+        }
+
+        .blog-image1 img {
+            border-radius: 10px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .blog-image img {
+            border-radius: 10px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .footer {
+            background-color: #3c5e74;
+        }
+
+        @media print {
+            .footer{
+                page-break-inside: avoid;
+            }
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            .main {
+                width: auto;
+                justify-content: center;
+            }
+
+            .proflie {
+                width: auto;
+                margin: 2rem;
+                display: block;
+                text-align: center;
+            }
+
+            .proflie-text {
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            .proflie-p {
+                color: white;
+                width: auto;
+                text-align: center;
+            }
+
+            .details {
+                background-color: white;
+                padding: 2rem;
+                display: block;
+            }
+
+            .Experience {
+                padding-top: 2rem;
+            }
+
+            .footer {
+                display: block;
+            }
+
+            .mp {
+                display: block;
+            }
+
+            .text-header {
+                font-size: 2rem;
+                color: white;
+                /* font-weight: bold; */
+                border-bottom: 2px solid white;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -141,7 +310,7 @@
                             <h2>madhavgediya</h2>
                         </div>
                         <!-- <div class="edu-sub-title">xyz </div> -->
-                        <div style="font-size: 1.2rem; font-weight: bold;"></div>
+                        <!-- <div style="font-size: 1.2rem; font-weight: bold;"></div> -->
                         <br>
                         <div class="blog-image" style="margin-bottom: 20px;">
                             <img src="./image/images.jpeg" alt="">
@@ -155,7 +324,7 @@
                         <!-- <div>
                             <b style="font-size: 1.2rem;">Link :-</b> <span>https://madhavgediya.blogspot.com/</span>
                         </div> -->
-                        <div style="font-size: 1.2rem; font-weight: bold;"></div>
+                        <!-- <div style="font-size: 1.2rem; font-weight: bold;"></div> -->
                         <br>
                         <div class="blog-image" style="margin-bottom: 20px;">
                             <img src="./image/images.jpeg" alt="">
@@ -174,13 +343,14 @@
                         <br>
                         <!-- <div class="edu-sub-title">Description :-</div> -->
                         <br>
-                        <div  class="blog-image1"  style="margin-bottom: 20px; margin-left: 20px; font-size:1.2rem;">
+                        <div class="blog-image1" style="margin-bottom: 20px; margin-left: 20px; font-size:1.2rem;">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quas, ut facere
                             exercitationem illo minus sit odit in libero quae natus deleniti perferendis incidunt unde
-                            voluptate repudiandae doloribus placeat delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quas, ut facere
+                            voluptate repudiandae doloribus placeat delectus? Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Consequatur quas, ut facere
                             exercitationem illo minus sit odit in libero quae natus deleniti perferendis incidunt unde
-                            voluptate repudiandae doloribus placeat delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quas, ut facere
-                            exercitationem illo minus sit odit in libero quae natus deleniti perferendis incidunt unde
+                            voluptate repudiandae doloribus placeat delectus? Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Consequatur quas, ut facerus deleniti perferendis incidunt unde
                             voluptate repudiandae doloribus placeat delectus? Lorem ipsum dol
                             <div class="blog-image1" style="margin-bottom: 20px;">
                                 <img src="./image/images.jpeg" alt="">
@@ -281,12 +451,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
