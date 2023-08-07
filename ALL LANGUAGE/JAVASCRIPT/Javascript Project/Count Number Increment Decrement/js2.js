@@ -4,3 +4,11 @@ function changeCount(num){
     count += num;
     document.getElementById("count").innerHTML = count;
 }
+
+
+
+
+
+
+
+
