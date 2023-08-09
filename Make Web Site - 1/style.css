@@ -1,0 +1,84 @@
+body {
+    color: white;
+    background-color: #000000;
+}
+
+/* This is NAIROBI_CONFIRM.html Css Started*/
+
+.logo {
+    color: #FFF;
+    background: linear-gradient(90deg, #FF0404 0%, rgba(0, 0, 0, 0.00) 68.79%);
+    display: inline-flex;
+    padding: 0.1875rem 1.96875rem;
+    justify-content: center;
+    align-items: center;
+    font-family: Scada;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.robilogo {
+    color: #FF0404;
+    font-family: Scada;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.box-1 {
+    border-radius: 1.5rem;
+    background: #1A1A1A;
+    /* width:; */
+}
+
+.pwd {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    /* width: 50%; */
+    line-height: normal;
+}
+
+
+
+/* This is NAIROBI_CONFIRM.html Css Ended*/
+
+
+.menus {
+    width: 70px;
+    background-color: rgb(34, 41, 48);
+    height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .menus {
+        width: 70px;
+        background-color: rgb(34, 41, 48);
+        height: auto;
+    }
+}
+
+.menus ul {
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.menus ul li {
+    margin-top: 1rem;
+}
+
+.menus ul li:hover {
+    background: red;
+    width: 100px;
+}
+
+
+
+
+
+
