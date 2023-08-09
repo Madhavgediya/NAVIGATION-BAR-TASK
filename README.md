@@ -1,13 +1,13 @@
 
  Live URL link:
-    https://madhavgediya.github.io/NAVIGATION-BAR-TASK/ALL LANGUAGE/JAVASCRIPT/Javascript Project/Digital clock/index.html
+    https://madhavgediya.github.io/NAVIGATION-BAR-TASK/
     
 
 
-task :- make Javascript Task
+task :- make Bootstrap task 3
 
 topic:-
-    make javasctipt task 
+    make task basic file  
 
 
 
