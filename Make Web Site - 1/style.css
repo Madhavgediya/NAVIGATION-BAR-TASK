@@ -3,6 +3,33 @@ body {
     background-color: #000000;
 }
 
+.btn-danger {
+    border-radius: 0.25rem;
+    background: var(--nairobi-red-db-0-c-26, #DB0C26);
+    font-size: 0.7rem;
+    width: 130px;
+}
+
+.input-hover{
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.input-hover:hover{
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .bottom-logo {
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        /* background-color: #DB0C26; */
+    }
+}
+
+
 /* This is NAIROBI_CONFIRM.html Css Started*/
 
 .logo {
@@ -13,7 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Scada;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -22,7 +49,7 @@ body {
 .robilogo {
     color: #FF0404;
     font-family: Scada;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -34,9 +61,16 @@ body {
     /* width:; */
 }
 
-.bg-w{
+.bg-w {
     width: 75%;
 }
+
+@media only screen and (max-width: 600px) {
+    .bg-w {
+        width: 100%;
+    }
+}
+
 .pwd {
     color: #FFF;
     font-family: Poppins;
@@ -61,14 +95,42 @@ body {
 /* This is NAIROBI_CONFIRM.html Css Ended*/
 
 
-/*Error.html*/
+/*404Error.html*/
+
+.con404 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.main-title-error-404 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 100px; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-sub-title-error-404 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: normal;
+}
 
 
+/*404Error.html end */
 
+/* 505  */
 
-/* Error.html end */
+.con505 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
 
-
+/* 505 */
 
 .menus {
     width: 70px;
@@ -101,6 +163,10 @@ body {
     background: red;
     width: 100px;
 }
+
+
+
+
 
 
 

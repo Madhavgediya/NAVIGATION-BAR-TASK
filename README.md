@@ -1,13 +1,18 @@
 
  Live URL link: 
-     https://madhavgediya.github.io/NAVIGATION-BAR-TASK/Make%20Web%20Site%20-%201/index.html
+     https://madhavgediya.github.io/NAVIGATION-BAR-TASK/
     
 
 
-task :- make Bootstrap task 3 (15%)
+task :- make Bootstrap task 3 (25%)
 
 topic:-
-    MAKE BOOTSTRAP TASK FILES LIKE CONFIME FILE, ERROR FILE, LOGIN FILE AND EMAIL FILE...
+    MAKE BOOTSTRAP TASK PAGE 
+    -   505 Error
+    -   404 Error
+    -   Error
+    -   Sign up.....
+
 
 
 
