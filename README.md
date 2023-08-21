@@ -1,12 +1,17 @@
 
- Live URL link:
-    BootStrap Task :- https://madhavgediya.github.io/NAVIGATION-BAR-TASK/ALL%20LANGUAGE/BOOTSTRAP%202/index.html
+ Live URL link: 
+     https://madhavgediya.github.io/NAVIGATION-BAR-TASK/
+    
 
 
-task :- BootStrap 2
+task :- make Bootstrap task 3 (25%)
 
 topic:-
-    1. BootStrap Task 2nd (make responsive task)
+    MAKE BOOTSTRAP TASK PAGE 
+    -   505 Error
+    -   404 Error
+    -   Error
+    -   Sign up.....
 
 
 
