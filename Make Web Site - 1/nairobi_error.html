@@ -33,7 +33,7 @@
                             It will not take a long time till we get the error fiked. We wii live again in
                         </p>
                         <div class="fs-2 fw-bold text-danger">
-                            00 : 04 : 13 : 39
+                            00 : <span id="timer"> 04 : 13 : 39</span>
                         </div>
                         <div class="w-100 mt-3 justify-content-center d-flex" style="height: 2.5rem;">
                             <input type="email" placeholder="Enter your mail" class="border-1 border-white bg-transparent w-50 me-2" style="border-radius: 5px; height: 2.5rem;">
@@ -47,6 +47,23 @@
     </div>
 
 </body>
+
+<script>
+
+ let startMin = 5;
+ let time = startMin * 60;
+ const element = document.getElementById("timer");
+
+ setInterval(timerStart , 1000);
+
+ function timerStart(){
+    let hours = Math.floor(time / 60) % 24;
+     let min = Math.floor(time / 60) % 60;
+     let seconds = Math.floor(time % 60);
+     element.innerHTML = ` ${hours} : ${min} : ${seconds} `;
+     time--;
+ }
+</script>
 
 </html>
 

@@ -4,16 +4,14 @@
     
 
 
-task :- make Bootstrap task 3 (25%)
+task :- make Bootstrap task 3 (60%)
 
 topic:-
     MAKE BOOTSTRAP TASK PAGE 
-    -   505 Error
-    -   404 Error
-    -   Error
-    -   Sign up.....
-
-
+    -   Sign up File 
+    -   Lock Screen File
+    -   Make Some Modify  
+        -   Error File - Add Timer in File
 
 
 
