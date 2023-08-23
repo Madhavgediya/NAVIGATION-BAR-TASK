@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-bg {
+    background-image: url('./image/Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mini-t {
+    color: var(--white-100, #FFF);
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    letter-spacing: 0.34375rem;
+    text-transform: uppercase;
+}
+
+.title {
+    color: var(--white-100, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.6875rem;
+}
+
+.wel-title {
+    color: var(--dark-blue-100, #1F2C73);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.375rem;
+}
+
+.con-pro {
+    background: #EEF3F9;
+    /* width: 90rem; */
+    height: 80%;
+}
+
+.sub-p {
+    color: #686868;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.40625rem;
+}
+
+.p-title {
+    color: var(--dark-blue-100, #1F2C73);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+.p-m {
+    color: rgba(66, 66, 66, 0.80);
+    font-family: 'Spartan', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 1.875rem;
+}
+
+.city {
+    color: var(--dark-blue-100, #1F2C73);
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.list1 ul li {
+    margin: 1rem;
+    margin-left: 0rem;
+    color: #040404;
+    font-family: 'Spartan', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.name {
+    margin: 3px;
+    color: var(--gray-900, #212529);
+    font-family: 'Spartan', sans-serif;
+    font-size: 1rem;
+}
+
+.footer-bg {
+    background-image: url('./image/Imagebg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title1 {
+    color: var(--white-100, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 3.25rem;
+    line-height: 4.6875rem;
+}
+
+.footer {
+    background-color: #040404;
+}
+
+.f-title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+.f-sub {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;  
+    font-size: 0.7rem;
+    line-height: 1.25rem;
+}
+
+
+
+

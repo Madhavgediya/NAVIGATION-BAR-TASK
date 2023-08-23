@@ -4,13 +4,17 @@
     
 
 
-task :- make Bootstrap task 3 (65%)
+task :- make Bootstrap task 3 (75%)
 
 topic:-
     MODIFY BOOTSTRAP TASK PAGE 
-    - 404 ERROR
-    - 505 ERROR
-    - INDEX.HTML
+    -   404error.html(Completed)
+    -   505error.html(Completed)
+    -   nairobi_confirm.html(Completed)
+    -   nairobi_email.html(Completed)
+    -   nairobi_error.html(Completed)
+    -   nairobi_sign_up.html(Completed)
+    -   nairobi_login.html(Completed)
     
 
 

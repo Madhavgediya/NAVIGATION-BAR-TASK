@@ -6,7 +6,14 @@ body {
     color: white;
     background-color: #101010;
     font-size: 0.7rem;
+}
 
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -45,19 +52,10 @@ body {
     background: var(--nairobi-red-db-0-c-26, #DB0C26);
     padding: 0.5rem 1.5rem;
     justify-content: center;
-    align-items: center;
-    color: var(--ffffff-bg-1, #FFF);
-    text-align: center;
+    color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
     color: #FFF;
-    /* H6 16px Regular Inter */
-    font-family: 'Inter';
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 175%;
-    /* 1.75rem */
 }
 
 .input-hover {
@@ -89,24 +87,7 @@ body {
 /* Lock Screen End */
 
 /* Sign Up page Start*/
-.font-same {
-    color: #FFF;
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.7rem;
-    /* font-style: normal; */
-    /* font-weight: 400; */
-    line-height: 175%;
-}
 
-.sign_up_input {
-    line-height: 0.5rem;
-    display: flex;
-    justify-content: center;
-}
-
-.sign_up_input input[type='text'] {
-    height: 30px;
-}
 
 
 /* Sign Up page End */
