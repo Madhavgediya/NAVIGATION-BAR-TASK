@@ -4,12 +4,11 @@
     
 
 
-task :- make Bootstrap task 3 (80%)
+task :- make Bootstrap task 3 (88%)
 
 topic:-
-    MODIFY BOOTSTRAP TASK PAGE 
-    -   nairobi_lock_screen.html(Completed)
-    -   make index.html 
+        make table, buttons, cards, prograss bar... in index.html
+    
     
 
 
