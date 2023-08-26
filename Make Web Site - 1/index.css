@@ -67,10 +67,11 @@
 
 .good-evening {
     color: #FE1F27;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-size: 2.5rem;
+    /* font-style: normal; */
     font-weight: bolder;
-    line-height: normal;
+    /* line-height: normal; */
     letter-spacing: 0.05rem;
 }
 
@@ -403,10 +404,80 @@
 
 #customers tr:nth-child(odd) {
     background-color: #101010;
+    margin-right: 7rem;
 }
 
-table tr td{
-    border: 0px;
+table {
+    border-radius: 15px 10px 20px;
 }
+
+#customers tr td:last-child {
+    /* margin-top: -12px; */
+    /* padding: 0; */
+    /* display: block; */
+    justify-content: end;
+    /* text-align: center; */
+    /* align-items: center; */
+}
+
+td {
+    /* padding: 0px; */
+    justify-content: center;
+    border: 0px;
+    /* padding: 5rem; */
+}
+
+
+.radius {
+    border: 1px solid red;
+    border-radius: 1.5rem 0.5rem;
+}
+
+.chat-title {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.btn-7 {
+    font-size: 0.8rem;
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.34375rem 0.3125rem 0.28125rem 0.3125rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    background: var(--nairobi-red-fe-1-f-27, #FE1F27);
+    color: white;
+}
+
+.team-title {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.level {
+    color: #ABADB5;
+    font-family: 'Poppins';
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-team-chat:hover{
+    background: linear-gradient(90deg, #FE1F27 0%, rgba(254, 31, 39, 0.00) 79.68%);
+    /* border-radius: ; */
+}
+
 
 
