@@ -16,7 +16,7 @@ body {
     margin: 2rem;
     display: flex;
     /* margin-bottom: 3rem; */
-    
+
 }
 
 .proflie-image {
@@ -76,15 +76,26 @@ body {
 }
 
 
-.footer{
+.footer {
     display: flex;
 }
 
-.nav-bg{
+.nav-bg {
     background-color: #00000069;
     border: 1px solid black;
 }
 
+@media print {
+    .download-btn {
+        display: none;
+    }
+    div div div div{
+        page-break-inside: avoid;
+    }
+    .refe{
+        page-break-inside: auto;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .main {
@@ -106,47 +117,39 @@ body {
 
     .proflie-p {
         color: white;
-        margin:0 auto;
+        margin: 0 auto;
         text-align: center;
     }
+
     .details {
         background-color: white;
         padding: 2rem;
         display: block;
     }
+
     .Experience {
         padding-top: 2rem;
     }
-    .footer{
+
+    .footer {
         display: block;
     }
-    .mp{
+
+    .mp {
         display: block;
     }
+
     .text-header {
         font-size: 2rem;
         color: white;
         /* font-weight: bold; */
         /* border-bottom: 2px solid white; */
     }
-    .qr_code{
+
+    .qr_code {
         display: flex;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
