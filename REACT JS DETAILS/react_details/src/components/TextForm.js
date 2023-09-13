@@ -20,6 +20,18 @@ export default function TextForm(props) {
     let newText = "";
     setText(newText);
   };
+  const handleCopy = () => {
+    var text = document.getElementById('exampleInputEmail1');
+    text.select();
+    navigator.clipboard.writeText(text.value);
+    alert('Copy Sussessfully');
+  };
+
+  // Remove Extra Spacing
+  const removeExtraSpace = () => {
+    var newText = text.split(/[ ]+/);
+    setText(newText.join(" "));
+  };
 
   return (
     <div className="container text-center">
@@ -46,6 +58,12 @@ export default function TextForm(props) {
         </button>
         <button className="btn btn-success m-3" onClick={ClearMethod}>
           Clear
+        </button>
+        <button className="btn btn-success m-3" onClick={handleCopy}>
+          Copy
+        </button>
+        <button className="btn btn-success m-3" onClick={removeExtraSpace}>
+          Remove Extra Space
         </button>
       </div>
       <div>

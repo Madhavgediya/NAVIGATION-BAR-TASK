@@ -9,13 +9,11 @@ task :- Make React JS Task  tic-tac-toe
 topic:-
         make Components
         make useStates
-        make Basic Navbar and Accordion Manu
-        make button Like:-
-                Convert to UpperCase
-                Convert to LowerCase
-                Clear Data
-        Count Word and Character
-        Display Preview
+        make copy function, extra space remove function
+        Convert Theme Dark mode, Blud mode, Green mode
+        make alert box component and import app.js
+        install react-router-dom
+        basic details of react router
 
 
 
