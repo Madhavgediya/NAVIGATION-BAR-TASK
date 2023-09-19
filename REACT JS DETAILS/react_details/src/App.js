@@ -1,26 +1,17 @@
-// import logo from './logo.svg';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams
-} from "react-router-dom";
-import React , { useState } from "react";
+import React, { useState } from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import React from 'react';
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Alert from "./components/Alert";
 import TextForm from "./components/TextForm";
 import About from "./components/About";
 
-// import TextForm from "./components/TextForm";
-
 function App() {
-  // make alert useState
+  //  make alert useState
   const [alertBox, setAlert] = useState(null);
 
-  // make showAlert function
+  //  make showAlert function
   const showAlert = (message, type) => {
     setAlert({
       msg: message,
@@ -45,6 +36,7 @@ function App() {
       showAlert("Dark Mood Off", "light");
     }
   };
+
   const toggleMode2 = () => {
     if (mode === "light") {
       document.body.style.backgroundColor = "#04569d";
@@ -58,6 +50,7 @@ function App() {
       showAlert("Dark Mood Off", "light");
     }
   };
+
   const toggleMode3 = () => {
     if (mode === "light") {
       document.body.style.backgroundColor = "black";
@@ -71,41 +64,51 @@ function App() {
       showAlert("Dark Mood Off", "light");
     }
   };
+
   return (
-    <Router>
-      <Switch>
-        <Route path="/about">
-          <div className="border border-5 border-dark m-4">
+    <>
+      <Router>
+        <div className="border border-5 border-dark m-4">
+          <Navbar
+            home="HOME"
+            mode={mode}
+            toggleMode1={toggleMode1}
+            toggleMode2={toggleMode2}
+            toggleMode3={toggleMode3}
+          ></Navbar>
+        </div>
+        <Switch>
+          <Route exact path="/about">
+            <About></About>
+          </Route>
+          <Route exact path="/home">
+            <div className="border border-5 border-dark m-4">
+              <TextForm heading="Login Form"></TextForm>
+            </div>
+          </Route>
+          <Route exact path="/alert">
+          <Alert></Alert>
+          this is Alert 
+          </Route>
+        </Switch>
+        <div>
+          {/* <div className="border border-5 border-dark m-4">
             This is About Part..
             <About></About>
-          </div>
-        </Route>
-        <Route path="/">
-          <div className="border border-5 border-dark m-4">
+          </div> */}
+          {/* <div className="border border-5 border-dark m-4">
             <TextForm heading="Login Form"></TextForm>
-          </div>
-        </Route>
-        <Route path="/">
+          </div> */}
           <div>
             <Alert alert={alertBox}></Alert>
           </div>
-          <h4 className="fw-bold m-4">
+          {/* <h4 className="fw-bold m-4">
             this is all black border is one component
-          </h4>
-          <div className="border border-5 border-dark m-4">
-            <Navbar
-              home="HOME"
-              mode={mode}
-              toggleMode1={toggleMode1}
-              toggleMode2={toggleMode2}
-              toggleMode3={toggleMode3}
-            ></Navbar>
-          </div>
-        </Route>
-      </Switch>
-    </Router>
+          </h4> */}
+        </div>
+      </Router>
+    </>
   );
 }
 
 export default App;
-
