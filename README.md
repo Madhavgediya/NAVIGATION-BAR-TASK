@@ -14,6 +14,8 @@ topic:-
         make alert box component and import app.js
         install react-router-dom
         basic details of react router
+        make basic navbar without reload pages
+        
 
 
 
