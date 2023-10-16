@@ -1,3 +1,4 @@
+
 import React from 'react'
 import PropTypes from 'prop-types'
 // import Alert from './Alert';
@@ -37,6 +38,13 @@ export default function Navbar(props) {
           <li className="nav-item">
             <Link className="nav-link active" aria-current="page" to="/about">
               {props.about} 
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link active" to="/form">
+              {/* {props.form}
+               */}
+               Form
             </Link>
           </li>
         </ul>
