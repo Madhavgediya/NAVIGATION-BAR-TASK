@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Alert from "./components/Alert";
 import TextForm from "./components/TextForm";
 import About from "./components/About";
+import Form from './components/Form';
 import {
   BrowserRouter as Router,
   Switch,
@@ -93,6 +94,9 @@ function App() {
           </Route>
           <Route exact path="/about">
             <About />
+          </Route>
+          <Route exact path="/Form">
+            <Form />
           </Route>
         </Switch>
         <div>
