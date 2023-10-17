@@ -1,19 +1,21 @@
 
  Live URL link: 
-     https://madhavgediya.github.io/NAVIGATION-BAR-TASK/
+ https://madhavgediya.github.io/NAVIGATION-BAR-TASK/R
     
 
 
-task :- make Bootstrap task 3 (25%)
+task :- Make React JS Task  tic-tac-toe 
 
 topic:-
-    MAKE BOOTSTRAP TASK PAGE 
-    -   505 Error
-    -   404 Error
-    -   Error
-    -   Sign up.....
-
-
+        make Components
+        make useStates
+        make copy function, extra space remove function
+        Convert Theme Dark mode, Blud mode, Green mode
+        make alert box component and import app.js
+        install react-router-dom
+        basic details of react router
+        make basic navbar without reload pages
+        
 
 
 

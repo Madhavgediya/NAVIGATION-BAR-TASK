@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body {
+    background-color: #000000;
+}
+
+.con404 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.main-title-error-404 {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-sub-title-error-404 {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 1.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+

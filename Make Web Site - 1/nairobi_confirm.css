@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.box-1 {
+    display: inline-flex;
+    padding: 2.5rem;
+    flex-direction: column;
+    max-width: 550px;
+    /* align-items: flex-start; */
+    /* gap: 1.5rem; */
+}
+
+
+@media only screen and (max-width: 600px) {
+    .bg-w {
+        width: 100%;
+    }
+}
+
+.pwd {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.des {
+    color: #FFF;
+    /* text-align: center; */
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box-2 input {
+    width: 29.75rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn-2 {
+    width: 10rem;
+    margin: 0 auto;
+}

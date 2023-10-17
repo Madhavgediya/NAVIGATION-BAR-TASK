@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MGP OTT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -13,84 +16,1337 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <div class="container-fluid m-0 p-0 d-flex">
-        <div class="border-danger border-start menus">
+    <!-- <div class="container-fluid p-0"> -->
+    <div class="container-fluid m-0 p-0 position-relative row">
+        <div class="menus col-md-1 p-0 ">
             <!-- <a class="text-white navbar-brand" href="#"><img src="./images/N logo.svg" alt=""></a> -->
-            <nav class="navbar navbar-expand-lg navbar-light m-0">
+            <nav
+                class="navbar navbar-expand-lg navbar-light m-0 position-fixed top-0 border-danger border-start align-items-baseline">
                 <div class="container-fluid d-block m-0 p-0">
-                    <a class="text-white navbar-brand m-2" href="#"><img src="./images/icon/N logo.svg" alt=""></a>
+                    <a class="text-white navbar-brand m-2" href="nairobi_error.html" target="_blank"><img src="./images/icon/N logo.svg"
+                            alt="" style="margin: 8px;"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon m-2 text-danger"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto d-block mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="text-white nav-link active" aria-current="page" href="#"><img
-                                        src="./images/icon/Chat.svg" alt=""></a>
+                        <ul class="navbar-nav me-auto d-block" style="margin-top: 4.8rem;">
+                            <li class="nav-item navbar-icon pt-2 pb-2">
+                                <a class="text-white nav-link" aria-current="page" href="nairobi_sign_up.html"
+                                    target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" class="icons">
+                                        <path
+                                            d="M23 11.2114C23 16.788 18.1402 21.4227 12 21.4227C11.9129 21.4227 11.8281 21.4228 11.7454 21.4229C10.1801 21.4242 9.37464 21.4248 8.17793 20.9363C7.76303 20.767 7.34185 20.8448 7.11256 20.9001C6.83863 20.9662 6.55056 21.0771 6.27915 21.1958C5.77322 21.4173 5.18863 21.7284 4.64619 22.0171C4.60614 22.0384 4.56632 22.0596 4.52678 22.0807C3.93366 22.3961 3.40058 22.6752 2.9745 22.8505C2.97456 22.847 2.97462 22.8434 2.97469 22.8398C2.98333 22.3821 3.06763 21.787 3.17373 21.1059C3.18541 21.031 3.19736 20.9549 3.20944 20.878C3.30154 20.2919 3.40101 19.6588 3.4415 19.1129C3.46456 18.8021 3.47235 18.4769 3.43857 18.1755C3.40731 17.8967 3.32766 17.506 3.07103 17.1756C1.76394 15.4928 1 13.4334 1 11.2114C1 5.63473 5.85975 1 12 1C18.1402 1 23 5.63473 23 11.2114ZM2.49374 23.0016C2.49416 23.0011 2.50177 23 2.51533 22.9999C2.5001 23.002 2.49332 23.0021 2.49374 23.0016ZM3.00937 23.2938C3.01101 23.2978 3.01171 23.2999 3.01164 23.3001C3.01158 23.3002 3.01076 23.2982 3.00937 23.2938Z"
+                                            stroke="white" stroke-width="2" />
+                                        <ellipse cx="8.42754" cy="12.0264" rx="1.2" ry="1.11342" fill="#FE1F27" />
+                                        <ellipse cx="12.0281" cy="12.0264" rx="1.2" ry="1.11342" fill="#FE1F27" />
+                                        <ellipse cx="15.6287" cy="12.0264" rx="1.2" ry="1.11342" fill="#FE1F27" />
+                                    </svg>
+                                </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="text-white nav-link" href="#"><img src="./images/icon/Profile.svg" alt=""></a>
+                            <li class="nav-item navbar-icon pt-2 pb-2 ">
+                                <a class="text-white nav-link" href="nairobi_login.html" target="_blank">
+                                    <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="20" height="26"
+                                        viewBox="0 0 20 26" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.0006 17.421C5.14585 17.421 1 18.1755 1 21.197C1 24.2185 5.11955 25 10.0006 25C14.8553 25 19 24.2443 19 21.224C19 18.2037 14.8816 17.421 10.0006 17.421Z"
+                                            stroke="#FE1F27" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9.35764 12.3684C12.5529 12.3684 15.1427 9.82287 15.1427 6.68362C15.1427 3.54438 12.5529 1 9.35764 1C6.16233 1 3.57132 3.54438 3.57132 6.68362C3.56053 9.81226 6.13356 12.3578 9.31687 12.3684H9.35764Z"
+                                            stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="text-white nav-link active" aria-current="page" href="#"><img
-                                        src="./images/icon/2 User.svg" alt=""></a>
+                            <li class="nav-item navbar-icon pt-2 pb-2 ">
+                                <a class="text-white nav-link active" aria-current="page" href="nairobi_confirm.html"
+                                    target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
+                                        fill="none" class="icons">
+                                        <path
+                                            d="M8.08427 13.1753C3.72408 13.1753 0 13.8556 0 16.5749C0 19.2963 3.7004 20 8.08427 20C12.4445 20 16.1685 19.3197 16.1685 16.6004C16.1685 13.8791 12.4681 13.1753 8.08427 13.1753Z"
+                                            fill="white" />
+                                        <path
+                                            d="M8.08468 10.5831C11.0543 10.5831 13.434 8.22908 13.434 5.29157C13.434 2.35406 11.0543 0 8.08468 0C5.11618 0 2.73535 2.35406 2.73535 5.29157C2.73535 8.22908 5.11618 10.5831 8.08468 10.5831Z"
+                                            fill="white" />
+                                        <path
+                                            d="M15.5912 5.38748C15.5912 6.88338 15.137 8.27921 14.3406 9.43867C14.2577 9.55792 14.3309 9.71869 14.4751 9.74424C14.6753 9.77724 14.8809 9.79747 15.0908 9.80173C17.1788 9.85603 19.0527 8.52622 19.5704 6.52352C20.3378 3.55193 18.0862 0.883789 15.2178 0.883789C14.9067 0.883789 14.6086 0.91573 14.318 0.974289C14.2781 0.982806 14.2351 1.00197 14.2136 1.03604C14.1856 1.07969 14.206 1.13612 14.234 1.17339C15.0961 2.36905 15.5912 3.8245 15.5912 5.38748Z"
+                                            fill="white" />
+                                        <path
+                                            d="M21.7567 13.5216C21.3746 12.7156 20.4522 12.163 19.0487 11.8915C18.3867 11.7318 16.5936 11.505 14.9264 11.537C14.9016 11.5402 14.8876 11.5572 14.8855 11.5679C14.8822 11.5849 14.8898 11.6104 14.922 11.6285C15.6927 12.0054 18.6709 13.6451 18.2963 17.1032C18.2802 17.2544 18.4018 17.3822 18.5536 17.3609C19.2865 17.2576 21.1723 16.8562 21.7567 15.6084C22.0807 14.9483 22.0807 14.1817 21.7567 13.5216Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="text-white nav-link" href="#"><img src="./images/icon/Profile.svg" alt=""></a>
+                            <li class="nav-item navbar-icon pt-2 pb-2 ">
+                                <a class="text-white nav-link" href="nairobi_lock_screen.html" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" viewBox="0 0 20 26"
+                                        fill="none" class="icons">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.0006 17.421C5.14585 17.421 1 18.1755 1 21.197C1 24.2185 5.11955 25 10.0006 25C14.8553 25 19 24.2443 19 21.224C19 18.2037 14.8816 17.421 10.0006 17.421Z"
+                                            stroke="#FE1F27" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9.35764 12.3684C12.5529 12.3684 15.1427 9.82287 15.1427 6.68362C15.1427 3.54438 12.5529 1 9.35764 1C6.16233 1 3.57132 3.54438 3.57132 6.68362C3.56053 9.81226 6.13356 12.3578 9.31687 12.3684H9.35764Z"
+                                            stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="text-white nav-link active" aria-current="page" href="#"><img
-                                        src="./images/icon/Delete.svg" alt=""></a>
+                            <li class="nav-item navbar-icon pt-2 pb-2 ">
+                                <a class="text-white nav-link active" aria-current="page" href="nairobi_error.html"
+                                    target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                        fill="none" class="icons">
+                                        <rect width="24" height="24" fill="#101010" />
+                                        <path
+                                            d="M1 5H12H23M21 9L19.2314 22.2643C19.0989 23.2579 18.2514 24 17.249 24H12H6.75103C5.74863 24 4.90106 23.2579 4.76858 22.2643L3 9"
+                                            stroke="white" stroke-width="2" stroke-linecap="round" />
+                                        <path
+                                            d="M6 5C6.72727 4.83614 7.76928 4.07056 8.18182 2.54204C8.72727 0.521039 12 1.06724 13.6364 1.06724C14.1818 1.06723 15.4835 1.3355 15.8182 2.54201C16.3636 4.50836 16.9091 4.99998 18 4.99998"
+                                            stroke="white" stroke-width="2" stroke-linecap="round" />
+                                        <path d="M1 5H12H23" stroke="#FE1F27" stroke-width="2" stroke-linecap="round" />
+                                        <path
+                                            d="M6 5C6.72727 4.83614 7.76928 4.07056 8.18182 2.54204C8.72727 0.521039 12 1.06724 13.6364 1.06724C14.1818 1.06723 15.4835 1.3355 15.8182 2.54201C16.3636 4.50836 16.9091 4.99998 18 4.99998"
+                                            stroke="#FE1F27" stroke-width="2" stroke-linecap="round" />
+                                    </svg>
+                                </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="text-white nav-link" href="#"><img src="./images/icon/Message.svg" alt=""></a>
+                            <li class="nav-item navbar-icon pt-2 pb-2  ">
+                                <a class="text-white nav-link" href="nairobi_email.html" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 24 22"
+                                        fill="none" class="icons">
+                                        <rect x="1" y="1" width="22" height="20" rx="3" fill="#101010" stroke="white"
+                                            stroke-width="2" />
+                                        <path
+                                            d="M5.45499 7.69998L10.8847 11.3499C11.5594 11.8035 12.4415 11.8035 13.1162 11.3499L18.5459 7.69998"
+                                            stroke="#FE1F27" stroke-width="2" stroke-linecap="round" />
+                                    </svg>
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
-        <div class="w-100" style="height: 15px;">
-            <div class="p-3 bg-dark justify-content-between d-flex ">
-                <div style="background-color: rgb(44, 45, 46); border-radius: 10px;">
-                    <form class="d-flex justify-content-center">
-                        <input class="form-control me-2 bg-transparent border-0" type="search"
-                            placeholder="Type here to Search…" aria-label="Search">
-                        <div class="bg-transparent" type="submit"><i
-                                class="fa-solid fa-magnifying-glass p-2 text-secondary"></i></div>
-                    </form>
-                </div>
-                <div class="d-flex">
-                    <div class="d-flex">
-                        <img src="./images/icon/Ellipse 176.svg" alt="" class="w-50 m-2">
-                        <span><img src="./images/icon/Notification.svg" alt="" class="mt-3 m-2"></span>
-                        <span><img src="./images/icon/Message.svg" alt="" class="m-2 mt-3"></span>
-                    </div>
-                    <img src="./images/Beared Guy02-min 1.png" alt="">
-                    <div>
-                        <span class="w-100">
-                            Jane Copper
-                            <div>
-                                Medicine Specialist
+        <div class="col-md p-0">
+            <div class="m-0 p-1 u-navbar justify-content-between row w-100">
+                <!-- new navbar  -->
+                <nav class=" navbar navbar2 navbar-expand-lg navbar-light p-0 m-0">
+                    <div class="container-fluid ">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon text-white"><i
+                                    class="fa-solid fa-ellipsis-vertical"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse row justify-content-center align-items-center"
+                            id="navbarSupportedContent">
+                            <div class="col-md-6">
+                                <div class="w-50">
+                                    <form class="d-flex justify-content-center"
+                                        style="background-color: rgb(44, 45, 46); border-radius: 10px; padding: 0.2rem 1rem;">
+                                        <input class="form-control me-2 bg-transparent border-0 text-white" type="text"
+                                            placeholder="Type here to Search…">
+                                        <div class="bg-transparent d-flex justify-content-center m-2" type="submit">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <ellipse cx="12.1015" cy="10.885" rx="9.10146" ry="8.88476"
+                                                    stroke="#ADB5BD" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M18.4316 17.5259L21.9999 21.0002" stroke="#ADB5BD"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
-                        </span>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled d-flex justify-content-end m-0 align-items-center gap-3">
+                                    <li>
+                                        <img src="./images/icon/Ellipse 176.svg" alt="" class="">
+                                    </li>
+                                    <li>
+                                        <img src="./images/icon/Notification.svg" alt="" class="">
+                                    </li>
+                                    <li>
+                                        <img src="./images/icon/Message.svg" alt="" class="">
+                                    </li>
+                                    <li class="d-flex">
+                                        <img src="./images/Beared Guy02-min 1.png" alt=" " class="p-2">
+                                        <div class="p-2">
+                                            <div class="name">Jane Copper</div>
+                                            <div class="decr">
+                                                Medicine Specialist
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- new navbar  -->
+
+                <div class="c-freme">
+                    <div class="row justify-content-between align-items-center mb-5">
+                        <div class="col-md-6 ">
+                            <div class="good-evening mb-2 m-3">
+                                Good Evening John..!
+                            </div>
+                            <div class="wel ms-3">
+                                Welcome to nairobi game zone
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-md-end text-center">
+                            <button class="btn"><a href="404error.html" class="text-decoration-none text-white btn-2 btn-text" target="_blank">More Games</a></button>
+                        </div>
+                    </div>
+                    <div class="nairobi_back background-box position-relative" style="border-radius: 3rem;">
+                        <div class="position-absolute" style="margin: 0 auto; top:-50px; left: 36%;">
+                            <img src="./images/Camera 2.png" alt="" class="w-75">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="justify-content-center ms-4" style="margin-top:5rem;">
+                                    <div class="title-1">
+                                        Video Game
+                                    </div>
+                                    <p class="matriachy w-75">
+                                        Let The <span class="matriachy-red">Matriachy</span>
+                                        Begin
+                                    </p>
+                                    <div class="mt-4">
+                                        <button class="btn btn-danger fw-bold me-3 btn-3">
+                                            <a href="505error.html" class="text-decoration-none text-white"
+                                                target="_blank">Know more</a></button>
+                                        <button class="btn text-danger bg-danger bg-white fw-bold btn-4">Play</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-end" style="margin-top:5rem;">
+                                <div class="">
+                                    <div class="title-1 text-center">
+                                        Game Starts in:14:23:59
+                                    </div>
+                                    <p class="text-end m-md-3 m-sm-0">
+                                        <video class="img-fluid p-md-4 p-sm-0" controls
+                                            style=" border-radius: 30px; width: 20rem; margin-top: 4rem;">
+                                            <source
+                                                src="./images/video/Money Heist All Characters Edit _ La Casa De Papel Edit _ 1080p 60fps Status(720P_HD).mp4"
+                                                type="video/mp4">
+                                        </video>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid mt-5">
+                        <div class="row">
+                            <div class="col-md-9 p-0">
+                                <div class="row">
+                                    <div class="col upcoming text-start m-2">
+                                        Upcoming Tournaments
+                                    </div>
+                                    <div class="col more text-end m-3">More</div>
+                                </div>
+                                <!-- Card Start Row 1 -->
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col-lg-4 col-md-6 col">
+                                        <div class="card bg-dark card-bg" style="border-radius: 20px;">
+                                            <img src="./images/Frame 1.png" class="card-img-top" alt="...">
+                                            <div class="card-body p-0 m-2 ms-0">
+                                                <p class="card-text sept-2-text"><span class="sept-2">SEPT 02</span>
+                                                    STARTING AT 6:00 AM</p>
+                                                <h5 class="card-title sept-2-title mb-4">COD Warzone Tournament</h5>
+                                                <div class="card-text">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="">
+                                                            <div class="prize ms-0">Prize</div>
+                                                            <div class="price"><img
+                                                                    src="./images/icon/icons8_trophy.svg"> $ 2500</div>
+                                                        </div>
+                                                        <div class="">
+                                                            <div class="prize ms-0">Team size</div>
+                                                            <div class="price"><img
+                                                                    src="./images/icon/icons8_resize-four-directions.svg">4
+                                                                vs 4</div>
+                                                        </div>
+                                                        <div class="">
+                                                            <div class="prize ms-0">Sponsor</div>
+                                                            <div class="price"><img
+                                                                    src="./images/icon/cib_steam.svg">Steam</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col">
+                                        <div class="card bg-dark card-bg" style="border-radius: 20px;">
+                                            <img src="./images/Frame 2.png" class="card-img-top" alt="...">
+                                            <div class="card-body p-0 m-2 ms-0">
+                                                <p class="card-text sept-2-text"><span class="sept-2">SEPT 02</span>
+                                                    STARTING AT 6:00 AM</p>
+                                                <h5 class="card-title sept-2-title mb-4">COD Warzone Tournament</h5>
+                                                <div class="card-text">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="">
+                                                            <div class="prize ms-0">Prize</div>
+                                                            <div class="price"><img
+                                                                    src="./images/icon/icons8_trophy.svg"> $ 2500</div>
+                                                        </div>
+                                                        <div class="">
+                                                            <div class="prize ms-0">Team size</div>
+                                                            <div class="price"><img
+                                                                    src="./images/icon/icons8_resize-four-directions.svg">4
+                                                                vs 4</div>
+                                                        </div>
+                                                        <div class="">
+                                                            <div class="prize ms-0">Sponsor</div>
+                                                            <div class="price"><img
+                                                                    src="./images/icon/cib_steam.svg">Steam</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col">
+                                        <div class="card bg-dark card-bg" style="border-radius: 20px;">
+                                            <img src="./images/Frame 3.png" class="card-img-top" alt="...">
+                                            <div class="card-body p-0 m-2 ms-0">
+                                                <p class="card-text sept-2-text"><span class="sept-2">SEPT 02</span>
+                                                    STARTING AT 6:00 AM</p>
+                                                <h5 class="card-title sept-2-title mb-4">COD Warzone Tournament</h5>
+                                                <div class="card-text">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="">
+                                                            <div class="prize ms-0">Prize</div>
+                                                            <div class="price"><img
+                                                                    src="./images/icon/icons8_trophy.svg"> $ 2500</div>
+                                                        </div>
+                                                        <div class="">
+                                                            <div class="prize ms-0">Team size</div>
+                                                            <div class="price"><img
+                                                                    src="./images/icon/icons8_resize-four-directions.svg">4
+                                                                vs 4</div>
+                                                        </div>
+                                                        <div class="">
+                                                            <div class="prize ms-0">Sponsor</div>
+                                                            <div class="price"><img
+                                                                    src="./images/icon/cib_steam.svg">Steam</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card end row 1 -->
+
+                                <!-- card row 2 start -->
+                                <div class="container-fluid mt-5 p-0">
+
+                                    <div class="row m-3 ms-0 me-0">
+                                        <div class="col upcoming text-start m-2">
+                                            Achivements
+                                        </div>
+                                        <div class="col more text-end m-3">View All</div>
+                                    </div>
+                                    <!-- Card Start Row 1 -->
+                                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                                        <div class="col-lg-4 col-md-6 col">
+                                            <div class="card bg-dark card-bg p-3" style="border-radius: 20px;">
+                                                <!-- <img src="./images/Frame 1.png" class="card-img-top" alt="..."> -->
+                                                <div class="card-body p-0 m-2 ms-0">
+                                                    <div class="d-flex mb-2">
+                                                        <p class="rounded me-2 d-flex gap-1 justify-content-center p-1"
+                                                            style="background-color: #000000; padding: 0 0.5rem;">
+                                                            <img src="./images/icon/la_trophy.svg">
+                                                            <span class="eth">0.0025 ETH</span>
+                                                        </p>
+                                                        <p class="rounded gap-1 d-flex justify-content-center p-1"
+                                                            style="background-color: #000000; padding: 0 0.5rem;">
+                                                            <img src="./images/icon/Time Circle.svg">
+                                                            <span class="time">22:49:33</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <img src="./images/avatar 1.png" alt="">
+                                                        </div>
+                                                        <div class="ms-3">
+                                                            <div class="win">
+                                                                Win 5 Games
+                                                            </div>
+                                                            <p class="inamong">
+                                                                in Among Us
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="progress" style="height: 5px;">
+                                                            <div class="progress-bar bg-danger rounded-pill"
+                                                                role="progressbar" style="width: 30%" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between"
+                                                            style="margin-top: 0.5rem;">
+                                                            <div class="count">2/5</div>
+                                                            <div class="leftcount">3 Left</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col">
+                                            <div class="card bg-dark card-bg p-3" style="border-radius: 20px;">
+                                                <!-- <img src="./images/Frame 1.png" class="card-img-top" alt="..."> -->
+                                                <div class="card-body p-0 m-2 ms-0">
+                                                    <div class="d-flex mb-2">
+                                                        <p class="rounded me-2 d-flex gap-1 justify-content-center p-1"
+                                                            style="background-color: #000000; padding: 0 0.5rem;">
+                                                            <img src="./images/icon/la_trophy.svg">
+                                                            <span class="eth">0.0035 ETH</span>
+                                                        </p>
+                                                        <p class="rounded gap-1 d-flex justify-content-center p-1"
+                                                            style="background-color: #000000; padding: 0 0.5rem;">
+                                                            <img src="./images/icon/Time Circle.svg">
+                                                            <span class="time">42:29:13</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <img src="./images/avatar 2.png" alt="">
+                                                        </div>
+                                                        <div class="ms-3">
+                                                            <div class="win">
+                                                                Win 25 Matches
+                                                            </div>
+                                                            <p class="inamong">
+                                                                in Among Us
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="progress" style="height: 5px;">
+                                                            <div class="progress-bar bg-danger rounded-pill"
+                                                                role="progressbar" style="width: 30%" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between"
+                                                            style="margin-top: 0.5rem;">
+                                                            <div class="count">15/25</div>
+                                                            <div class="leftcount">10 Left</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col">
+                                            <div class="card bg-dark card-bg p-3" style="border-radius: 20px;">
+                                                <!-- <img src="./images/Frame 1.png" class="card-img-top" alt="..."> -->
+                                                <div class="card-body p-0 m-2 ms-0">
+                                                    <div class="d-flex mb-2">
+                                                        <p class="rounded me-2 d-flex gap-1 justify-content-center p-1"
+                                                            style="background-color: #000000; padding: 0 0.5rem;">
+                                                            <img src="./images/icon/la_trophy.svg">
+                                                            <span class="eth">0.0055 ETH</span>
+                                                        </p>
+                                                        <p class="rounded gap-1 d-flex justify-content-center p-1"
+                                                            style="background-color: #000000; padding: 0 0.5rem;">
+                                                            <img src="./images/icon/Time Circle.svg">
+                                                            <span class="time">35:49:43</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <img src="./images/avatar 3.png" alt="">
+                                                        </div>
+                                                        <div class="ms-3">
+                                                            <div class="win">
+                                                                Win 10 Matches
+                                                            </div>
+                                                            <p class="inamong">
+                                                                in Apex legends
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="progress" style="height: 5px;">
+                                                            <div class="progress-bar bg-danger rounded-pill"
+                                                                role="progressbar" style="width: 30%" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between"
+                                                            style="margin-top: 0.5rem;">
+                                                            <div class="count">6/10</div>
+                                                            <div class="leftcount">4 Left</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card row 2 end -->
+                                <!-- Challenges start  -->
+                                <div class="container-fluid mt-5">
+                                    <div class="row justify-content-between m-0 ">
+                                        <div class="col-md-6">
+                                            <div class="title-cha">Challenges</div>
+                                            <div class="sub-title-cha">Accept the Challenge</div>
+                                        </div>
+                                        <div class="col-md-6 challenges">
+                                            <button class="btn btn-5 m-2">Time Left</button>
+                                            <button class="btn btn-6 m-2">Rewards</button>
+                                        </div>
+                                    </div>
+                                    <div class="mt-3" style="border-radius: 30px;">
+                                        <table class="table table-striped table-dark text-white">
+                                            <tbody class="">
+                                                <tr class="">
+                                                    <td class="">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <img src="./images/Char/Frame 1.png" alt=""
+                                                                    class="img-fluid">
+                                                            </div>
+                                                            <div class="table-f-2 m-2">
+                                                                Eat Bullets
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Game Mode</div>
+                                                            <div class="mul-font"> 1 <i
+                                                                    class="fa-solid fa-xmark small"></i>
+                                                                1</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Prize Pool</div>
+                                                            <div class="mul-font">1000</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Entry</div>
+                                                            <div class="mul-font">500</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="">
+                                                        <div class="w-75">
+                                                            <div class="game-font">Challenge Experience</div>
+                                                            <div class="timer-font">00H : 15M</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td class="">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <img src="./images/Char/Frame 2.png" alt=""
+                                                                    class="img-fluid">
+                                                            </div>
+                                                            <div class="table-f-2 m-2">
+                                                                Evillious Energy
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Game Mode</div>
+                                                            <div class="mul-font"> 1 <i
+                                                                    class="fa-solid fa-xmark small"></i>
+                                                                1</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Prize Pool</div>
+                                                            <div class="mul-font">1000</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Entry</div>
+                                                            <div class="mul-font">500</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="">
+                                                        <div class="w-75">
+                                                            <div class="game-font">Challenge Experience</div>
+                                                            <div class="timer-font">00H : 15M</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td class="">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <img src="./images/Char/Frame 3.png" alt=""
+                                                                    class="img-fluid">
+                                                            </div>
+                                                            <div class="table-f-2 m-2">
+                                                                Monstrous Michel
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Game Mode</div>
+                                                            <div class="mul-font"> 1 <i
+                                                                    class="fa-solid fa-xmark small"></i>
+                                                                1</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Prize Pool</div>
+                                                            <div class="mul-font">1000</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Entry</div>
+                                                            <div class="mul-font">500</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="">
+                                                        <div class="w-75">
+                                                            <div class="game-font">Challenge Experience</div>
+                                                            <div class="timer-font">00H : 15M</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td class="">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <img src="./images/Char/Frame 4.png" alt=""
+                                                                    class="img-fluid">
+                                                            </div>
+                                                            <div class="table-f-2 m-2">
+                                                                Duke of Doom
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Game Mode</div>
+                                                            <div class="mul-font"> 1 <i
+                                                                    class="fa-solid fa-xmark small"></i>
+                                                                1</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Prize Pool</div>
+                                                            <div class="mul-font">1000</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Entry</div>
+                                                            <div class="mul-font">500</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="">
+                                                        <div class="w-75">
+                                                            <div class="game-font">Challenge Experience</div>
+                                                            <div class="timer-font">00H : 15M</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td class="">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <img src="./images/Char/Frame 5.png" alt=""
+                                                                    class="img-fluid">
+                                                            </div>
+                                                            <div class="table-f-2 m-2">
+                                                                Gabriel Groomer
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Game Mode</div>
+                                                            <div class="mul-font"> 1 <i
+                                                                    class="fa-solid fa-xmark small"></i>
+                                                                1</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Prize Pool</div>
+                                                            <div class="mul-font">1000</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Entry</div>
+                                                            <div class="mul-font">500</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="">
+                                                        <div class="w-75">
+                                                            <div class="game-font">Challenge Experience</div>
+                                                            <div class="timer-font">00H : 15M</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td class="">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <img src="./images/Char/Frame 6.png" alt=""
+                                                                    class="img-fluid">
+                                                            </div>
+                                                            <div class="table-f-2 m-2">
+                                                                Annihilator
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Game Mode</div>
+                                                            <div class="mul-font"> 1 <i
+                                                                    class="fa-solid fa-xmark small"></i>
+                                                                1</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Prize Pool</div>
+                                                            <div class="mul-font">1000</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Entry</div>
+                                                            <div class="mul-font">500</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="">
+                                                        <div class="w-75">
+                                                            <div class="game-font">Challenge Experience</div>
+                                                            <div class="timer-font">00H : 15M</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td class="">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <img src="./images/Char/Frame 7.png" alt=""
+                                                                    class="img-fluid">
+                                                            </div>
+                                                            <div class="table-f-2 m-2">
+                                                                Veteran of Death
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Game Mode</div>
+                                                            <div class="mul-font"> 1 <i
+                                                                    class="fa-solid fa-xmark small"></i>
+                                                                1</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Prize Pool</div>
+                                                            <div class="mul-font">1000</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <div class="game-font">Entry</div>
+                                                            <div class="mul-font">500</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="">
+                                                        <div class="w-75">
+                                                            <div class="game-font">Challenge Experience</div>
+                                                            <div class="timer-font">00H : 15M</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+
+                                            </tbody>
+                                        </table>
+                                        <!-- <table class="table table-striped m-3 ms-0 border-0 justify-content-center"
+                                            id="customers">
+                                            <tr class="">
+                                                <td class="d-flex justify-content-start">
+                                                    <div>
+                                                        <img src="./images/Char/Frame 1.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="table-f-2 m-2">
+                                                        Eat Bullets
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Game Mode</div>
+                                                        <div class="mul-font"> 1 <i class="fa-solid fa-xmark small"></i>
+                                                            1</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Prize Pool</div>
+                                                        <div class="mul-font">1000</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Entry</div>
+                                                        <div class="mul-font">500</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="justify-content-end">
+                                                        <div class="game-font">Challenge Experience</div>
+                                                        <div class="timer-font">00H : 15M</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-flex justify-content-start w-100">
+                                                    <div>
+                                                        <img src="./images/Char/Frame 2.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="table-f-2 m-2">
+                                                        Evillious Energy
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Game Mode</div>
+                                                        <div class="mul-font"> 1 <i class="fa-solid fa-xmark small"></i>
+                                                            1</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Prize Pool</div>
+                                                        <div class="mul-font">1000</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Entry</div>
+                                                        <div class="mul-font">500</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Challenge Experience</div>
+                                                        <div class="timer-font">00H : 15M</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="m-2">
+                                                <td class="d-flex justify-content-start w-100">
+                                                    <div class="">
+                                                        <img src="./images/Char/Frame 3.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="table-f-2 m-2">
+                                                        Monstrous Michel
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Game Mode</div>
+                                                        <div class="mul-font"> 1 <i class="fa-solid fa-xmark small"></i>
+                                                            1</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Prize Pool</div>
+                                                        <div class="mul-font">1000</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Entry</div>
+                                                        <div class="mul-font">500</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Challenge Experience</div>
+                                                        <div class="timer-font">00H : 15M</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="d-flex justify-content-start w-100">
+                                                    <div class="">
+                                                        <img src="./images/Char/Frame 6.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="table-f-2 m-2">
+                                                        Duke of Doom
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Game Mode</div>
+                                                        <div class="mul-font"> 1 <i class="fa-solid fa-xmark small"></i>
+                                                            1</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Prize Pool</div>
+                                                        <div class="mul-font">1000</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Entry</div>
+                                                        <div class="mul-font">500</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Challenge Experience</div>
+                                                        <div class="timer-font">00H : 15M</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-flex justify-content-start w-100">
+                                                    <div class="">
+                                                        <img src="./images/Char/Frame 4.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="table-f-2 m-2">
+                                                        Gabriel Groomer
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Game Mode</div>
+                                                        <div class="mul-font"> 1 <i class="fa-solid fa-xmark small"></i>
+                                                            1</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Prize Pool</div>
+                                                        <div class="mul-font">1000</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Entry</div>
+                                                        <div class="mul-font">500</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Challenge Experience</div>
+                                                        <div class="timer-font">00H : 15M</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-flex justify-content-start w-100">
+                                                    <div class="">
+                                                        <img src="./images/Char/Frame 7.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="table-f-2 m-2">
+                                                        Annihilator
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Game Mode</div>
+                                                        <div class="mul-font"> 1 <i class="fa-solid fa-xmark small"></i>
+                                                            1</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Prize Pool</div>
+                                                        <div class="mul-font">1000</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Entry</div>
+                                                        <div class="mul-font">500</div>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="">
+                                                        <div class="game-font">Challenge Experience</div>
+                                                        <div class="timer-font">00H : 15M</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="d-flex justify-content-start w-100">
+                                                    <div class="">
+                                                        <img src="./images/Char/Frame 5.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="table-f-2 m-2">
+                                                        Veteran of Death
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Game Mode</div>
+                                                        <div class="mul-font"> 1 <i class="fa-solid fa-xmark small"></i>
+                                                            1</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Prize Pool</div>
+                                                        <div class="mul-font">1000</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Entry</div>
+                                                        <div class="mul-font">500</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <div class="game-font">Challenge Experience</div>
+                                                        <div class="timer-font">00H : 15M</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table> -->
+                                    </div>
+                                </div>
+                                <!-- Challenges end  -->
+                            </div>
+                            <div class="col-md p-0 ">
+                                <div class="main-card-div p-0 ms-3">
+                                    <div class="card mb-3 bg-dark " style="border-radius: 20px;">
+                                        <!-- Team Chat -->
+                                        <div class="d-flex m-2 justify-content-between align-items-center">
+                                            <div class="chat-title m-1">
+                                                Team chat
+                                            </div>
+                                            <div class="m-2">
+                                                <button class="btn btn-7"><i
+                                                        class="fa-solid fa-chevron-right m-1"></i></button>
+                                            </div>
+                                        </div>
+                                        <hr class="m-0">
+                                        <div class="card-team-chat">
+                                            <div
+                                                class="col d-flex justify-content-between gap-2 align-items-center m-3 mb-0">
+                                                <div class="d-flex gap-3 text-start">
+                                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                                        <div>
+                                                            <img src="./images/team chat/Frame 6.png" class="img-fluid"
+                                                                alt="...">
+                                                        </div>
+                                                        <div>
+                                                            <img src="./images/team chat/akar-icons_arrow-forward-thick-fill.png"
+                                                                class="img-fluid" alt="">
+                                                        </div>
+                                                        <div>
+
+                                                            <div class="team-title">
+                                                                Gabriel Groomer
+                                                            </div>
+                                                            <div class="level">
+                                                                Level 8
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col ms-5">
+                                                <div class="card-body">
+                                                    <p class="card-text ps-3">
+                                                        Lorem ipsum dolor sit amet, elit sit consectetur adipiscing
+                                                        elit.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-team-chat">
+                                            <div
+                                                class="col d-flex justify-content-between gap-2 align-items-center m-3 mb-0">
+                                                <div class="d-flex gap-3 text-start">
+                                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                                        <div>
+                                                            <img src="./images/team chat/Frame 4.png" class="img-fluid"
+                                                                alt="...">
+                                                        </div>
+                                                        <div>
+                                                            <img src="./images/team chat/akar-icons_arrow-forward-thick-fill.png"
+                                                                class="img-fluid" alt="">
+                                                        </div>
+                                                        <div>
+
+                                                            <div class="team-title">
+                                                                Annihilator
+                                                            </div>
+                                                            <div class="level">
+                                                                Level 10
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col ms-5">
+                                                <div class="card-body">
+                                                    <p class="card-text ps-3">
+                                                        Lorem ipsum dolor sit amet, elit sit consectetur adipiscing
+                                                        elit.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-team-chat">
+                                            <div
+                                                class="col d-flex justify-content-between gap-2 align-items-center m-3 mb-0">
+                                                <div class="d-flex gap-3 text-start">
+                                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                                        <div>
+                                                            <img src="./images/team chat/Frame 35621.png"
+                                                                class="img-fluid" alt="...">
+                                                        </div>
+                                                        <!-- <div class="d-flex"> -->
+                                                        <div>
+                                                            <img src="./images/team chat/akar-icons_arrow-forward-thick-fill.png"
+                                                                class="img-fluid" alt="">
+                                                        </div>
+                                                        <div>
+
+                                                            <div class="team-title">
+                                                                Eat Bullets
+                                                            </div>
+                                                            <div class="level">
+                                                                Level 7
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col ms-5">
+                                                <div class="card-body">
+                                                    <p class="card-text ps-3">
+                                                        Lorem ipsum dolor sit amet, elit sit consectetur adipiscing
+                                                        elit.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-team-chat">
+                                            <div
+                                                class="col d-flex justify-content-between gap-2 align-items-center m-3 mb-0">
+                                                <div class="d-flex gap-3 text-start">
+                                                    <div class="d-flex justify-content-center align-items-center gap-2">
+
+                                                        <div>
+                                                            <img src="./images/team chat/Frame 12.png" class="img-fluid"
+                                                                alt="...">
+                                                        </div>
+                                                        <!-- <div class="d-flex"> -->
+                                                        <div>
+                                                            <img src="./images/team chat/akar-icons_arrow-forward-thick-fill.png"
+                                                                class="img-fluid" alt="">
+                                                        </div>
+                                                        <div>
+
+                                                            <div class="team-title">
+                                                                Evillious Energy
+                                                            </div>
+                                                            <div class="level">
+                                                                Level 5
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col ms-5">
+                                                <div class="card-body">
+                                                    <p class="card-text ps-3">
+                                                        Lorem ipsum dolor sit amet, elit sit consectetur adipiscing
+                                                        elit.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-team-chat">
+                                            <div
+                                                class="col d-flex justify-content-between gap-2 align-items-center m-3 mb-0">
+                                                <div class="d-flex gap-3 text-start">
+                                                    <div class="d-flex justify-content-center align-items-center gap-2">
+
+                                                        <div>
+                                                            <img src="./images/team chat/Frame 12.png" class="img-fluid"
+                                                                alt="...">
+                                                        </div>
+                                                        <!-- <div class="d-flex"> -->
+                                                        <div>
+                                                            <img src="./images/team chat/akar-icons_arrow-forward-thick-fill.png"
+                                                                class="img-fluid" alt="">
+                                                        </div>
+                                                        <div>
+
+                                                            <div class="team-title">
+                                                                Evillious Energy
+                                                            </div>
+                                                            <div class="level">
+                                                                Level 5
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col ms-5">
+                                                <div class="card-body">
+                                                    <p class="card-text ps-3">
+                                                        Lorem ipsum dolor sit amet, elit sit consectetur adipiscing
+                                                        elit.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-team-chat">
+                                            <div
+                                                class="col d-flex justify-content-between gap-2 align-items-center m-3 mb-0">
+                                                <div class="d-flex gap-3 text-start">
+                                                    <div class="d-flex justify-content-center align-items-center gap-2">
+
+                                                        <div>
+                                                            <img src="./images/team chat/Frame 7.png" class="img-fluid"
+                                                                alt="...">
+                                                        </div>
+                                                        <!-- <div class="d-flex"> -->
+                                                        <div>
+                                                            <img src="./images/team chat/akar-icons_arrow-forward-thick-fill.png"
+                                                                class="img-fluid" alt="">
+                                                        </div>
+                                                        <div>
+
+                                                            <div class="team-title">
+                                                                Duke of Doom
+                                                            </div>
+                                                            <div class="level">
+                                                                Level 8
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col ms-5">
+                                                <div class="card-body">
+                                                    <p class="card-text ps-3">
+                                                        Lorem ipsum dolor sit amet, elit sit consectetur adipiscing
+                                                        elit.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <!-- add two videos -->
+
+                                    <div class="mt-5 gap-5">
+                                        <video controls class="img-fluid mt-3"
+                                            style="border-radius: 30px; height: 200px;">
+                                            <source
+                                                src="./images/video/Money Heist All Characters Edit _ La Casa De Papel Edit _ 1080p 60fps Status(720P_HD).mp4"
+                                                type="video/mp4">
+                                        </video>
+                                        <video controls class="img-fluid mt-5"
+                                            style="border-radius: 30px; height: 200px;">
+                                            <source
+                                                src="./images/video/Money Heist All Characters Edit _ La Casa De Papel Edit _ 1080p 60fps Status(720P_HD).mp4"
+                                                type="video/mp4">
+                                        </video>
+                                    </div>
+
+                                    <!-- video end -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bg-dark p-2 justify-content-between mt-5 pb-4">
+                        <div class="col-md-6 col-12 mt-3 d-flex gap-3 ">
+                            <div class="terms">
+                                Privacy Policy
+                            </div>
+                            <div class="terms">
+                                Terms of Use
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 text-end mt-2">
+                            <div class="full">
+                                <span class="t2021">© 2021 XRay, Made with ❤ by</span> <span class="iqonic"> IQONIC
+                                    Design.</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+
         </div>
+        <!-- col-md-11 end -->
+    </div>
+
     </div>
 
 
 </body>
 
 </html>
+
 
 
 

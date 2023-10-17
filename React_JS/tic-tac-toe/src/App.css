@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.game{
+  display: flex;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+.board-row div {
+  width: 2rem;
+  height: 2rem;
+}
+
+button {
+  background: transparent;
+  border: 2px solid red;
+  /* font-size: 2rem; */
+  min-width: 2rem;
+  max-width: auto;
+  height: 2rem; 
+}
+

@@ -1,36 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 body {
     color: white;
     background-color: #000000;
-}
-
-.btn-danger {
-    border-radius: 0.25rem;
-    background: var(--nairobi-red-db-0-c-26, #DB0C26);
     font-size: 0.7rem;
-    width: 130px;
 }
 
-.input-hover{
-    background-color: #1A1A1A;
-    color: white;
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.input-hover:hover{
-    background-color: white;
-    color: black;
-}
-
-@media only screen and (max-width: 600px) {
-    .bottom-logo {
-        margin: 0px auto;
-        display: flex;
-        justify-content: center;
-        /* background-color: #DB0C26; */
-    }
-}
-
-
-/* This is NAIROBI_CONFIRM.html Css Started*/
 
 .logo {
     color: #FFF;
@@ -39,7 +23,7 @@ body {
     padding: 0.1875rem 1.96875rem;
     justify-content: center;
     align-items: center;
-    font-family: Scada;
+    font-family: 'Scada', sans-serif;
     /* font-size: 2.5rem; */
     font-style: normal;
     font-weight: 700;
@@ -48,7 +32,7 @@ body {
 
 .robilogo {
     color: #FF0404;
-    font-family: Scada;
+    font-family: 'Scada', sans-serif;
     /* font-size: 2.5rem; */
     font-style: normal;
     font-weight: 700;
@@ -61,109 +45,37 @@ body {
     /* width:; */
 }
 
-.bg-w {
-    width: 75%;
-}
 
-@media only screen and (max-width: 600px) {
-    .bg-w {
-        width: 100%;
-    }
-}
-
-.pwd {
+.btn-danger {
+    /* display: flex; */
+    border-radius: 0.25rem;
+    background: var(--nairobi-red-db-0-c-26, #DB0C26);
+    padding: 0.5rem 1.5rem;
+    justify-content: center;
     color: #FFF;
-    font-family: Poppins;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 500;
-    /* width: 50%; */
-    line-height: normal;
-}
-
-/* .confirm-bg{
-    background-image: url('images/Char/c-1.png');
-    background-size: 95%;
-    background-repeat: no-repeat;
-    background-position: right;
-    margin-right: 0px;
-    width: 100%;
-    height: 100%;
-} */
-
-
-/* This is NAIROBI_CONFIRM.html Css Ended*/
-
-
-/*404Error.html*/
-
-.con404 {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-.main-title-error-404 {
-    color: #FFF;
-    font-family: 'Poppins', sans-serif;
-    /* font-size: 100px; */
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.main-sub-title-error-404 {
-    color: #FFF;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1rem;
-    line-height: normal;
+    color: #FFF;
 }
 
-
-/*404Error.html end */
-
-/* 505  */
-
-.con505 {
-    height: 100vh;
-    display: flex;
-    align-items: center;
+.input-hover {
+    background-color: #1A1A1A;
+    color: white;
 }
 
-/* 505 */
-
-.menus {
-    width: 70px;
-    background-color: rgb(34, 41, 48);
-    height: 100vh;
+.input-hover:hover {
+    background-color: white;
+    color: black;
 }
 
 @media only screen and (max-width: 600px) {
-    .menus {
-        width: 70px;
-        background-color: rgb(34, 41, 48);
-        height: auto;
-    }
-
-    .menus ul li {
-        padding-left: 1.5rem;
+    .bottom-logo {
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        /* background-color: #DB0C26; */
     }
 }
-
-.menus ul {
-    margin: 0 auto;
-    margin-top: 2rem;
-}
-
-.menus ul li {
-    margin-top: 1rem;
-}
-
-.menus ul li:hover {
-    background: red;
-    width: 100px;
-}
-
 
 
 
