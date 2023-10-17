@@ -1,20 +1,18 @@
 
  Live URL link: 
- https://madhavgediya.github.io/NAVIGATION-BAR-TASK/R
-    
+ https://madhavgediya.github.io/NAVIGATION-BAR-TASK/    
 
 
-task :- Make React JS Task  tic-tac-toe 
+task :- Learn React JS & Next JS 
 
 topic:-
-        make Components
-        make useStates
-        make copy function, extra space remove function
-        Convert Theme Dark mode, Blud mode, Green mode
-        make alert box component and import app.js
-        install react-router-dom
-        basic details of react router
-        make basic navbar without reload pages
+        Learn Next JS 
+        Install Next JS 
+        Print "Demo"
+        Learn States and Props  
+        Make Components
+
+
         
 
 
