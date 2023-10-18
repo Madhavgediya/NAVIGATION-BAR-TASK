@@ -6,13 +6,12 @@
 task :- Learn React JS & Next JS 
 
 topic:-
-        Learn Next JS 
-        Install Next JS 
-        Print "Demo"
-        Learn States and Props  
-        Make Components
-
-
+        Learn Difference between Liabrary and Framework 
+        Life Cycle
+        React history
+        First Mini Program 
+        Event Onclick use
+                
         
 
 
