@@ -5,6 +5,11 @@ History
 Class Base & Function Base Components
 React Router
 Folder Structure
+FreameWork vs Library
+npm, npx 
+Linux & Ubuntu & windows
+React VS Next
+ 
 
 Node.js => Next.js
 
