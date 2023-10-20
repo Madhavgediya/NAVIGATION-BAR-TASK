@@ -1,19 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
-
+import {Link} from "react-router-dom";
 
 export default function Navbar(props) {
+  // const [myStyle, setMyStyle] = useState({
+  //   backgroundColor: '#131313'
+  // })
+
+  // const changeMode = () =>{
+  //   if(myStyle.backgroundColor == '#131313'){
+  //     setMyStyle({
+  //       backgroundColor:'pink',
+  //     })
+  //   }
+  //   else{
+  //     setMyStyle({
+  //       backgroundColor:'green',
+  //     })
+  //   }
+  // }
+
+
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-dark">
+      <nav className="navbar navbar-expand-lg bg-dark ">
         <div className="container-fluid ">
-          <a className="navbar-brand text-white" href="https://sulok.digital/">
+          <Link className="navbar-brand text-white" to="/">
             <img
               src={props.logo}
               className="text-center justify-content-center p-2 m-0"
               alt={props.logo}
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler text-white"
             type="button"
@@ -24,7 +42,7 @@ export default function Navbar(props) {
             aria-label="Toggle navigation"
           >
             <span className="text-white navbar-toggler-icon">
-            <i className="bi bi-three-dots-vertical text-white fs-1"></i>
+              <i className="bi bi-three-dots-vertical text-white fs-1"></i>
             </span>
           </button>
           <div
@@ -33,24 +51,32 @@ export default function Navbar(props) {
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active text-white"
                   aria-current="page"
-                  href="https://sulok.digital/"
+                  to="/"
                 >
                   {props.home}
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link text-white"
-                  href="https://sulok.digital/about-us-3"
+                  to="/about"
                 >
                   {props.about}
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white">{props.service}</a>
+                <Link
+                  className="nav-link text-white"
+                  to="/contect"
+                >
+                  {props.contect}
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="/list">{props.service}</Link>
               </li>
             </ul>
             <form className="d-flex" role="search">
@@ -67,26 +93,37 @@ export default function Navbar(props) {
                 Search
               </button>
             </form>
+            <div className="form-check form-switch m-3 me-0">
+              <input
+                className="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+                // onClick={changeMode}
+              />
+            </div>
           </div>
         </div>
       </nav>
     </>
-    
   );
 }
 
-Navbar.protoType = { 
-    logo: PropTypes.string.isRequired,
-    home: PropTypes.string.isRequired,
-    about: PropTypes.string.isRequired,
-    service: PropTypes.string.isRequired,  
+Navbar.protoType = {
+  logo: PropTypes.string.isRequired,
+  home: PropTypes.string.isRequired,
+  about: PropTypes.string.isRequired,
+  contect: PropTypes.string.isRequired,
+  service: PropTypes.string.isRequired,
 };
 
 Navbar.defaultProps = {
-    logo : "Enter Logo",
-    home : "HOME",
-    about : "ABOUT",
-    service : "SERVICE",
-}
+  logo: "Enter Logo",
+  home: "HOME",
+  about: "ABOUT",
+  contect: "CONTECT US",
+  service: "SERVICE",
+};
+
 
 
