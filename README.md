@@ -6,11 +6,9 @@
 task :- Learn React JS & Next JS 
 
 topic:-
-        Learn Difference between Liabrary and Framework 
-        Life Cycle
-        React history
-        First Mini Program 
-        Event Onclick use
+        Learn Difference between React JS and Next 
+        JSX Topic
+        
                 
         
 
