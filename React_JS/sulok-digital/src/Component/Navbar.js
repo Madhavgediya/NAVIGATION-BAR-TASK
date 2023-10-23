@@ -93,7 +93,7 @@ export default function Navbar(props) {
                 Search
               </button>
             </form>
-            <div className="form-check form-switch m-3 me-0">
+            {/* <div className="form-check form-switch m-3 me-0">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -101,7 +101,7 @@ export default function Navbar(props) {
                 id="flexSwitchCheckDefault"
                 // onClick={changeMode}
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>
