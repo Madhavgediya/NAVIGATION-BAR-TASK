@@ -3,16 +3,14 @@
  https://madhavgediya.github.io/NAVIGATION-BAR-TASK/    
 
 
-task :- Learn React JS & Next JS 
+task :- Learn React JS  
 
 topic:-
-        Learn Difference between React JS and Next 
-        JSX Topic
-        Make Basic WebSite in React JS 
-        Learn React JS Router
-        Make Components
-        Make Style in React JS
-                
+        make new project in react js 
+        fetch api 
+        make component
+        understanding state in class component
+        fetch data and display data
         
 
 

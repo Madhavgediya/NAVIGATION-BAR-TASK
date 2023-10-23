@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 38,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Sam Meredith, Joanna Tan",
+            "title": "Israel-Hamas war updates and latest news on Gaza conflict - CNBC",
+            "description": "Israel's military has pledged to step up its bombardment of the besieged Gaza Strip in the next stage of the war.",
+            "url": "https://www.cnbc.com/2023/10/22/israel-hamas-war-updates-and-latest-news-on-gaza-conflict.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107321292-1697971010628-gettyimages-1737988302-AA_22102023_1387652.jpeg?v=1697971065&w=1920&h=1080",
+            "publishedAt": "2023-10-22T10:37:00Z",
+            "content": "A top official with Hezbollah vowed that Israel will pay a high price whenever it starts a ground offensive in the Gaza Strip and said Saturday that his militant group based in Lebanon already is \"in… [+1312 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nbcsportsphiladelphia.com"
+            },
+            "author": "Corey Seidman",
+            "title": "Zack Wheeler becoming an October legend before our very eyes - NBC Sports Philadelphia",
+            "description": "What Zack Wheeler did for the Phillies Saturday night in Game 5 of the NLCS might have been more important than anything he’s done to this point in his career.",
+            "url": "http://www.nbcsportsphiladelphia.com/mlb/philadelphia-phillies/phillies-news/zack-wheeler-phillies-bullpen-diamondbacks-nlcs-bryce-harper/542025/",
+            "urlToImage": "https://media.nbcsportsphiladelphia.com/2023/10/GettyImages-1737967021.jpg?quality=85&strip=all&resize=1200%2C675",
+            "publishedAt": "2023-10-22T09:51:31Z",
+            "content": "PHOENIX It's become difficult to find new ways to describe Zack Wheeler's postseason dominance, but what he did for the Phillies Saturday night in Game 5 of the NLCS might have been the most importan… [+3951 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": "Edward White, Kathrin Hille",
+            "title": "China launches investigation into iPhone maker Foxconn, says state media - Financial Times",
+            "description": "Tax authorities said to have inspected a number of the Apple supplier’s sites in provinces",
+            "url": "https://www.ft.com/content/e6abcb86-1c80-4914-ae54-c7df94d7a9e0",
+            "urlToImage": null,
+            "publishedAt": "2023-10-22T09:17:07Z",
+            "content": "What is included in my trial?\r\nDuring your trial you will have complete digital access to FT.com with everything in both of our Standard Digital and Premium Digital packages.\r\nStandard Digital includ… [+1494 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "JIM GOMEZ Associated Press",
+            "title": "Philippines says a coast guard ship and supply boat were rammed by Chinese vessels at disputed shoal - ABC News",
+            "description": "Philippine officials say a Chinese coast guard ship and an accompanying vessel rammed a Philippine coast guard ship and a military-run supply boat near a contested shoal",
+            "url": "https://abcnews.go.com/International/wireStory/philippines-coast-guard-ship-supply-boat-hit-chinese-104202084",
+            "urlToImage": "https://i.abcnewsfe.com/a/5429039d-1d47-4a1f-be01-8e1c8884cf31/wirestory_64d4fad7bb42b44f991df183fb39fe1d_16x9.jpg?w=992",
+            "publishedAt": "2023-10-22T09:04:08Z",
+            "content": "MANILA, Philippines -- A Chinese coast guard ship and an accompanying vessel rammed a Philippine coast guard ship and a military-run supply boat Sunday off a contested shoal, Philippine officials sai… [+4542 chars]"
+        },
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera",
+            "title": "Russia-Ukraine war: List of key events, day 606 - Al Jazeera English",
+            "description": "As the war enters its 606th day, these are the main developments.",
+            "url": "https://www.aljazeera.com/news/2023/10/22/russia-ukraine-war-list-of-key-events-day-606",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/10/2023-10-21T093257Z_325148917_RC2UW3A0BSZ0_RTRMADP_3_UKRAINE-CRISIS-KYIV-1697953102.jpg?resize=1920%2C1440",
+            "publishedAt": "2023-10-22T08:54:03Z",
+            "content": "Turkey will join talks aimed at finding ways to end the Ukraine conflict, Zelenskyy said on Saturday after speaking with Turkish counterpart Recep Tayyip Erdogan. We discussed the next round of negot… [+300 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Sara Smart, Nouran Salahieh",
+            "title": "Police are searching for motive in the death of the Detroit synagogue leader who was found with multiple stab wounds - CNN",
+            "description": "Investigators are searching for a motive in the death of a Detroit synagogue leader found stabbed over the weekend, the city’s police chief said.",
+            "url": "https://www.cnn.com/2023/10/22/us/detroit-president-synagogue-killing-sunday/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/231021155134-samantha-woll.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-10-22T05:26:00Z",
+            "content": "Investigators are searching for a motive in the death of a Detroit synagogue leader found stabbed over the weekend, the citys police chief said.\r\nThe body of Samantha Woll, president of the board of … [+3704 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Suntimes.com"
+            },
+            "author": "Georgia Nicols",
+            "title": "Horoscope for Sunday, Oct. 22, 2023 - Chicago Sun-Times",
+            "description": null,
+            "url": "https://chicago.suntimes.com/2023/10/22/23923134/horoscopes-today-sunday-oct-22-2023",
+            "urlToImage": "https://cst.brightspotcdn.com/dims4/default/dbaaf98/2147483647/strip/true/crop/870x497+0+67/resize/1461x834!/quality/90/?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FTFkiCiySDPyEYQ64TztaotlHez0%3D%2F0x0%3A870x630%2F870x630%2Ffilters%3Afocal%28435x315%3A436x316%29%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F25013292%2FGeorgia_mug.jpeg",
+            "publishedAt": "2023-10-22T05:03:27Z",
+            "content": "Moon Alert\r\nAfter 1:30 a.m. Chicago time, there are no restrictions to shopping or important decisions. The moon is in Aquarius.\r\nAries (March 21-April 19)\r\nDiscussions about shared property, the wea… [+3833 chars]"
+        },
+        {
+            "source": {
+                "id": "buzzfeed",
+                "name": "Buzzfeed"
+            },
+            "author": "AnaMaria Glavan",
+            "title": "29 Low-Effort Tips To Help You Look *And* Feel More Put-Together - BuzzFeed",
+            "description": "Please stop skipping breakfast.",
+            "url": "https://www.buzzfeed.com/anamariaglavan/low-effort-tips-help-put-together-an",
+            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2023-10/17/5/campaign_images/487e7c4947ca/29-low-effort-tips-to-help-you-look-and-feel-more-3-1072-1697519851-0_dblbig.jpg",
+            "publishedAt": "2023-10-22T04:31:02Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "NAJIB JOBAIN, JOSEPH KRAUSS, SAMY MAGDY",
+            "title": "Egypt's border crossing opens to let a trickle of desperately needed aid into besieged Gaza - The Associated Press",
+            "description": "The border crossing between Egypt and Gaza has opened to let a trickle of desperately needed aid into the besieged Palestinian territory. This was the first aid allowed in since Israel sealed Gaza off in the wake of Hamas’ bloody rampage two weeks ago. Only 2…",
+            "url": "https://apnews.com/article/israel-palestinians-gaza-captives-border-aid-f5976ed58ba508f14d45b72b428125ac",
+            "urlToImage": "https://dims.apnews.com/dims4/default/5b85b52/2147483647/strip/true/crop/8640x4860+0+450/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8e%2F30%2F5955ad4a57dbaeedf60f618af50b%2Fdac88efc26154860aa56658880177607",
+            "publishedAt": "2023-10-22T04:24:00Z",
+            "content": "RAFAH, Gaza Strip (AP) The border crossing between Egypt and Gaza opened Saturday to let a trickle of desperately needed aid into the besieged Palestinian territory for the first time since Israel se… [+9694 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Action Network"
+            },
+            "author": "Sean Koerner",
+            "title": "NFL Player Props Week 7: Expert Picks for Josh Jacobs, Keaontay Ingram - The Action Network",
+            "description": "Sean Koerner reveals his NFL player props for Week 7.",
+            "url": "https://www.actionnetwork.com/nfl/nfl-player-props-week-7",
+            "urlToImage": "https://images.actionnetwork.com/blog/2023/10/nfl-player-props-week-7.jpg",
+            "publishedAt": "2023-10-22T04:07:00Z",
+            "content": "This file will be updated throughout Friday and Saturday with all of my NFL player props for Week 7, so be sure to bookmark it and check back periodically.\r\nNelson Agholor\r\nUnder 24.5 Receiving Yards… [+7543 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NCAA.com"
+            },
+            "author": "NCAA.com",
+            "title": "Marvin Harrison Jr. masterclass powers Ohio State past Penn State 20-12 - NCAA.com",
+            "description": "Ohio State's leverages Marvin Harrison Jr.'s 11 reception, 162 yard performance to beat Penn State 20-12. Read about all the action from Columbus Saturday here.",
+            "url": "https://www.ncaa.com/live-updates/football/fbs/marvin-harrison-jr-masterclass-powers-ohio-state-past-penn-state-20-12",
+            "urlToImage": "https://www.ncaa.com/_flysystem/public-s3/images/2023-10/marvin-harrison-touchdown-ohio-state-penn-state.jpg",
+            "publishedAt": "2023-10-22T04:00:50Z",
+            "content": "A punt-filled first quarter Saturday served as two heavyweight fighters feeling out their vaunted opponents, and the lessons learned were pretty evident to the viewing public: Penn State and Ohio Sta… [+2892 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Faris Tanyos",
+            "title": "U.S. sending U.S. carrier strike group, additional air defense systems to Persian Gulf - CBS News",
+            "description": "The moves come as U.S. military bases in Iraq and Syria have seen an increase in attacks by Iran-backed Shia militia groups in recent days.",
+            "url": "https://www.cbsnews.com/news/uss-dwight-d-eisenhower-strike-group-additional-air-defense-systems-persian-gulf-iran-iraq-syria-hamas-israel-war/",
+            "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2015/11/25/c07f3f5b-ae18-4dd4-8013-4827ea38c5a8/thumbnail/1200x630/903612e431d5a43103914b78c7c0a692/ike4.jpg?v=18a5d3569ab1a3ca759fe14d213f7845",
+            "publishedAt": "2023-10-22T03:54:18Z",
+            "content": "As tensions heighten in the Middle East amid the escalating Israel-Hamas war, Defense Secretary Lloyd Austin announced late Saturday that the U.S. will redeploy one of its strike groups to the Persia… [+2038 chars]"
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Isaac Stanley-Becker, Amy Gardner, Josh Dawsey",
+            "title": "Sidney Powell once fought for Trump. With Georgia plea, she's a threat. - The Washington Post - The Washington Post",
+            "description": "Powell, who was angry that Trump didn’t act on her counsel, is the now government’s most prominent asset in its quest to convict him.",
+            "url": "https://www.washingtonpost.com/national-security/2023/10/21/sidney-powell-trump-georgia-election-case/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HHKAFZBU5YI6XKMXD5GFHUVHI4.jpg&w=1440",
+            "publishedAt": "2023-10-22T03:43:00Z",
+            "content": "Comment on this story\r\nComment\r\nAdd to your saved stories\r\nSave\r\nIn the weeks after the 2020 election, a self-assured lawyer with a Southern drawl quickly climbed the ranks of the movement trying to … [+16144 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Paul LaRosa",
+            "title": "Convicted killer known as the Zombie Hunter says life on death row is cold, food is \"not great\" - CBS News",
+            "description": "Bryan Patrick Miller answers email questions from \"48 Hours\" about Phoenix canal murders",
+            "url": "https://www.cbsnews.com/news/zombie-hunter-bryan-patrick-miller-convicted-killer-death-row-48-hours/",
+            "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2023/10/21/12ac6fcc-3103-483f-b5e6-ff7defc3d578/thumbnail/1200x630/d6db2fdd91fb42e0332625608f1b4219/zombie-prison-mug.jpg?v=18a5d3569ab1a3ca759fe14d213f7845",
+            "publishedAt": "2023-10-22T02:45:00Z",
+            "content": "Bryan Patrick Miller did not testify at his recent murder trial for killing two young women in the early 1990's but, when a \"48 Hours\" producer contacted him by email, he was ready to talk about the … [+3646 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "New details emerge on release of 2 American hostages - CBS Evening News",
+            "description": "Qatar helped negotiate the release Friday of a mother and daughter from Illinois who were kidnapped by Hamas militants in the Oct. 7 invasion of southern Isr...",
+            "url": "https://www.youtube.com/watch?v=Inn-Xl-bUEs",
+            "urlToImage": "https://i.ytimg.com/vi/Inn-Xl-bUEs/maxresdefault.jpg",
+            "publishedAt": "2023-10-22T01:14:57Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Knoxville News Sentinel"
+            },
+            "author": "Mike Wilson",
+            "title": "Josh Heupel responds with silence about Tennessee-Alabama officiating - Knoxville News Sentinel",
+            "description": "Tennessee football was called for eight penalties for 55 yards compared to Alabama's one for five yards in a 34-20 loss.",
+            "url": "https://www.knoxnews.com/story/sports/college/university-of-tennessee/football/2023/10/21/josh-heupel-officiating-tennessee-alabama-game-college-football-week-8/71275965007/",
+            "urlToImage": "https://www.knoxnews.com/gcdn/authoring/authoring-images/2023/10/22/PKNS/71276677007-kns-ut-bama-bp-18.jpg?crop=4573,2572,x0,y0&width=3200&height=1800&format=pjpg&auto=webp",
+            "publishedAt": "2023-10-22T00:44:05Z",
+            "content": "TUSCALOOSA, Ala. Josh Heupel was silent for approximately 15 seconds when asked about the officiating in Tennessee football's 34-20 loss to Alabama on Saturday.\r\nNext question, yeah? Was that a long … [+2012 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": null,
+            "title": "Norma makes landfall near Mexico's Los Cabos resorts as Category 1 hurricane - CBS News",
+            "description": "Norma is expected to continue weakening over the weekend as it crosses into the Sea of Cortez, also known as the Gulf of California.",
+            "url": "https://www.cbsnews.com/news/norma-landfall-mexico-los-cabos-resorts-tropical-storm-hurricane/",
+            "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2023/10/22/649ddd56-7391-4a98-b08a-86e594a7dcff/thumbnail/1200x630/c6dfa8364dd8265771f0f49732bd3a14/gettyimages-1737964270.jpg?v=18a5d3569ab1a3ca759fe14d213f7845",
+            "publishedAt": "2023-10-22T00:13:00Z",
+            "content": "Hurricane Norma made landfall near the resorts of Los Cabos at the southern tip of Mexico's Baja California Peninsula on Saturday afternoon. It was downgraded to a tropical storm by Saturday evening,… [+6692 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Harry Maguire reacts to Man United icon Sir Bobby Charlton's death | Premier League | NBC Sports - NBC Sports",
+            "description": "Harry Maguire joins Rebecca Lowe and the chaps following his man of the match performance for Manchester United against Sheffield United, and shares his thou...",
+            "url": "https://www.youtube.com/watch?v=ewALggChuRs",
+            "urlToImage": "https://i.ytimg.com/vi/ewALggChuRs/maxresdefault.jpg",
+            "publishedAt": "2023-10-22T00:02:03Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WPEC"
+            },
+            "author": "ALEXANDRA OLSON, ANNE D'INNOCENZIO and HALELUYA HADERO | AP Business Writers",
+            "title": "Company bosses and workers grapple with the fallout of speaking up about the Israel-Hamas war - KATU",
+            "description": "The fallout from the Israel-Hamas war has spilled into workplaces everywhere, making it nearly impossible to come up with a unifying message.",
+            "url": "https://cbs12.com/news/nation-world/company-bosses-and-workers-grapple-with-the-fallout-of-speaking-up-about-the-israel-hamas-war-10-21-2023",
+            "urlToImage": "https://cbs12.com/resources/media/107e56e8-ffab-4830-bed5-d4fd7cc8c295-large16x9_AP23293746336492.jpg",
+            "publishedAt": "2023-10-21T23:01:19Z",
+            "content": "NEW YORK (AP) Starbucks accused a union representing thousands of its baristas of damaging the brand and endangering co-workers with a pro-Palestinian tweet. The CEO of a prominent tech conference re… [+6947 chars]"
+        },
+        {
+            "source": {
+                "id": "politico",
+                "name": "Politico"
+            },
+            "author": null,
+            "title": "House Republicans push unity 'pledge' to guarantee a speaker - POLITICO",
+            "description": "The GOP is wary of another fiasco on the House floor.",
+            "url": "https://www.politico.com/news/2023/10/21/speakership-scramble-continues-with-new-crop-of-candidates-staking-their-claims-00122884",
+            "urlToImage": "https://static.politico.com/fa/ac/0500b2fd493d972f36624423faff/mike-flood-75850.jpg",
+            "publishedAt": "2023-10-21T22:32:03Z",
+            "content": "Support for the strategy built rapidly Saturday, with signatures from speakership candidates Reps. Austin Scott (Ga.), Mike Johnson (La.), Pete Sessions (Texas), Jack Bergman (Mich.) and Kevin Hern (… [+2426 chars]"
+        }
+    ]
+}
