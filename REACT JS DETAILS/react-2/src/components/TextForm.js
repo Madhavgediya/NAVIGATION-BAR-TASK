@@ -68,7 +68,7 @@ export default function TextForm(props) {
       </div>
       <div>
         Here We will Count word and characters... <br />
-        word :- <b> {text.split(" ").filter((element)=>{return element.length!=0}).length} </b> <br />
+        word :- <b> {text.split(/\s+/).filter((element)=>{return element.length!=0}).length} </b> <br />
         char :- <b> {text.length} </b> <br />
       </div>
       <div>
