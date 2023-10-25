@@ -14,7 +14,7 @@ export default class NewsItem extends Component {
             {description}
             </p>
             <a href={newsUrl} target="_blank" className="btn btn-primary">
-              Go somewhere
+             Read More
             </a>
           </div>
         </div>
