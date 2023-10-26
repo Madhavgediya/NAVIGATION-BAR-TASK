@@ -1,25 +1,64 @@
-import React, { Component } from 'react'
-import Navbar from './Components/Navbar'
-import News from './Components/News'
+import React, { Component } from "react";
+import Navbar from "./Components/Navbar";
+import News from "./Components/News";
+import { BrowserRouter as Main, Routes, Route } from "react-router-dom";
+
 export default class App extends Component {
+  pageSize=6;
   render() {
     return (
-      <div>
-        <Navbar/>
-        <News pageSize={6} country="in" category="sports"/>
-      </div>
-    )
+      <Main>
+        <div>
+          <Navbar />
+          <Routes>
+            <Route
+              exact
+              path="/"
+              element={<News pageSize={this.pageSize} country="in" category="general" key="general"/>}
+            />
+            <Route
+              exact
+              path="/business"
+              element={<News pageSize={this.pageSize} country="in" category="business" key="business1"/>}
+            />
+            <Route
+              exact
+              path="/entertainment"
+              element={
+                <News pageSize={this.pageSize} country="in" category="entertainment" key="entertainment" />
+              }
+            />
+            <Route
+              exact
+              path="/general"
+              element={<News pageSize={this.pageSize} country="in" category="general" key="general"/>}
+            />
+            <Route
+              exact
+              path="/health"
+              element={<News pageSize={this.pageSize} country="in" category="health" key="health"/>}
+            />
+            <Route
+              exact
+              path="/science"
+              element={<News pageSize={this.pageSize} country="in" category="science" key="science"/>}
+            />
+            <Route
+              exact
+              path="/sports"
+              element={<News pageSize={this.pageSize} country="in" category="sports" key="sports"/>}
+            />
+            <Route
+              exact
+              path="/technology"
+              element={<News pageSize={this.pageSize} country="in" category="technology" key="technology"/>}
+            />
+          </Routes>
+        </div>
+      </Main>
+    );
   }
 }
-
-
-
-
-
-
-
-
-
 
 // import logo from './logo.svg';
 // import './App.css';

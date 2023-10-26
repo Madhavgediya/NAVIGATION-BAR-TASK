@@ -6,10 +6,11 @@
 task :- Learn React JS  
 
 topic:-
-       Add loader effect when the page refresh 
-       install react-router-dom , 
-       use propstype & defaultProps ,
-       add Next page and Previous page Button , 
+       add a badge and add author name ,date ,time ,
+       remove the next and previous button, 
+       add the vertical scroll the news,
+       create the Update() function,
+
         
 
 
