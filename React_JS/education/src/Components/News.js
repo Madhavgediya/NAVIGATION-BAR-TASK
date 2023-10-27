@@ -34,39 +34,37 @@ export default class News extends Component {
       this.props.category
     )} - News API`;
   }
-
-  async componentDidMount() {
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=2f4d6fe8d7114fc18cb952656e28245c&page=1&pageSize=${this.props.pageSize}`;
+  async updateButton() {
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
     //   console.log(parsedData)
     this.setState({
+      page: this.state.page,
       articles: parsedData.articles,
-      totalResults: parsedData.totalResults,
       loading: false,
     });
   }
 
-  async updateButton() {
-    if (
-      !(
-        this.state.page + 1 >
-        Math.ceil(this.state.totalResults / this.props.pageSize)
-      )
-    ) {
-      let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=2f4d6fe8d7114fc18cb952656e28245c&page=${this.state.page}&pageSize=${this.props.pageSize}`;
-      this.setState({ loading: true });
-      let data = await fetch(url);
-      let parsedData = await data.json();
-      //   console.log(parsedData)
-      this.setState({
-        page: this.state.page,
-        articles: parsedData.articles,
-        loading: false,
-      });
-    }
+  async componentDidMount() {
+    this.updateButton();
+    // this.props.setProgress(10);
+    // let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=1&pageSize=${this.props.pageSize}`;
+    // // 2f4d6fe8d7114fc18cb952656e28245c
+    // this.setState({ loading: true });
+    // let data = await fetch(url);
+    // let parsedData = await data.json();
+    // this.props.setProgress(50);
+    // //   console.log(parsedData)
+    // this.setState({
+    //   articles: parsedData.articles,
+    //   totalResults: parsedData.totalResults,
+    //   loading: false,
+    // });
+    // this.props.setProgress(100);
   }
+
 
   // handlePrevClick = async () => {
   //   console.log("Previous");
@@ -104,20 +102,21 @@ export default class News extends Component {
 
   fetchMoreData = async () => {
     this.setState({ page: this.state.page + 1 });
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=2f4d6fe8d7114fc18cb952656e28245c&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     // this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
     //   console.log(parsedData)
     this.setState({
-      page: this.state.page,
+      // page: this.state.page,
       articles: this.state.articles.concat(parsedData.articles),
-      loading: false,
+      totalResults: parsedData.totalResults,
+      // loading: false,
     });
+    
   };
 
   render() {
-    // console.log("render");
     return (
       <>
         <h1 className="text-center border border-3 border-primary p-4 m-4">
@@ -131,7 +130,7 @@ export default class News extends Component {
           >
             <i className="fa-solid fa-left-long"></i> &nbsp; Previous
           </button> */}
-        {/* {this.state.loading && <Spinner />} */}
+        {this.state.loading && <Spinner />}
         {/* <button
             disabled={
               this.state.page + 1 >
@@ -146,7 +145,7 @@ export default class News extends Component {
         <InfiniteScroll
           dataLength={this.state.articles.length}
           next={this.fetchMoreData}
-          hasMore={this.state.articles.length !== this.totalResults}
+          hasMore={this.state.articles.length !== this.state.totalResults}
           loader={<Spinner />}
         >
           <div className="container-fluid">
