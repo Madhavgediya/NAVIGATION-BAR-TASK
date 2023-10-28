@@ -1,0 +1,9 @@
+SSR
+CSR
+Critical CSS
+Wappalyzer
+Lighthouse
+types of rendering
+brief intro of dev tools element, network, lighthouse, source, console, couverage
+server and browser
+http mqtt ws ssh other protocols
