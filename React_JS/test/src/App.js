@@ -1,19 +1,33 @@
-import React from "react";
-import Navbar from "./Components/Navbar";
-// import { Link } from "react-router-dom";
-import Home from "./Components/Home";
-import { BrowserRouter as Main, Routes, Route } from "react-router-dom";
+import React from 'react';
+import Navbar from './Components/Navbar';
+import { BrowserRouter as Main , Route,Routes } from 'react-router-dom';
+import News from './Components/News';
 
-export default function App() {
+
+function App(props) {
+
   return (
-    <div>
-      <Main>
-      {/* <Home /> */}
-        <Navbar />
-        <Routes>
-          <Route/>
+    <Main>
+    <Navbar />
+    
+    <Routes>
+          <Route path="/" element={<News allData={true} />} />
+          <Route exact path='/:id' element={<News id={props.id}/>} />   
+          <Route exact path='/:id' element={<News id={props.id}/>} /> 
+          <Route exact path='/:id' element={<News id={props.id}/>} />   
+          <Route exact path='/:id' element={<News id={props.id}/>} />   
+          <Route exact path='/:id' element={<News id={props.id}/>} />   
+          <Route exact path='/:id' element={<News id={props.id}/>} />   
+          <Route exact path='/:id' element={<News id={props.id}/>} />   
+          <Route exact path='/:id' element={<News id={props.id}/>} />   
+          <Route exact path='/:id' element={<News id={props.id}/>} />   
+          <Route exact path='/:id' element={<News id={props.id}/>} />  
+          <Route exact path='/:id' element={<News id={props.id}/>} />   
+          <Route exact path='/:id' element={<News id={props.id}/>} />      
         </Routes>
-      </Main>
-    </div>
+    </Main>
   );
 }
+
+export default App;
+
