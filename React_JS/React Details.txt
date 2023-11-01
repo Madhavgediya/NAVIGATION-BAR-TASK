@@ -1,0 +1,53 @@
+-   JavaScript Library for building user interfaces.
+-   Used to single-page application.
+-   Create Reuseble UI Components
+-   Free and Open Source
+
+
+------------------- React.JS History ----------------------
+-   Created by "Jordan Walke".
+-   First used in 2011 for Fecebook's NewsFeed feature.
+-   Release to the public was in Julu 2023. 
+-   make React.JS application using "create-react-app".
+-   Ex:- Fecebook, instagram, netflix, reddit... Using React.JS
+
+------------------- Why use React.JS ? ----------------------
+-   Large community on github.
+-   Components Based Architecture.
+-   DOM updates handled very easy & effectively.
+-   Declarative Approach.
+
+------------------- What is Declarative Approach ? ----------------------
+-   You tell the browser exactly what to do, instead of telling it what you need. The React Declarative Approach abstracts that for us.
+
+------------------- Pre-Requisites ----------------------
+-   HTML, CSS, JavaScript
+
+------------------- JavaScript ----------------------
+-   JavaScript was invented by Brendan Eich in 1995 in NetScape.
+-   First name of JavaScript is mocha then next name is LiveScript and later JavaScript.
+-   ECMA international renaming JavaScript to ECMAScript. (1997)
+
+------------------- What is Babel in React.JS ? ----------------------
+-   Babel is JS Compiler.
+-   Mainly used to convert ECMAScript 2015+ into backwards version.
+-   we create an app by using "create-react-app" then automatically include babel.
+-   Babel can convert JSX syntax.
+
+------------------- Make React App ----------------------
+-   Install Node js 
+-   in cmd or vscode terminal and type "npm create-react-app nameofproject"
+-   After the installing app we can run with "npm start" command
+
+------------------- React Render HTML ----------------------
+-   React Renders HTML to the web page by using a function called ReactDOM.render()
+
+------------------- Render function ----------------------
+-   Purpose of the function is to display the specified HTML code inside the specified HTML element,
+-   
+
+
+
+
+
+

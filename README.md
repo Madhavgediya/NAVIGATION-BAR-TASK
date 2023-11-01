@@ -5,6 +5,6 @@ task :- Learn React JS
 
 topic:-
         
-        All most Complete json task using Link,useParam hooks & filter(),map() function and fetch data
-        Fetch Other File Json Data in other one file, make search in website, information show with id
+        Make Task useState, useEffeces and fetch api online in jsonplaceholder show all data in app
+        Make receipt task given by jay harpal
 
