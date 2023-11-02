@@ -5,26 +5,23 @@ import Items from "./Items";
 export default function Fetch() {
   const [user, setUser] = useState([]);
 
-  fetch("https://jsonplaceholder.typicode.com/users")
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      let jsonData = data;
-      setUser(jsonData);
-    });
+  const getId = async () => {
+    const response = await fetch("https://jsonplaceholder.typicode.com/users");
+    const data = await response.json();
+    console.log(data);
+    setUsers(data);
+  };
+
+  useEffect(() => {
+    getId();
+  }, []);
 
   const userId = useParams();
   const id = userId.id;
 
   return (
     <div>
-      <Items id={id}/>
+      <Items id={id} />
     </div>
   );
 }
-
-
-
-
-

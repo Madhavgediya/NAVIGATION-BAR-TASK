@@ -1,7 +1,10 @@
+body {
+  width: 100%;
+}
+
 input::placeholder {
   color: white;
 }
-
 
 .App {
   text-align: center;
@@ -42,6 +45,3 @@ input::placeholder {
     transform: rotate(360deg);
   }
 }
-
-
-
