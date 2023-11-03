@@ -44,7 +44,28 @@
 
 ------------------- Render function ----------------------
 -   Purpose of the function is to display the specified HTML code inside the specified HTML element,
--   
+
+------------------- Render JSX ----------------------
+-   JSX stands for Javascript XML. 
+-   It allows you to write HTML elements in your javascript files.
+-   To render JSX, first need to install Babel.
+-   Example :- function x(){
+                    return (
+                        <div>Hello Madhav Gediya.... </div>
+                        <div>In JSX you can return HTML tags using function </div>
+                    )
+                }
+-   JSX is Javascript Extension.
+-   Allows us to write HTML in React.JS
+-   You can use fragment <> </>. you can add multi HTML tags.
+-   All Element must be Cloesd.
+
+
+
+
+
+
+
 
 
 
