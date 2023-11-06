@@ -5,6 +5,4 @@ task :- Learn React JS
 
 topic:-
         
-        Make Task useState, useEffeces and fetch api online in jsonplaceholder show all data in app
-        Make receipt task given by jay harpal
-
+        Try Make Task Which is catch input text in one file to other file. Using props and useStates.
