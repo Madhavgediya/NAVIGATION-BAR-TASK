@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
 
-function PersonalData() {
-  const { department } = useParams();
+function Bloodgroup() {
+  const { bloodGroup } = useParams();
 
   const [users, setUsers] = useState([]);
 
@@ -11,15 +11,14 @@ function PersonalData() {
       .then((response) => response.json())
       .then((data) => setUsers(data.users));
   }, []);
-  const filteredUsers = department
-    ? users.filter((user) => user.company.department === department)
+  const filteredUsers = bloodGroup? users.filter((user) => user.bloodGroup.toLowerCase() === bloodGroup.toLowerCase())
     : users;
-  // console.log(filteredUsers);
+  console.log(filteredUsers);
   return (
     <>
       <div className="container-fluid">
         <div className="bg-body-secondary fs-3 fw-bold text-center">
-          {department}
+          {bloodGroup}
         </div>
         <div className="row m-2 mt-4">
           {filteredUsers &&
@@ -50,4 +49,4 @@ function PersonalData() {
   );
 }
 
-export default PersonalData;
+export default Bloodgroup;

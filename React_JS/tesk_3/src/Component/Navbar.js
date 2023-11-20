@@ -3,58 +3,39 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   const [user, setUser] = useState([]);
-  const [departmentData, setDepartmentData] = useState([]);
-  const [bloodGroup, setbloodGroup] = useState([]);
+  // const [departmentData, setDepartmentData] = useState([]);
+  // const [bloodGroup, setbloodGroup] = useState([]);
 
 
-//   useEffect(() => {
-//     fetch(" https://dummyjson.com/users")
-//       .then((response) => {
-//         return response.json();
-//       })
-//       .then((data) => {
-//         setUser(data.users);
-//         console.log(data);
-//       });
-//   }, [user]);
-
-//   useEffect(() => {
-//     const departmentDatam = user.map(
-//       (userDepartment) => userDepartment.company.department
-//     );
-//     const singleData = [...new Set(departmentDatam.flat())];
-//     setDepartmentData(singleData);
-//   }, [user]);
-
-useEffect(() => {
-    const fetchDepartmentData = async () => {
-      const response = await fetch("https://dummyjson.com/users");
-      const data = await response.json();
-      setUser(data)
-      const departmentDatam = data.users.map(
-        (userDepartment) => userDepartment.company.department
-      );
-      const singleData = [...new Set(departmentDatam.flat())];
-      setDepartmentData(singleData);
-    };
+// useEffect(() => {
+//     const fetchDepartmentData = async () => {
+//       const response = await fetch(Data);
+//       const data = await response.json();
+//       setUser(data)
+//       const departmentDatam = data.users.map(
+//         (userDepartment) => userDepartment.company.department
+//       );
+//       const singleData = [...new Set(departmentDatam.flat())];
+//       setDepartmentData(singleData);
+//     };
   
-    fetchDepartmentData();
-  }, []);
+//     fetchDepartmentData();
+//   }, []);
 
-useEffect(() => {
-    const fetchDepartmentData = async () => {
-      const response = await fetch("https://dummyjson.com/users");
-      const data = await response.json();
-      setUser(data)
-      const bloodGroupm = data.users.map(
-        (userDepartment) => userDepartment.bloodGroup
-      );
-      const singleData = [...new Set(bloodGroupm.flat())];
-      setbloodGroup(singleData);
-    };
+// useEffect(() => {
+//     const fetchDepartmentData = async () => {
+//       const response = await fetch(Data);
+//       const data = await response.json();
+//       setUser(data)
+//       const bloodGroupm = data.users.map(
+//         (userDepartment) => userDepartment.bloodGroup
+//       );
+//       const singleData = [...new Set(bloodGroupm.flat())];
+//       setbloodGroup(singleData);
+//     };
   
-    fetchDepartmentData();
-  }, []);
+//     fetchDepartmentData();
+//   }, []);
 
   // console.log(departmentData);
 
@@ -78,7 +59,7 @@ useEffect(() => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
                   to="/"
@@ -99,8 +80,8 @@ useEffect(() => {
                     );
                   })}
                 </ul>
-              </li>
-              <li className="nav-item dropdown">
+              </li> */}
+              {/* <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
                   to="/"
@@ -121,7 +102,7 @@ useEffect(() => {
                     );
                   })}
                 </ul>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 function AllData() {
   const [user, setUser] = useState([]);
   const [departmentData, setDepartmentData] = useState([]);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   useEffect(() => {
     const fetchDepartmentData = async () => {
@@ -23,27 +23,32 @@ function AllData() {
 
   //   Chanage Page
   function btnClick(uid) {
-    navigate("/personalData/", { state: { id: uid } });
+    console.log("Onclick" + uid);
+    // alert(uid);
   }
   return (
     <div>
       {departmentData.length > 0 ? (
         <>
-          <h1 className="text-center">All Data</h1>
-          <table class="table table-striped table-dark">
+          <div className="bg-body-secondary fs-3 fw-bold text-center">
+            All Data
+          </div>
+          ;
+          <table className="table table-striped table-dark">
             <thead>
               <tr className="text-center align-items-center">
                 <th scope="col">Image</th>
                 <th scope="col">Name</th>
                 <th scope="col">Email</th>
                 <th scope="col">Company Name</th>
+                <th scope="col">Department Name</th>
                 <th scope="col">BloodGroup</th>
-                <th scope="col">View Profile</th>
+                <th scope="col">View</th>
               </tr>
             </thead>
             <tbody>
               {user.map((item) => (
-                <tr key={item._id} className="text-center align-items-center">
+                <tr key={item.id} className="text-center align-items-center">
                   <td>
                     <img
                       src={item.image}
@@ -57,14 +62,15 @@ function AllData() {
                   </td>
                   <td>{item.email}</td>
                   <td>{item.company.name}</td>
+                  <td>{item.company.department}</td>
                   <td>{item.bloodGroup}</td>
                   <td>
-                    <button
-                      onClick={btnClick(item.id)}
-                      className="btn btn-white text-white btn-outline-success"
+                    <Link
+                      to={`/user/` + item.id}
+                      className="text-decoration-none btn btn-light"
                     >
                       View
-                    </button>
+                    </Link>
                   </td>
                 </tr>
               ))}
