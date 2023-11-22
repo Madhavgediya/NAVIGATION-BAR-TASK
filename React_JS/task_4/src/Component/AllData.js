@@ -5,6 +5,7 @@ import Card1 from "../Card-1.png";
 import Card2 from "../Card-2.png";
 import Card3 from "../Card-3.png";
 import Card4 from "../Card-4.png";
+import Card5 from "../Card-5.png";
 import { useTheme } from "@mui/material/styles";
 // MUI Chip Button Start
 import Chip from "@mui/material/Chip";
@@ -154,12 +155,12 @@ function AllData() {
             </div>
             <div className="text-center align-items-center col-md-3 m-3">
               {/* Fiftj Card 5 */}
-              <Link to="/card/3" className="text-decoration-none btn p-2">
+              <Link to="/card/5" className="text-decoration-none btn p-2">
                 <Card sx={{ maxWidth: "auto" }}>
                   <CardMedia
                     component="img"
                     height="180"
-                    image={Card3}
+                    image={Card5}
                     className="img-fluid"
                     alt="Paella dish"
                   />

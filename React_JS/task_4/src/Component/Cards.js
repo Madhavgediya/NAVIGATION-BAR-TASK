@@ -20,7 +20,7 @@ function Cards(props) {
                   <h2 className="w-50">{props.text}</h2>
                   <h5>{props.tagline}</h5>
                 </div>
-                <img src={props.logo} alt="Compuny Image" />
+                <img src={props.logo} alt="Compuny Image" style={{width: "100px", height: "100px", right: "10px"}} className="rounded-pill position-absolute" />
                 <div className="addr">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +202,6 @@ function Cards(props) {
           </div>
         </>
       ) : null}
-
       {props.cardnumber == 4 ? (
         <>
           <div class="container-fluid">
@@ -222,7 +221,7 @@ function Cards(props) {
                 </div>
                 <div class="footer text-center align-items-center">
                   <span class="bg-black px-2 py-2 rounded-pill">
-                  {props.website}
+                    {props.website}
                   </span>
                 </div>
               </div>
@@ -257,7 +256,7 @@ function Cards(props) {
                     {props.website}
                   </div>
                   <div class="border-bottom border-warning border-2 rounded-pill text-center my-1">
-                    <div style={{height: "80px", overflow: "hidden"}}>
+                    <div style={{ height: "80px", overflow: "hidden" }}>
                       <i class="fa-solid fa-location-dot"></i>
                       {props.address}
                     </div>
@@ -272,6 +271,67 @@ function Cards(props) {
             </div>
           </div>
         </>
+      ) : null}
+      {props.cardnumber == 5 ? (
+        <div class="container-fluid">
+          {/* <!-- First Side --> */}
+          <div class="main-bg-5-1 m-4 position-relative">
+            <div class="design-1 position-absolute"></div>
+            <div class="design-2 position-absolute"></div>
+            <div class="">
+              <div class="text-center">
+                <img
+                  src={props.logo}
+                  alt="Logo"
+                  width="55px"
+                  height="55px"
+                  class="mt-4 rounded-pill"
+                />
+                <div class="textFont">{props.text}</div>
+                <div class="mb-2">{props.tagline}</div>
+              </div>
+            </div>
+            <div></div>
+          </div>
+
+          {/* <!-- Second Side --> */}
+          <div class="main-bg-5-2 m-4 position-relative">
+            <div class="design-4 position-absolute"></div>
+            <div class="row">
+              <div class="col-md-5 position-relative">
+                <div class="main-bg-5-1">
+                  <div class="text-center">
+                    <img
+                      src={props.logo}
+                      alt="Logo"
+                      width="55px"
+                      height="55px"
+                      class="mt-4 rounded-pill"
+                    />
+                    <div class="fs-5 mt-2">{props.text}</div>
+                  </div>
+                  <div class="design-3 position-absolute"></div>
+                </div>
+              </div>
+              <div class="col-md-7 mt-3">
+                <div class="mt-2">
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  <span> {props.contectNumber} </span>
+                </div>
+                <div class="mt-2">
+                  <i class="fa-solid fa-globe"></i>&nbsp;
+                  {props.website}
+                </div>
+                <div class="mt-2">
+                  <div style={{ height: "80px", overflow: "hidden" }}>
+                    <i class="fa-solid fa-location-dot"></i> &nbsp;
+                    {props.address}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       ) : null}
     </div>
   );

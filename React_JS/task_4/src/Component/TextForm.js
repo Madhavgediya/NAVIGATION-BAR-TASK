@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Cards from "./Cards";
+import Box from "@mui/material/Box";
+import TextField from "@mui/material/TextField";
 
 function TextForm() {
   const [logo, setLogo] = useState();
@@ -16,8 +18,11 @@ function TextForm() {
   };
 
   const on_change_logo = (event) => {
-    console.log("On Changes...");
-    setLogo(event.target.value);
+    // console.log("On Changes...");
+    // setLogo(event.target.value);
+
+    console.log(event.target.files);
+    setLogo(URL.createObjectURL(event.target.files[0]));
   };
 
   const on_change_contectNumber = (event) => {
@@ -45,11 +50,27 @@ function TextForm() {
   return (
     <>
       <div className="container-fluid">
-        <div className="bg-body-secondary fs-3 fw-bold text-center">Fill Details</div>
+        <div className="bg-body-secondary fs-3 fw-bold text-center">
+          Fill Details
+        </div>
 
         <div className="row">
           <div className="col-md-6 mx-0 my-auto">
-            <input
+            <Box
+              sx={{
+                width: 500,
+                maxWidth: "100%",
+              }}
+            >
+              <TextField
+                fullWidth
+                label="Company Name"
+                id="fullWidth"
+                onChange={on_change_name}
+                value={text}
+              />
+            </Box>
+            {/* <input
               type="text"
               className=""
               id="exampleInputEmail1"
@@ -57,9 +78,23 @@ function TextForm() {
               value={text}
               placeholder="Company Name"
               onChange={on_change_name}
-            />
+            /> */}
             <br />
-            <input
+            <Box
+              sx={{
+                width: 500,
+                maxWidth: "100%",
+              }}
+            >
+              <TextField
+                fullWidth
+                label="Company Tagline"
+                id="fullWidth"
+                onChange={on_change_tagline}
+                value={tagline}
+              />
+            </Box>
+            {/* <input
               type="text"
               className=""
               id="exampleInputEmail1"
@@ -67,9 +102,23 @@ function TextForm() {
               value={tagline}
               placeholder="Company Tagline"
               onChange={on_change_tagline}
-            />
+            /> */}
             <br />
-            <input
+            <Box
+              sx={{
+                width: 500,
+                maxWidth: "100%",
+              }}
+            >
+              <TextField
+                fullWidth
+                label="Company Number"
+                id="fullWidth"
+                onChange={on_change_contectNumber}
+                value={contectNumber}
+              />
+            </Box>
+            {/* <input
               type="text"
               className=""
               id="exampleInputEmail1"
@@ -77,9 +126,23 @@ function TextForm() {
               value={contectNumber}
               placeholder="Company Number"
               onChange={on_change_contectNumber}
-            />
+            /> */}
             <br />
-            <input
+            <Box
+              sx={{
+                width: 500,
+                maxWidth: "100%",
+              }}
+            >
+              <TextField
+                fullWidth
+                label="Company Website"
+                id="fullWidth"
+                onChange={on_change_website}
+                value={website}
+              />
+            </Box>
+            {/*<input
               type="text"
               className=""
               id="exampleInputEmail1"
@@ -87,9 +150,23 @@ function TextForm() {
               value={website}
               placeholder="Company Website"
               onChange={on_change_website}
-            />
+            /> */}
             <br />
-            <input
+            <Box
+              sx={{
+                width: 500,
+                maxWidth: "100%",
+              }}
+            >
+              <TextField
+                fullWidth
+                label="Company Address"
+                id="fullWidth"
+                onChange={on_change_address}
+                value={address}
+              />
+            </Box>
+            {/* <input
               type="text"
               className=""
               id="exampleInputEmail1"
@@ -97,17 +174,28 @@ function TextForm() {
               value={address}
               placeholder="Company Address"
               onChange={on_change_address}
-            />
+            /> */}
             <br />
-            <input
+            <Box
+              sx={{
+                width: 500,
+                maxWidth: "100%",
+              }}
+            >
+              <TextField
+                fullWidth
+                type="file"
+                id="fullWidth"
+                onChange={on_change_logo}
+              />
+            </Box>
+            {/* <input
               type="file"
               className=""
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
-              value={logo}
-              placeholder="Company Name"
               onChange={on_change_logo}
-            />
+            /> */}
           </div>
           <div className="col-md-6">
             <div>

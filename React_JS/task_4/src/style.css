@@ -147,7 +147,7 @@ h3 {
 .main-bg-2 {
   display: flex;
   width: 336px;
-  height: 200px;
+  min-height: 200px;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
@@ -166,7 +166,8 @@ h3 {
 
 .main-bg-4-2 {
   width: 350px;
-  height: 200px;
+  min-height: 200px;
+  max-height: 200px;
   background: #141313;
   color: white;
 }
@@ -178,4 +179,60 @@ h3 {
 
 .textFont {
   font-size: 20px;
+}
+
+.main-bg-5-1 {
+  max-width: 350px;
+  min-height: 200px;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  overflow: hidden;
+}
+
+.main-bg-5-2 {
+  width: 350px;
+  height: 200px;
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  overflow: hidden;
+}
+
+.design-1 {
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  width: 100px;
+  height: 100px;
+  top: -30px;
+  left: -30px;
+  border-radius: 100px;
+}
+
+.design-2 {
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  width: 100px;
+  height: 100px;
+  bottom: -30px;
+  right: -30px;
+  border-radius: 100px;
+}
+
+.design-3 {
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  width: 100px;
+  height: 100px;
+  bottom: -30px;
+  left: -30px;
+  border-radius: 100px;
+}
+
+.design-4 {
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  width: 100px;
+  height: 100px;
+  top: -30px;
+  right: -30px;
+  border-radius: 100px;
 }
