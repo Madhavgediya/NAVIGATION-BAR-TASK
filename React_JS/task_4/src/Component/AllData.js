@@ -1,19 +1,65 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Data from "../Data.json";
+import Card1 from "../Card-1.png";
+import Card2 from "../Card-2.png";
+import Card3 from "../Card-3.png";
+import Card4 from "../Card-4.png";
 import { useTheme } from "@mui/material/styles";
-import Box from "@mui/material/Box";
+// MUI Chip Button Start
+import Chip from "@mui/material/Chip";
+import Stack from "@mui/material/Stack";
+import DoneIcon from "@mui/icons-material/Done";
+import DeleteIcon from "@mui/icons-material/Delete";
+// MUI Chip Button End
+// MUI Card Start
+import { styled } from "@mui/material/styles";
 import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
+// import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
+// import CardContent from "@mui/material/CardContent";
+// import CardActions from "@mui/material/CardActions";
+// import Collapse from "@mui/material/Collapse";
+// import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
-import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
-import PlayArrowIcon from "@mui/icons-material/PlayArrow";
-import SkipNextIcon from "@mui/icons-material/SkipNext";
-import Card1 from "./Card1";
+// import Typography from "@mui/material/Typography";
+// import { red } from "@mui/material/colors";
+// import FavoriteIcon from "@mui/icons-material/Favorite";
+// import ShareIcon from "@mui/icons-material/Share";
+// import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+// import MoreVertIcon from "@mui/icons-material/MoreVert";
+// MUI Card End
 
 function AllData() {
+  // MUI Card Start
+
+  const ExpandMore = styled((props) => {
+    const { expand, ...other } = props;
+    return <IconButton {...other} />;
+  })(({ theme, expand }) => ({
+    transform: !expand ? "rotate(0deg)" : "rotate(180deg)",
+    marginLeft: "auto",
+    transition: theme.transitions.create("transform", {
+      duration: theme.transitions.duration.shortest,
+    }),
+  }));
+
+  const [expanded, setExpanded] = React.useState(false);
+
+  const handleExpandClick = () => {
+    setExpanded(!expanded);
+  };
+
+  // MUI Card End
+
+  const handleClick = () => {
+    console.info("You clicked the Chip.");
+  };
+
+  const handleDelete = () => {
+    console.info("You clicked the delete icon.");
+  };
+
   const theme = useTheme();
 
   const [dateList, setDateList] = useState(Data);
@@ -26,39 +72,106 @@ function AllData() {
         {/* MUI Card Code */}
         <div className="container-fluid">
           <div className="row justify-content-center align-items-center">
-            {dateList &&
-              dateList.map((item) => {
-                return (
-                  <>
-                    <div
-                      key={item.id}
-                      className="text-center align-items-center col-md-3 m-3"
-                    >
-                      <Card sx={{ display: "flex" }}>
-                        <Box sx={{ display: "flex", flexDirection: "column" }}>
-                          <CardContent sx={{ flex: "1 0 auto" }}>
-                            <Typography component="div" variant="h5">
-                              {item.id}
-                            </Typography>
-                          </CardContent>
-                          <Link
-                            to={`/user/` + item.id}
-                            className="text-decoration-none btn btn-success p-2 m-4"
-                          >
-                            View
-                          </Link>
-                        </Box>
-                        <CardMedia
-                          component="img"
-                          sx={{ width: "auto" }}
-                          image={item.image}
-                          alt="Live from space album cover"
-                        />
-                      </Card>
-                    </div>
-                  </>
-                );
-              })}
+            <div className="text-center align-items-center col-md-3 m-3">
+              {/* First Card 1 */}
+              <Link to="/card/1" className="text-decoration-none btn p-2">
+                <Card sx={{ maxWidth: "auto" }}>
+                  <CardMedia
+                    component="img"
+                    height="194"
+                    image={Card1}
+                    className="img-fluid"
+                    alt="Paella dish"
+                  />
+                  <Chip
+                    label="Edit Card"
+                    onClick={handleClick}
+                    onDelete={handleDelete}
+                    deleteIcon={<DoneIcon />}
+                  />
+                </Card>
+              </Link>
+            </div>
+            <div className="text-center align-items-center col-md-3 m-3">
+              {/* Second Card 2 */}
+              <Link to="/card/2" className="text-decoration-none btn p-2">
+                <Card sx={{ maxWidth: "auto" }}>
+                  <CardMedia
+                    component="img"
+                    height="194"
+                    image={Card2}
+                    className="img-fluid"
+                    alt="Paella dish"
+                  />
+                  <Chip
+                    label="Edit Card"
+                    onClick={handleClick}
+                    onDelete={handleDelete}
+                    deleteIcon={<DoneIcon />}
+                  />
+                </Card>
+              </Link>
+            </div>
+            <div className="text-center align-items-center col-md-3 m-3">
+              {/* Third Card 3 */}
+              <Link to="/card/3" className="text-decoration-none btn p-2">
+                <Card sx={{ maxWidth: "auto" }}>
+                  <CardMedia
+                    component="img"
+                    height="180"
+                    image={Card3}
+                    className="img-fluid"
+                    alt="Paella dish"
+                  />
+                  <Chip
+                    label="Edit Card"
+                    onClick={handleClick}
+                    onDelete={handleDelete}
+                    deleteIcon={<DoneIcon />}
+                  />
+                </Card>
+              </Link>
+            </div>
+            <div className="text-center align-items-center col-md-3 m-3">
+              {/* Fourth Card 4 */}
+              <Link to="/card/4" className="text-decoration-none btn p-2">
+                <Card sx={{ maxWidth: "auto" }}>
+                  <CardMedia
+                    component="img"
+                    height="180"
+                    image={Card4}
+                    className="img-fluid"
+                    alt="Paella dish"
+                  />
+                  <Chip
+                    label="Edit Card"
+                    onClick={handleClick}
+                    onDelete={handleDelete}
+                    deleteIcon={<DoneIcon />}
+                  />
+                </Card>
+              </Link>
+            </div>
+            <div className="text-center align-items-center col-md-3 m-3">
+              {/* Fiftj Card 5 */}
+              <Link to="/card/3" className="text-decoration-none btn p-2">
+                <Card sx={{ maxWidth: "auto" }}>
+                  <CardMedia
+                    component="img"
+                    height="180"
+                    image={Card3}
+                    className="img-fluid"
+                    alt="Paella dish"
+                  />
+                  <Chip
+                    label="Edit Card"
+                    onClick={handleClick}
+                    onDelete={handleDelete}
+                    deleteIcon={<DoneIcon />}
+                  />
+                </Card>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

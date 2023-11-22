@@ -5,14 +5,12 @@ task :- Learn React JS
 
 topic:-
             Make Task 4
-                Create Cards
-                Create a minimum 5-card design
-                Allow to choose any one card
-                Ask for written business details
-                Company name
-                Company logo
-                Contact number
-                Address
-                Website name
-                Tagline
-                Show business details on the selected card.
+                Create 2 Cards,
+                Allow to choose any one card and user can input his all details like 
+                        Company Name, 
+                        Company TagLine,
+                        Contact Number,
+                        Company Website,
+                        Company Address, 
+                        Company Logo 
+                After Fillup all details then user can show all details in his selected design,
