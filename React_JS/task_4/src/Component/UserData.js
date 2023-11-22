@@ -8,30 +8,22 @@ function UserData() {
   const params = useParams();
   const id = parseInt(params.id);
 
-  const filteredUsers = id ? Data.filter((user) => user.id === id) : Data;
+  // const filteredUsers = id ? Data.filter((user) => user.id === id) : Data;
 
   return (
     <div className="container-fluid mt-2">
-      {filteredUsers.map((userData) => (
-        <div key={userData.id}>
-          <div className="bg-body-secondary fs-3 fw-bold text-center">
-            {userData.id}
+      <div>
+        <div className="bg-body-secondary fs-3 fw-bold text-center">1</div>
+        <div className="row ">
+          <div className="col-md-6 text-center align-items-center ">
+            <Card1 />
           </div>
-          <div className="row ">
-            <div className="col-md-6 text-center align-items-center ">
-              <img
-                src={userData.image}
-                alt=""
-                className="rounded border bg-body-white img-fluid w-75 m-2"
-              />
-            </div>
-            <div className="col-md-6 mx-0 my-auto">
-              <TextForm />
-            </div>
+          <div className="col-md-6 mx-0 my-auto">
+            <TextForm />
           </div>
-          <br />
         </div>
-      ))}
+        <br />
+      </div>
     </div>
   );
 }

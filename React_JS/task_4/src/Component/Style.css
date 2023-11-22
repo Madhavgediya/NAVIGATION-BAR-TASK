@@ -1,0 +1,22 @@
+.main-bg-4-1 {
+    color: white;
+    max-width: 350px;
+    max-height: 200px;
+    background: #141313;
+}
+
+.main-bg-4-2 {
+    width: 350px;
+    height: 200px;
+    background: #141313;
+    color: white;
+}
+
+.footer {
+    height: 30px;
+    background: #FDBD10;
+}
+
+.textFont {
+    font-size: 20px;
+}
