@@ -5,7 +5,7 @@ task :- Learn React JS
 
 topic:-
             Make Task 4
-                Create 2 Cards,
+                Create 5 Cards,
                 Allow to choose any one card and user can input his all details like 
                         Company Name, 
                         Company TagLine,
@@ -14,3 +14,4 @@ topic:-
                         Company Address, 
                         Company Logo 
                 After Fillup all details then user can show all details in his selected design,
+                all Details are dynamic 
