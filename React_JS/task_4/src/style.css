@@ -133,7 +133,7 @@ h3 {
 .main-bg {
   display: flex;
   width: 336px;
-  height: 200px;
+  height: 225px;
   padding-top: 41px;
   flex-direction: column;
   justify-content: flex-end;
@@ -146,28 +146,29 @@ h3 {
 
 .main-bg-2 {
   display: flex;
-  width: 336px;
-  min-height: 200px;
+  max-width: 336px;
+  min-height: 225px;
   flex-direction: column;
-  justify-content: flex-end;
   align-items: center;
   gap: 0px;
   border: 2px solid black;
   border-radius: 2px;
   box-shadow: 3px 2px 10px;
+  overflow: hidden;
 }
 
 .main-bg-4-1 {
+  overflow: hidden;
   color: white;
   max-width: 350px;
-  max-height: 200px;
+  max-height: 225px;
   background: #141313;
 }
 
 .main-bg-4-2 {
   width: 350px;
-  min-height: 200px;
-  max-height: 200px;
+  min-height: 225px;
+  max-height: 225px;
   background: #141313;
   color: white;
 }
@@ -183,7 +184,7 @@ h3 {
 
 .main-bg-5-1 {
   max-width: 350px;
-  min-height: 200px;
+  min-height: 225px;
   background-color: #FBAB7E;
   background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
   overflow: hidden;
@@ -191,7 +192,7 @@ h3 {
 
 .main-bg-5-2 {
   width: 350px;
-  height: 200px;
+  height: 225px;
   background-color: #85FFBD;
   background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
   overflow: hidden;
@@ -236,3 +237,95 @@ h3 {
   right: -30px;
   border-radius: 100px;
 }
+
+.main-bg-1-1 {
+  max-width: 300px;
+  min-height: 550px;
+  background-image: url('../public/images/bg1.jpg');
+  overflow: hidden;
+}
+
+.main-bg-1-2 {
+  max-width: 300px;
+  min-height: 550px;
+  background-color: #a17968;
+  background-image: linear-gradient(45deg, #a17968 0%, #453333 100%);
+  overflow: hidden;
+}
+
+.text1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+.tagline1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.phone1 {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.address1 {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.website1 {
+  font-size: 0.5rem;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-bg-2-1 {
+  max-width: 425px;
+  min-height: 225px;
+  background: rgb(213, 153, 97);
+  background: linear-gradient(90deg, rgba(213, 153, 97, 1) 0%, rgba(252, 222, 70, 1) 100%);
+  overflow: hidden;
+  position: relative;
+}
+
+.main-bg-2-2 {
+  position: relative;
+  max-width: 425px;
+  min-height: 225px;
+  background: rgb(213, 153, 97);
+  background: linear-gradient(270deg, rgba(213, 153, 97, 1) 0%, rgba(252, 222, 70, 1) 100%);
+  overflow: hidden;
+}
+
+.logo2 {
+  width: 100px;
+  height: 100px;
+}
+
+.logobg-2-1 {
+  position: absolute;
+  bottom: -120%;
+  right: -50%;
+  width: 150%;
+  opacity: 0.2;
+}
+
+
+.logobg-2-2 {
+  position: absolute;
+  top: -105%;
+  right: -50%;
+  width: 150%;
+  opacity: 0.2;
+}
+

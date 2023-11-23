@@ -18,9 +18,6 @@ function TextForm() {
   };
 
   const on_change_logo = (event) => {
-    // console.log("On Changes...");
-    // setLogo(event.target.value);
-
     console.log(event.target.files);
     setLogo(URL.createObjectURL(event.target.files[0]));
   };
@@ -55,7 +52,7 @@ function TextForm() {
         </div>
 
         <div className="row">
-          <div className="col-md-6 mx-0 my-auto">
+          <div className="col-md-6 p-5">
             <Box
               sx={{
                 width: 500,
@@ -221,5 +218,6 @@ function TextForm() {
     </>
   );
 }
+
 
 export default TextForm;

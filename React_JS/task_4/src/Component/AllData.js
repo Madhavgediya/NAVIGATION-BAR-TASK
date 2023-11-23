@@ -76,12 +76,15 @@ function AllData() {
             <div className="text-center align-items-center col-md-3 m-3">
               {/* First Card 1 */}
               <Link to="/card/1" className="text-decoration-none btn p-2">
-                <Card sx={{ maxWidth: "auto" }}>
+                <Card>
                   <CardMedia
                     component="img"
-                    height="194"
                     image={Card1}
                     className="img-fluid"
+                    style={{
+                      height: "350px",
+                      width: "250px" 
+                    }}
                     alt="Paella dish"
                   />
                   <Chip
@@ -89,6 +92,7 @@ function AllData() {
                     onClick={handleClick}
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
+                    className="m-3 bg-success text-white fw-bold"
                   />
                 </Card>
               </Link>
@@ -102,6 +106,10 @@ function AllData() {
                     height="194"
                     image={Card2}
                     className="img-fluid"
+                    style={{
+                      height: "350px",
+                      width: "250px" 
+                    }}
                     alt="Paella dish"
                   />
                   <Chip
@@ -109,6 +117,7 @@ function AllData() {
                     onClick={handleClick}
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
+                    className="m-3 bg-success text-white fw-bold"
                   />
                 </Card>
               </Link>
@@ -122,6 +131,10 @@ function AllData() {
                     height="180"
                     image={Card3}
                     className="img-fluid"
+                    style={{
+                      height: "350px",
+                      width: "250px" 
+                    }}
                     alt="Paella dish"
                   />
                   <Chip
@@ -129,6 +142,7 @@ function AllData() {
                     onClick={handleClick}
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
+                    className="m-3 bg-success text-white fw-bold"
                   />
                 </Card>
               </Link>
@@ -142,6 +156,10 @@ function AllData() {
                     height="180"
                     image={Card4}
                     className="img-fluid"
+                    style={{
+                      height: "350px",
+                      width: "250px" 
+                    }}
                     alt="Paella dish"
                   />
                   <Chip
@@ -149,6 +167,7 @@ function AllData() {
                     onClick={handleClick}
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
+                    className="m-3 bg-success text-white fw-bold"
                   />
                 </Card>
               </Link>
@@ -162,6 +181,10 @@ function AllData() {
                     height="180"
                     image={Card5}
                     className="img-fluid"
+                    style={{
+                      height: "350px",
+                      width: "250px" 
+                    }}
                     alt="Paella dish"
                   />
                   <Chip
@@ -169,6 +192,7 @@ function AllData() {
                     onClick={handleClick}
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
+                    className="m-3 bg-success text-white fw-bold"
                   />
                 </Card>
               </Link>
