@@ -210,8 +210,11 @@ function Cards(props) {
                   <div className="textFont">{props.text}</div>
                   <div className="mb-2">{props.tagline}</div>
                 </div>
-                <div className="footer text-center align-items-center" >
-                  <span className="bg-black px-2 py-2 rounded-pill w-100" style={{ fontSize: "0.7rem" }}>
+                <div className="footer text-center align-items-center">
+                  <span
+                    className="bg-black px-2 py-2 rounded-pill w-100"
+                    style={{ fontSize: "0.7rem" }}
+                  >
                     {props.website}
                   </span>
                 </div>
@@ -244,16 +247,12 @@ function Cards(props) {
                   </div>
                   <div className="border-bottom border-warning border-2 rounded-pill text-center my-1">
                     <i className="fa-solid fa-globe"></i>
-                    <div>
-                    {props.website}
-                    </div>
+                    <div>{props.website}</div>
                   </div>
                   <div className="border-bottom border-warning border-2 rounded-pill text-center my-1">
                     <div style={{ height: "80px", overflow: "hidden" }}>
                       <i className="fa-solid fa-location-dot"></i>
-                      <div>
-                      {props.address}
-                      </div>
+                      <div>{props.address}</div>
                     </div>
                   </div>
                 </div>
@@ -323,6 +322,45 @@ function Cards(props) {
                     {props.address}
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : null}
+      {props.cardnumber == 6 ? (
+        <div class="container-fluid mt-4">
+          {/* <!-- first --> */}
+          <div class="main-bg-6-1 m-2">
+            <div class="m-3 ms-3">
+              <img src={props.logo} alt="" style={{ width: "100px" }} />
+              <div class="fs-3 fw-bold ms-3">{props.text}</div>
+              <small class="ms-3">{props.tagline}</small>
+            </div>
+          </div>
+          {/* <!-- second --> */}
+          <div class="main-bg-6-2 m-2 text-end">
+            <div class="mt-3 fw-bold" style={{ fontSize: "0.9rem" }}>
+              <div class="m-2">
+                {props.contectNumber}
+                <i
+                  class="fa-solid fa-phone-flip fs-5"
+                  style={{ color: "#005eff" }}
+                ></i>
+              </div>
+              <div class="m-2 mt-3">
+                {props.website}
+                <i
+                  class="fa-brands fa-searchengin fs-5"
+                  style={{ color: "#005eff" }}
+                ></i>
+              </div>
+              <div class="m-2 mt-3">
+                <i
+                  class="fa-solid fa-location-arrow"
+                  style={{ color: " #005eff" }}
+                ></i>{" "}
+                <br />
+                {props.address}
               </div>
             </div>
           </div>
