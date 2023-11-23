@@ -22,6 +22,12 @@ function TextForm() {
     setLogo(URL.createObjectURL(event.target.files[0]));
   };
 
+  const mobileNumber = (event) => {
+    if (!/^\d$/.test(event.key)) {
+      event.preventDefault();
+    }
+  };
+
   const on_change_contectNumber = (event) => {
     console.log("On Changes...");
     setContectNumber(event.target.value);
@@ -113,7 +119,18 @@ function TextForm() {
                 id="fullWidth"
                 onChange={on_change_contectNumber}
                 value={contectNumber}
+                onKeyPress={mobileNumber}
               />
+
+              {/* <TextField
+                fullWidth
+                label="Company Number"
+                id="fullWidth"
+                onChange={on_change_contectNumber}
+                pattern="[0-9]{10}"
+                minlength="10"
+                value={contectNumber}
+              /> */}
             </Box>
             {/* <input
               type="text"
@@ -218,6 +235,5 @@ function TextForm() {
     </>
   );
 }
-
 
 export default TextForm;

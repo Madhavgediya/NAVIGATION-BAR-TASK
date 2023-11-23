@@ -6,6 +6,7 @@ import Card2 from "../Card-2.png";
 import Card3 from "../Card-3.png";
 import Card4 from "../Card-4.png";
 import Card5 from "../Card-5.png";
+import Card6 from "../Card-6.png";
 import { useTheme } from "@mui/material/styles";
 // MUI Chip Button Start
 import Chip from "@mui/material/Chip";
@@ -74,6 +75,31 @@ function AllData() {
         <div className="container-fluid">
           <div className="row justify-content-center align-items-center">
             <div className="text-center align-items-center col-md-3 m-3">
+              {/* sixth Card 6 */}
+              <Link to="/card/6" className="text-decoration-none btn p-2">
+                <Card sx={{ maxWidth: "auto" }}>
+                  <CardMedia
+                    component="img"
+                    height="180"
+                    image={Card6}
+                    className="img-fluid"
+                    style={{
+                      height: "350px",
+                      width: "250px",
+                    }}
+                    alt="Paella dish"
+                  />
+                  <Chip
+                    label="Edit Card"
+                    onClick={handleClick}
+                    onDelete={handleDelete}
+                    deleteIcon={<DoneIcon />}
+                    className="m-3 bg-success text-white fw-bold"
+                  />
+                </Card>
+              </Link>
+            </div>
+            <div className="text-center align-items-center col-md-3 m-3">
               {/* First Card 1 */}
               <Link to="/card/1" className="text-decoration-none btn p-2">
                 <Card>
@@ -83,7 +109,7 @@ function AllData() {
                     className="img-fluid"
                     style={{
                       height: "350px",
-                      width: "250px" 
+                      width: "250px",
                     }}
                     alt="Paella dish"
                   />
@@ -108,7 +134,7 @@ function AllData() {
                     className="img-fluid"
                     style={{
                       height: "350px",
-                      width: "250px" 
+                      width: "250px",
                     }}
                     alt="Paella dish"
                   />
@@ -133,7 +159,7 @@ function AllData() {
                     className="img-fluid"
                     style={{
                       height: "350px",
-                      width: "250px" 
+                      width: "250px",
                     }}
                     alt="Paella dish"
                   />
@@ -158,7 +184,7 @@ function AllData() {
                     className="img-fluid"
                     style={{
                       height: "350px",
-                      width: "250px" 
+                      width: "250px",
                     }}
                     alt="Paella dish"
                   />
@@ -183,7 +209,7 @@ function AllData() {
                     className="img-fluid"
                     style={{
                       height: "350px",
-                      width: "250px" 
+                      width: "250px",
                     }}
                     alt="Paella dish"
                   />
