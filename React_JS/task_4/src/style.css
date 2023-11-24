@@ -160,17 +160,21 @@ h3 {
 .main-bg-4-1 {
   overflow: hidden;
   color: white;
-  max-width: 350px;
-  max-height: 225px;
+  width: 400px;
+  min-height: 225px;
   background: #141313;
+  box-shadow: 2px 5px 15px 0px #17161694;
+
 }
 
 .main-bg-4-2 {
-  width: 350px;
+  width: 400px;
   min-height: 225px;
-  max-height: 225px;
+  min-height: 225px;
   background: #141313;
   color: white;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
 }
 
 .footer {
@@ -178,24 +182,38 @@ h3 {
   background: #FDBD10;
 }
 
-.textFont {
-  font-size: 20px;
+.card-5-bg {
+  background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
+  min-height: 92%;
+  border-radius: 40px;
+}
+
+.border-line-5{
+  border-right: 3px solid #FBAB7E;
+  /* background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); */
+
 }
 
 .main-bg-5-1 {
-  max-width: 350px;
+  border-radius: 10px;
+  min-width: 400px;
+  max-width: 400px;
   min-height: 225px;
   background-color: #FBAB7E;
   background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
   overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
 }
 
 .main-bg-5-2 {
-  width: 350px;
+  border-radius: 10px;
+  width: 400px;
   height: 225px;
   background-color: #85FFBD;
   background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
   overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
 }
 
 .design-1 {
@@ -203,7 +221,7 @@ h3 {
   background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
   width: 100px;
   height: 100px;
-  top: -30px;
+  top: -45px;
   left: -30px;
   border-radius: 100px;
 }
@@ -213,14 +231,14 @@ h3 {
   background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
   width: 100px;
   height: 100px;
-  bottom: -30px;
+  bottom: -50px;
   right: -30px;
   border-radius: 100px;
 }
 
 .design-3 {
-  background-color: #85FFBD;
-  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
   width: 100px;
   height: 100px;
   bottom: -30px;
@@ -294,6 +312,7 @@ h3 {
   min-height: 225px;
   background: rgb(213, 153, 97);
   background: linear-gradient(90deg, rgba(213, 153, 97, 1) 0%, rgba(252, 222, 70, 1) 100%);
+  box-shadow: 2px 5px 15px 0px #17161694;
   overflow: hidden;
   position: relative;
 }
@@ -302,6 +321,7 @@ h3 {
   position: relative;
   max-width: 425px;
   min-height: 225px;
+  box-shadow: 2px 5px 15px 0px #17161694;
   background: rgb(213, 153, 97);
   background: linear-gradient(270deg, rgba(213, 153, 97, 1) 0%, rgba(252, 222, 70, 1) 100%);
   overflow: hidden;
@@ -314,7 +334,7 @@ h3 {
 
 .logobg-2-1 {
   position: absolute;
-  bottom: -120%;
+  bottom: -150%;
   right: -50%;
   width: 150%;
   opacity: 0.2;
@@ -323,13 +343,14 @@ h3 {
 
 .logobg-2-2 {
   position: absolute;
-  top: -105%;
+  top: -115%;
   right: -50%;
   width: 150%;
   opacity: 0.2;
 }
 
 .main-bg-6-1 {
+  min-width: 425px;
   max-width: 425px;
   min-height: 225px;
   background-image: url('./bg3.png');
@@ -352,10 +373,6 @@ h3 {
   box-shadow: 2px 5px 15px 0px #17161694;
 }
 
-
-
-
-
-
-
-
+.bg-6 {
+  background: #81beff63;
+}

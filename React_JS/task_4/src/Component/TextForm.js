@@ -23,6 +23,11 @@ function TextForm() {
   };
 
   const mobileNumber = (event) => {
+    var length = event.target.value.length;
+    if (length >= 12) {
+      event.target.value = event.target.value.slice(0, 11);
+    }
+
     if (!/^\d$/.test(event.key)) {
       event.preventDefault();
     }
@@ -41,6 +46,15 @@ function TextForm() {
   const on_change_website = (event) => {
     console.log("On Changes...");
     setWebsite(event.target.value);
+    const website = event.target.value;
+    const isValidURL = /^(https?:\/\/)?(www\.)?([a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6})\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/.test(website);
+
+    if (isValidURL) {
+      setWebsite(website);
+      console.log("Succes")
+    } else {
+      console.log("Error")
+    }
   };
 
   const on_change_tagline = (event) => {
@@ -119,6 +133,8 @@ function TextForm() {
                 id="fullWidth"
                 onChange={on_change_contectNumber}
                 value={contectNumber}
+                min="-10"
+                max="10"
                 onKeyPress={mobileNumber}
               />
 
