@@ -38,22 +38,42 @@ function TextForm() {
     setContectNumber(event.target.value);
   };
 
+  // const on_change_address = (event) => {
+  //   console.log("On Changes...");
+  //   // make address validation in react js
+  //   var value = event.target.value;
+  //   let valueConcat = value.slice(",");
+  //   var filterValue = valueConcat.join("<br/>");
+  //   // setAddress(filterValue);
+  // };
+
   const on_change_address = (event) => {
     console.log("On Changes...");
-    setAddress(event.target.value);
+    const originalAddress = event.target.value;
+    // Split the address by commas
+    const addressArray = originalAddress.split(",");
+
+    // Replace commas with newline characters
+    const formattedAddress = addressArray.join("<br />");
+
+    // Set the formatted address back to the input field
+    setAddress(formattedAddress);
   };
 
   const on_change_website = (event) => {
     console.log("On Changes...");
     setWebsite(event.target.value);
     const website = event.target.value;
-    const isValidURL = /^(https?:\/\/)?(www\.)?([a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6})\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/.test(website);
+    const isValidURL =
+      /^(https?:\/\/)?(www\.)?([a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6})\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/.test(
+        website
+      );
 
     if (isValidURL) {
       setWebsite(website);
-      console.log("Succes")
+      console.log("Succes");
     } else {
-      console.log("Error")
+      console.log("Error");
     }
   };
 
