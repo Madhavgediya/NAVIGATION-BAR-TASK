@@ -7,4 +7,7 @@ topic:-
             Make Task 4
                 Create 5 Cards better Designing, 
                 Add new cards, 
-                Add New Functionality Like Mobile Number Validation... 
+                Add New Functionality Like Mobile Number Validation...
+                
+            Given Mock Test in whole day
+            
