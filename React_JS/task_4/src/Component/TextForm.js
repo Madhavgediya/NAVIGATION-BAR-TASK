@@ -5,22 +5,38 @@ import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 
 function TextForm() {
-  const [logo, setLogo] = useState();
-  const [text, setText] = useState("Company Name");
-  const [contectNumber, setContectNumber] = useState("Contect Number");
-  const [address, setAddress] = useState("Company Address");
-  const [website, setWebsite] = useState("Company Website");
-  const [tagline, setTagline] = useState("Company Tagline");
+  const [information, setInformation] = useState({
+    companyName: "",
+    tagline: "",
+    address: "",
+    website: "",
+    contactNumber: "",
+    logo: "",
+  });
 
-  const on_change_name = (event) => {
-    console.log("On Changes...");
-    setText(event.target.value);
-  };
-
-  const on_change_logo = (event) => {
+  const handalEvents = (event) => {
+    console.log(information);
+    console.log(event.target.name);
     console.log(event.target.files);
-    setLogo(URL.createObjectURL(event.target.files[0]));
+    console.log(event.target.files[0].name);
+    if (event?.target.name === "logo") {
+      console.log("this is logo");
+      setInformation({
+        ...information,
+        [event.target.name]: URL.createObjectURL(event.target.files[0]),
+      });
+    } else {
+      setInformation({
+        ...information,
+        [event.target.name]: event.target.value,
+      });
+    }
   };
+
+  // const on_change_logo = (event) => {
+  //   console.log(event.target.files);
+  //   setLogo(URL.createObjectURL(event.target.files[0]));
+  // };
 
   const mobileNumber = (event) => {
     var length = event.target.value.length;
@@ -33,57 +49,48 @@ function TextForm() {
     }
   };
 
-  const on_change_contectNumber = (event) => {
-    console.log("On Changes...");
-    setContectNumber(event.target.value);
-  };
+  // const on_change_address = (event) => {
+  //   console.log("On Changes...");
+  //   var value = event.target.value;
+  //   // let valueConcat = value.slice(",");
+  //   // var filterValue = valueConcat.join("\n");
+  //   setAddress(value);
+  // };
 
   // const on_change_address = (event) => {
   //   console.log("On Changes...");
-  //   // make address validation in react js
-  //   var value = event.target.value;
-  //   let valueConcat = value.slice(",");
-  //   var filterValue = valueConcat.join("<br/>");
-  //   // setAddress(filterValue);
+  //   let originalAddress = event.target.value;
+  //   const formattedAddress = originalAddress.replace(/,(?=\S)/g, "\n");
+  //   const addressLines = formattedAddress
+  //     .split("\n")
+  //     .filter((line) => line.trim());
+  //   const finalFormattedAddress = addressLines.join("\n");
+  //   originalAddress = finalFormattedAddress;
+
+  //   setAddress(originalAddress);
   // };
-
-  const on_change_address = (event) => {
-    console.log("On Changes...");
-    const originalAddress = event.target.value;
-    // Split the address by commas
-    const addressArray = originalAddress.split(",");
-
-    // Replace commas with newline characters
-    const formattedAddress = addressArray.join("<br />");
-
-    // Set the formatted address back to the input field
-    setAddress(formattedAddress);
-  };
 
   const on_change_website = (event) => {
     console.log("On Changes...");
-    setWebsite(event.target.value);
-    const website = event.target.value;
+
+    const website = information.website;
     const isValidURL =
       /^(https?:\/\/)?(www\.)?([a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6})\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/.test(
         website
       );
 
     if (isValidURL) {
-      setWebsite(website);
-      console.log("Succes");
+      alert("Valid URL");
     } else {
-      console.log("Error");
+      alert("Please enter a valid URL");
     }
-  };
-
-  const on_change_tagline = (event) => {
-    console.log("On Changes...");
-    setTagline(event.target.value);
+    setInformation({
+      ...information,
+      [event.target.name]: event.target.value,
+    });
   };
 
   const { id } = useParams();
-  // let cardnumber = id;
   return (
     <>
       <div className="container-fluid">
@@ -100,11 +107,12 @@ function TextForm() {
               }}
             >
               <TextField
-                fullWidth
                 label="Company Name"
-                id="fullWidth"
-                onChange={on_change_name}
-                value={text}
+                id="  "
+                name="companyName"
+                onChange={handalEvents}
+                className="w-100"
+                value={information.companyName}
               />
             </Box>
             {/* <input
@@ -124,11 +132,12 @@ function TextForm() {
               }}
             >
               <TextField
-                fullWidth
                 label="Company Tagline"
-                id="fullWidth"
-                onChange={on_change_tagline}
-                value={tagline}
+                id="  "
+                name="tagline"
+                className="w-100"
+                onChange={handalEvents}
+                value={information.tagline}
               />
             </Box>
             {/* <input
@@ -148,20 +157,21 @@ function TextForm() {
               }}
             >
               <TextField
-                fullWidth
                 label="Company Number"
-                id="fullWidth"
-                onChange={on_change_contectNumber}
-                value={contectNumber}
+                className="w-100"
+                id="  "
+                onChange={handalEvents}
+                name="contactNumber"
+                value={information.contectNumber}
                 min="-10"
                 max="10"
                 onKeyPress={mobileNumber}
               />
 
               {/* <TextField
-                fullWidth
+                  
                 label="Company Number"
-                id="fullWidth"
+                id="  "
                 onChange={on_change_contectNumber}
                 pattern="[0-9]{10}"
                 minlength="10"
@@ -184,13 +194,22 @@ function TextForm() {
                 maxWidth: "100%",
               }}
             >
-              <TextField
-                fullWidth
-                label="Company Website"
-                id="fullWidth"
-                onChange={on_change_website}
-                value={website}
-              />
+              <div className="d-flex align-items-center position-relative">
+                <TextField
+                  label="Company Website"
+                  id="  "
+                  onChange={handalEvents}
+                  name="website"
+                  value={information.website}
+                  className="w-100"
+                />
+                <button
+                  className="btn btn-success p-2 position-absolute end-0 m-2"
+                  onClick={on_change_website}
+                >
+                  Verify
+                </button>
+              </div>
             </Box>
             {/*<input
               type="text"
@@ -208,13 +227,15 @@ function TextForm() {
                 maxWidth: "100%",
               }}
             >
-              <TextField
-                fullWidth
+              <textarea
                 label="Company Address"
-                id="fullWidth"
-                onChange={on_change_address}
-                value={address}
-              />
+                className="w-100"
+                rows={3}
+                id="  "
+                name="address"
+                onChange={handalEvents}
+                value={information.address}
+              ></textarea>
             </Box>
             {/* <input
               type="text"
@@ -233,10 +254,11 @@ function TextForm() {
               }}
             >
               <TextField
-                fullWidth
+                name="logo"
                 type="file"
-                id="fullWidth"
-                onChange={on_change_logo}
+                onChange={handalEvents}
+                className="w-100"
+                // value={information.logo}
               />
             </Box>
             {/* <input
@@ -257,12 +279,12 @@ function TextForm() {
               ></div>
               <Cards
                 cardnumber={id}
-                text={text}
-                tagline={tagline}
-                contectNumber={contectNumber}
-                website={website}
-                address={address}
-                logo={logo}
+                text={information.companyName}
+                tagline={information.tagline}
+                contectNumber={information.contectNumber}
+                website={information.website}
+                address={information.address}
+                logo={information.logo}
               />
             </div>
           </div>

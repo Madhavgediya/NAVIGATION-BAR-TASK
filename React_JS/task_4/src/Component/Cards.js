@@ -1,6 +1,20 @@
 import React from "react";
 
 function Cards(props) {
+  // const event = props.address;
+  // const on_change_address = (event) => {
+  //   console.log("On Changes...");
+  //   let originalAddress = event.target.value;
+  //   const formattedAddress = originalAddress.replace(/,(?=\S)/g, "\n");
+  //   const addressLines = formattedAddress
+  //     .split("\n")
+  //     .filter((line) => line.trim());
+  //   const finalFormattedAddress = addressLines.join("\n");
+  //   originalAddress = finalFormattedAddress;
+  //   console.log(originalAddress);
+  //   return originalAddress;
+  // };
+
   return (
     <div>
       {props.cardnumber == 1 ? (
@@ -105,7 +119,7 @@ function Cards(props) {
               </div>
               <div
                 className="my-1"
-                style={{ height: "40px", overflow: "hidden" }}
+                style={{ maxHeight: "40px", overflow: "hidden" }}
               >
                 <i className="fa-solid fa-globe"></i>
                 {props.website}
@@ -383,17 +397,17 @@ function Cards(props) {
         </div>
       ) : null}
       {props.cardnumber == 6 ? (
-        <div class="container-fluid mt-4">
+        <div className="container-fluid mt-4">
           {/* <!-- first --> */}
-          <div class="main-bg-6-1 m-2">
-            <div class="m-3 ms-3">
+          <div className="main-bg-6-1 m-2">
+            <div className="m-3 ms-3">
               <img
                 src={props.logo}
                 alt="Company Logo"
                 style={{ width: "100px" }}
               />
               <div
-                class="fs-5 fw-bold ms-3"
+                className="fs-5 fw-bold ms-3"
                 style={{
                   height: "65px",
                   overflow: "hidden",
@@ -402,7 +416,7 @@ function Cards(props) {
                 {props.text}
               </div>
               <div
-                class="ms-3 small fw-bold text-dark"
+                className="ms-3 small fw-bold text-dark"
                 style={{
                   height: "45px",
                   overflow: "hidden",
@@ -413,17 +427,17 @@ function Cards(props) {
             </div>
           </div>
           {/* <!-- second --> */}
-          <div class="main-bg-6-2 m-2">
+          <div className="main-bg-6-2 m-2">
             <div className="row">
               <div className="col-md-4 bg-body-tertiary">
-                <div class="m-3 ms-3 text-center">
+                <div className="m-3 ms-3 text-center">
                   <img
                     src={props.logo}
                     alt="Company Logo"
                     style={{ width: "50px" }}
                   />
                   <div
-                    class="fw-bold ms-3"
+                    className="fw-bold ms-3"
                     style={{
                       height: "100px",
                     }}
@@ -433,30 +447,30 @@ function Cards(props) {
                 </div>
               </div>
               <div className="col-md-8 bg-6">
-                <div class="mt-3 fw-bold" style={{ fontSize: "0.7rem" }}>
-                  <div class="m-2">
+                <div className="mt-3 fw-bold" style={{ fontSize: "0.7rem" }}>
+                  <div className="m-2">
                     <i
-                      class="fa-solid fa-phone-flip fs-6"
+                      className="fa-solid fa-phone-flip fs-6"
                       style={{ color: "#005eff" }}
                     ></i>{" "}
                     {props.contectNumber}
                   </div>
                   <div
-                    class="m-2 mt-2"
+                    className="m-2 mt-2"
                     style={{ height: "40px", overflow: "hidden" }}
                   >
                     <i
-                      class="fa-brands fa-searchengin fs-6"
+                      className="fa-brands fa-searchengin fs-6"
                       style={{ color: "#005eff" }}
                     ></i>{" "}
                     {props.website}
                   </div>
                   <div
-                    class="m-2 mt-2"
+                    className="m-2 mt-2"
                     style={{ height: "125px", overflow: "hidden" }}
                   >
                     <i
-                      class="fa-solid fa-location-arrow"
+                      className="fa-solid fa-location-arrow"
                       style={{ color: " #005eff" }}
                     ></i>{" "}
                     {props.address}
