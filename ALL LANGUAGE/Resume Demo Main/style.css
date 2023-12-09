@@ -103,6 +103,11 @@ body {
     * , .proflie-text ,.text-header, .proflie-sub-title, .proflie-p{
         color: black;
     }
+    .proflie-text, .details, .footer, .Language, .Hobbies, .references, .Connect, .text-header, .proflie-sub-title, .proflie-p{
+        line-height: 1.4rem;
+        margin: 0.2rem;
+        padding: 0px;
+    }
     .references{
         page-break-inside: auto;
     }
