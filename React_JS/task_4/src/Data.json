@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "./Card-1.png"
+    },
+    {
+        "id": 2,
+        "image": "https://picsum.photos/201"
+    },
+    {
+        "id": 3,
+        "image": "https://source.unsplash.com/random/200x200"
+    },
+    {
+        "id": 4,
+        "image": "https://source.unsplash.com/random/200x201"
+    },
+    {
+        "id": 5,
+        "image": "https://picsum.photos/200"
+    },
+    {
+        "id": 6,
+        "image": "https://source.unsplash.com/random/201x200"
+    }
+]

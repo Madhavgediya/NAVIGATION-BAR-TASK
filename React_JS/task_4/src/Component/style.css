@@ -1,0 +1,22 @@
+.main-bg-6-1 {
+    max-width: 425px;
+    min-height: 225px;
+    background-image: url('../bg3.png');
+    overflow: hidden;
+    box-shadow: 2px 5px 15px 0px #17161694;
+    position: relative;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-bg-6-2 {
+    max-width: 425px;
+    min-height: 225px;
+    background-image: url('../bg4.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: 2px 5px 15px 0px #17161694;
+}

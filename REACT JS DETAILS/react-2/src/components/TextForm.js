@@ -22,7 +22,7 @@ export default function TextForm(props) {
   };
   const handleCopy = () => {
     var text = document.getElementById('exampleInputEmail1');
-    text.select();
+    // text.select();
     navigator.clipboard.writeText(text.value);
     alert('Copy Sussessfully');
   };
@@ -50,25 +50,25 @@ export default function TextForm(props) {
         ></textarea>
       </div>
       <div className="m-4">
-        <button className="btn btn-success m-3" onClick={Convert_UpperCase}>
+        <button disabled={text.length==0} className="btn btn-success m-3" onClick={Convert_UpperCase}>
           Convert UpperCase
         </button>
-        <button className="btn btn-success m-3" onClick={Convert_LowerCase}>
+        <button  disabled={text.length==0} className="btn btn-success m-3" onClick={Convert_LowerCase}>
           Convert LowerCase
         </button>
-        <button className="btn btn-success m-3" onClick={ClearMethod}>
+        <button disabled={text.length==0}  className="btn btn-success m-3" onClick={ClearMethod}>
           Clear
         </button>
-        <button className="btn btn-success m-3" onClick={handleCopy}>
+        <button disabled={text.length==0}  className="btn btn-success m-3" onClick={handleCopy}>
           Copy
         </button>
-        <button className="btn btn-success m-3" onClick={removeExtraSpace}>
+        <button  disabled={text.length==0} className="btn btn-success m-3" onClick={removeExtraSpace}>
           Remove Extra Space
         </button>
       </div>
       <div>
         Here We will Count word and characters... <br />
-        word :- <b> {text.split(" ").filter((element)=>{return element.length!=0}).length} </b> <br />
+        word :- <b> {text.split(/\s+/).filter((element)=>{return element.length!=0}).length} </b> <br />
         char :- <b> {text.length} </b> <br />
       </div>
       <div>
