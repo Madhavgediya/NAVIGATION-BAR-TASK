@@ -100,7 +100,7 @@ body {
     .eduction,.references, div div div div{
         page-break-inside: avoid;
     }
-    *{
+    * , .proflie-text ,.text-header, .proflie-sub-title, .proflie-p{
         color: black;
     }
     .references{
