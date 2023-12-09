@@ -1,0 +1,219 @@
+[
+    {
+        "id": 1,
+        "fullName": "John Doe",
+        "image": "https://dummyimage.com/200x200/000/fff",
+        "email": "johndoe@example.com",
+        "contactNumber": "+1234567890",
+        "birthdate": "1980-01-01",
+        "joiningDate": "2023-10-04",
+        "aadharNumber": "123456789012",
+        "panCardNumber": "ABCDEFGHIJKLM",
+        "address": {
+            "streetLine1": "123 Main Street",
+            "streetLine2": "Apt 4",
+            "city": "Anytown",
+            "state": "CA",
+            "zipCode": "98765"
+        }
+    },
+    {
+        "id": 2,
+        "fullName": "Jane Smith",
+        "image": "https://dummyimage.com/200x200/000/fff",
+        "email": "janesmith@example.com",
+        "contactNumber": "+9876543210",
+        "birthdate": "1985-02-02",
+        "joiningDate": "2022-05-12",
+        "aadharNumber": "345678901234",
+        "panCardNumber": "NOPQRSTUVWXYZ",
+        "address": {
+            "streetLine1": "456 Elm Street",
+            "streetLine2": "Apt B",
+            "city": "Somewhere",
+            "state": "NY",
+            "zipCode": "12345"
+        }
+    },
+    {
+        "id": 3,
+        "fullName": "James Brown",
+        "image": "https://dummyimage.com/200x200/111/fff",
+        "email": "jamesbrown@example.com",
+        "contactNumber": "+9846254315",
+        "birthdate": "1975-04-15",
+        "joiningDate": "2021-08-20",
+        "aadharNumber": "456784645468",
+        "panCardNumber": "ZYXWVUTSRQP",
+        "address": {
+            "streetLine1": "554 Central Avenue",
+            "streetLine2": "Unit 3",
+            "city": "Metropolis",
+            "state": "FL",
+            "zipCode": "45654"
+        }
+    },
+    {
+        "id": 4,
+        "fullName": "Mary Jackson",
+        "image": "https://dummyimage.com/200x200/222/fff",
+        "email": "maryjackson@example.com",
+        "contactNumber": "+4563254125",
+        "birthdate": "1988-07-08",
+        "joiningDate": "2023-05-01",
+        "aadharNumber": "565464578546",
+        "panCardNumber": "LKJIHGFDSPO",
+        "address": {
+            "streetLine1": "225 Park Street",
+            "streetLine2": "",
+            "city": "Greenville",
+            "state": "TX",
+            "zipCode": "546554"
+        }
+    },
+    {
+        "id": 5,
+        "fullName": "Doe Mary",
+        "image": "https://dummyimage.com/200x200/000/fff",
+        "email": "johndoe@example.com",
+        "contactNumber": "+1234567890",
+        "birthdate": "1980-01-01",
+        "joiningDate": "2023-10-04",
+        "aadharNumber": "123456789012",
+        "panCardNumber": "ABCDEFGHIJKLM",
+        "address": {
+            "streetLine1": "123 Main Street",
+            "streetLine2": "Apt 4",
+            "city": "Anytown",
+            "state": "CA",
+            "zipCode": "98765"
+        }
+    },
+    {
+        "id": 6,
+        "fullName": "Jane Jackson",
+        "image": "https://dummyimage.com/200x200/000/fff",
+        "email": "janesmith@example.com",
+        "contactNumber": "+9876543210",
+        "birthdate": "1985-02-02",
+        "joiningDate": "2022-05-12",
+        "aadharNumber": "345678901234",
+        "panCardNumber": "NOPQRSTUVWXYZ",
+        "address": {
+            "streetLine1": "456 Elm Street",
+            "streetLine2": "Apt B",
+            "city": "Somewhere",
+            "state": "NY",
+            "zipCode": "12345"
+        }
+    },
+    {
+        "id": 7,
+        "fullName": "Mary Brown",
+        "image": "https://dummyimage.com/200x200/111/fff",
+        "email": "jamesbrown@example.com",
+        "contactNumber": "+9846254315",
+        "birthdate": "1975-04-15",
+        "joiningDate": "2021-08-20",
+        "aadharNumber": "456784645468",
+        "panCardNumber": "ZYXWVUTSRQP",
+        "address": {
+            "streetLine1": "554 Central Avenue",
+            "streetLine2": "Unit 3",
+            "city": "Metropolis",
+            "state": "FL",
+            "zipCode": "45654"
+        }
+    },
+    {
+        "id": 8,
+        "fullName": "Brown Jackson",
+        "image": "https://dummyimage.com/200x200/222/fff",
+        "email": "maryjackson@example.com",
+        "contactNumber": "+4563254125",
+        "birthdate": "1988-07-08",
+        "joiningDate": "2023-05-01",
+        "aadharNumber": "565464578546",
+        "panCardNumber": "LKJIHGFDSPO",
+        "address": {
+            "streetLine1": "225 Park Street",
+            "streetLine2": "",
+            "city": "Greenville",
+            "state": "TX",
+            "zipCode": "546554"
+        }
+    },
+    {
+        "id": 9,
+        "fullName": "Jackson Doe",
+        "image": "https://dummyimage.com/200x200/000/fff",
+        "email": "johndoe@example.com",
+        "contactNumber": "+1234567890",
+        "birthdate": "1980-01-01",
+        "joiningDate": "2023-10-04",
+        "aadharNumber": "123456789012",
+        "panCardNumber": "ABCDEFGHIJKLM",
+        "address": {
+            "streetLine1": "123 Main Street",
+            "streetLine2": "Apt 4",
+            "city": "Anytown",
+            "state": "CA",
+            "zipCode": "98765"
+        }
+    },
+    {
+        "id": 10,
+        "fullName": "Jane Brown",
+        "image": "https://dummyimage.com/200x200/000/fff",
+        "email": "janesmith@example.com",
+        "contactNumber": "+9876543210",
+        "birthdate": "1985-02-02",
+        "joiningDate": "2022-3-24",
+        "aadharNumber": "345678901234",
+        "panCardNumber": "NOPQRSTUVWXYZ",
+        "address": {
+            "streetLine1": "456 Elm Street",
+            "streetLine2": "Apt B",
+            "city": "Somewhere",
+            "state": "NY",
+            "zipCode": "12345"
+        }
+    },
+    {
+        "id": 11,
+        "fullName": "Madhav Gediya",
+        "image": "https://dummyimage.com/200x200/111/fff",
+        "email": "jamesbrown@example.com",
+        "contactNumber": "+9846254315",
+        "birthdate": "1975-04-15",
+        "joiningDate": "2021-01-22",
+        "aadharNumber": "456784645468",
+        "panCardNumber": "ZYXWVUTSRQP",
+        "address": {
+            "streetLine1": "554 Central Avenue",
+            "streetLine2": "Unit 3",
+            "city": "Metropolis",
+            "state": "FL",
+            "zipCode": "45654"
+        }
+    },
+    {
+        "id": 12,
+        "fullName": "Mary Brown",
+        "image": "https://dummyimage.com/200x200/222/fff",
+        "email": "maryjackson@example.com",
+        "contactNumber": "+4563254125",
+        "birthdate": "1988-07-08",
+        "joiningDate": "2023-11-21",
+        "aadharNumber": "565464578546",
+        "panCardNumber": "LKJIHGFDSPO",
+        "address": {
+            "streetLine1": "225 Park Street",
+            "streetLine2": "",
+            "city": "Greenville",
+            "state": "TX",
+            "zipCode": "546554"
+        }
+    }
+]
+

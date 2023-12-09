@@ -6,12 +6,12 @@ export default function Alert(props) {
     props.alert && <div>
       <div className={`alert alert-${props.alert.type} alert-dismissible fade show`} role="alert">
         <b> {props.alert.msg} </b> : This is Color :- {props.alert.type}
-        {/* <button
+        <button
           type="button"
           className="btn-close"
           data-bs-dismiss="alert"
           aria-label="Close"
-        ></button> */}
+        ></button>
       </div>
     </div>
   );

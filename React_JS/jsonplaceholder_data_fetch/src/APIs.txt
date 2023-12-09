@@ -1,0 +1,8 @@
+Post :- 
+        https://jsonplaceholder.typicode.com/posts
+User :- 
+        https://jsonplaceholder.typicode.com/users
+Albums:-
+        https://jsonplaceholder.typicode.com/albums
+Photos:-
+        https://jsonplaceholder.typicode.com/photos
