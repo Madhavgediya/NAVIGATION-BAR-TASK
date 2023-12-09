@@ -85,15 +85,29 @@ body {
     border: 1px solid black;
 }
 
+.qr_code_img{
+    width: 50%;
+}
+
+.qr_text{
+    font-size: 0.9rem;
+}
+
 @media print {
     .download-btn {
         display: none;
     }
-    div div div div{
+    .eduction,.references, div div div div{
         page-break-inside: avoid;
     }
-    .refe{
+    *{
+        color: black;
+    }
+    .references{
         page-break-inside: auto;
+    }
+    .qr_code_img{
+        width: 80px;
     }
 }
 
