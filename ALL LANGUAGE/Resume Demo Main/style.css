@@ -23,6 +23,7 @@ body {
     /* width: 40rem; */
     margin: 2rem;
     border-radius: 50%;
+    animation: slideIn 1s ease-in-out;
 }
 
 .proflie-img {
@@ -69,10 +70,12 @@ body {
 .edu-title {
     font-size: 1rem;
     font-weight: bold;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 .edu-sub-title {
     color: grey;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 
@@ -85,33 +88,57 @@ body {
     border: 1px solid black;
 }
 
-.qr_code_img{
+.qr_code_img {
     width: 50%;
 }
 
-.qr_text{
+.qr_text {
     font-size: 0.9rem;
+}
+
+.skill{
+    padding: 2rem;
 }
 
 @media print {
     .download-btn {
         display: none;
     }
-    .eduction,.references, div div div div{
+
+    .eduction,
+    .references,
+    div div div div {
         page-break-inside: avoid;
     }
-    * , .proflie-text ,.text-header, .proflie-sub-title, .proflie-p{
+
+    *,
+    .proflie-text,
+    .text-header,
+    .proflie-sub-title,
+    .proflie-p {
         color: black;
     }
-    .proflie-text, .details, .footer, .Language, .Hobbies, .references, .Connect, .text-header, .proflie-sub-title, .proflie-p{
+
+    .proflie-text,
+    .details,
+    .footer,
+    .Language,
+    .Hobbies,
+    .references,
+    .Connect,
+    .text-header,
+    .proflie-sub-title,
+    .proflie-p {
         line-height: 1.4rem;
         margin: 0.2rem;
         padding: 0px;
     }
-    .references{
+
+    .references {
         page-break-inside: auto;
     }
-    .qr_code_img{
+
+    .qr_code_img {
         width: 80px;
     }
 }
@@ -168,7 +195,38 @@ body {
     .qr_code {
         display: flex;
     }
+
+    .skill{
+        padding: 0.5rem;
+    }
+    
 }
 
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
+/* Example animation for the education section */
+.edu-title p {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
