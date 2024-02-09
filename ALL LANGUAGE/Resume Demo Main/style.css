@@ -1,5 +1,6 @@
 body {
     background-color: #252525;
+    overflow-x: hidden;
     /* justify-content: center; */
     margin: auto;
     padding: auto;
@@ -96,12 +97,16 @@ body {
     font-size: 0.9rem;
 }
 
-.skill{
+.skill {
     padding: 2rem;
 }
 
 @media print {
     .download-btn {
+        display: none;
+    }
+
+    .skills {
         display: none;
     }
 
@@ -140,6 +145,10 @@ body {
 
     .qr_code_img {
         width: 80px;
+    }
+
+    .note {
+        display: none;
     }
 }
 
@@ -196,10 +205,10 @@ body {
         display: flex;
     }
 
-    .skill{
+    .skill {
         padding: 0.5rem;
     }
-    
+
 }
 
 @keyframes slideIn {

@@ -32,6 +32,9 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Scroll JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <!-- Typed JS Link -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
@@ -126,11 +129,11 @@
               </p>
             </div>
           </div>
-          <div class="fw-bold fs-2 pt-4 mb-3 ms-0">Project</div>
+          <div class="fw-bold fs-2 pt-4 mb-3 ms-0">Projects</div>
           <div style="padding-left: 10px">
             <div class="">
               <span class="edu-title">
-                Make HTML CSS Bootstrap Responsive
+              * Online Auction Platform (running)
               </span>
               <div class="edu-sub-title m-2">
                 <a
@@ -354,11 +357,11 @@
         </div>
       </div>
 
-      <div class="container-fluid bg-light Connect">
+      <div class="container-fluid bg-light Connect position-relative">
         <div class="text-center">
           <div class="fs-4 fw-bold mb-3">Connect With Me</div>
           <div class="row">
-            <div class="col-lg-2 col-md-4 col-sm-2 mb-3 qr_code">
+            <div class="col-md-2 col-sm-2 mb-3 qr_code">
               <div>
                 <a
                   href="https://madhavgediya.github.io/NAVIGATION-BAR-TASK/ALL%20LANGUAGE/Resume%20Demo%20Main/index.html"
@@ -374,7 +377,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-2 col-md-4 col-sm-2 mb-3 qr_code">
+            <div class="col-md-2 col-sm-2 mb-3 qr_code">
               <div>
                 <a
                   href="https://github.com/Madhavgediya"
@@ -390,7 +393,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-2 col-md-4 col-sm-2 mb-3 qr_code">
+            <div class="col-md-2 col-sm-2 mb-3 qr_code">
               <div>
                 <a
                   href="https://wa.me/9429217721?text=Hello Madhav Gediya"
@@ -406,7 +409,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-2 col-md-4 col-sm-2 mb-3 qr_code">
+            <div class="col-md-2 col-sm-2 mb-3 qr_code">
               <div>
                 <a
                   href="https://youtube.com/@madhavgediya"
@@ -422,7 +425,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-2 col-md-4 col-sm-2 mb-3 qr_code">
+            <div class="col-md-2 col-sm-2 mb-3 qr_code">
               <div>
                 <a
                   href="https://www.linkedin.com/in/madhav-gediya-59b610264"
@@ -438,7 +441,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-2 col-md-4 col-sm-2 mb-3 qr_code">
+            <div class="col-md-2 col-sm-2 mb-3 qr_code">
               <div>
                 <a
                   href="https://www.instagram.com/madhav_soni_04/"
@@ -455,6 +458,7 @@
               </div>
             </div>
           </div>
+          <div class="fs-6 py-3 note">Click on Any QR</div>
         </div>
       </div>
       <div
@@ -530,6 +534,42 @@
       typeSpeed: 100,
       backSpeed: 30,
       loop: true,
+    });
+
+    ScrollReveal().reveal(".proflie", {
+      duration: 1500,
+      origin: "left",
+      distance: "50%",
+    });
+    ScrollReveal().reveal(".details", {
+      delay: 500,
+      duration: 1500,
+      origin: "right",
+      distance: "50px",
+    });
+    ScrollReveal().reveal(".footer", {
+      delay: 200,
+      duration: 1500,
+      origin: "bottom",
+      distance: "50px",
+    });
+    ScrollReveal().reveal(".references", {
+      delay: 200,
+      duration: 1500,
+      origin: "left",
+      distance: "50px",
+    });
+    ScrollReveal().reveal(".Connect", {
+      delay: 200,
+      duration: 1500,
+      origin: "bottom",
+      distance: "50px",
+    });
+
+    ScrollReveal().reveal(".sr-fade", {
+      delay: 200,
+      duration: 1500,
+      opacity: 0,
     });
   </script>
 </html>
